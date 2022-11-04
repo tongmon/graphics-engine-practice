@@ -1,0 +1,48 @@
+﻿  GameSprite.cpp
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(366,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(366,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(366,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(366,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(381,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(381,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(381,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(381,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(421,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(421,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(421,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(421,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(426,8): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(427,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(429,19): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(435,8): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(436,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(438,19): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(455,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(455,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(455,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(455,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(479,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(479,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(479,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(479,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(490,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(490,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(490,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(490,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(493,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(493,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(493,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(493,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(496,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(496,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(496,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(496,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(500,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(500,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(500,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(500,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(504,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(504,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(504,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\GameProj\GameSprite.cpp(504,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameProj.vcxproj -> C:\Users\tongm\source\repos\GameProj_Portfolio_Complete\Debug\GameProj.exe

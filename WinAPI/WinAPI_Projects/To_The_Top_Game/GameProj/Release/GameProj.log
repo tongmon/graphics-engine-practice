@@ -1,0 +1,190 @@
+﻿  AABB.cpp
+  BaseApp.cpp
+  BaseGame.cpp
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(35,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(82,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(201,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(288,76): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(288,64): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(289,86): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(289,74): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(289,61): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1110,58): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1110,24): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1116,74): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1117,74): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1122,10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1124,18): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1142,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1160,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1176,17): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1183,17): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1190,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1204,17): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1207,54): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1211,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\BaseGame.cpp(1212,17): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Character.cpp
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(10,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(179,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(179,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(183,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(183,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(187,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(187,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(191,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(191,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(195,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(195,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(199,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(199,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(484,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\Character.cpp(564,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Constants.cpp
+  FmodSound.cpp
+  GameBot.cpp
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(194,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(293,22): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(365,39): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(448,32): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(466,49): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(565,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(565,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(573,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(573,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(581,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(581,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(585,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(585,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(589,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(589,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(593,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(593,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(597,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(597,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(605,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(605,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(613,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(613,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(621,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(621,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(625,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(625,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(629,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(629,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(633,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(633,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(637,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(637,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(645,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(645,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(653,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(653,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(661,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(661,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(665,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(665,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(669,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(669,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(673,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(673,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(677,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(677,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(685,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(685,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(693,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(693,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(701,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(701,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(705,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(705,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(709,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(709,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(713,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(713,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(717,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameBot.cpp(717,20): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameBullet.cpp
+  GameEffects.cpp
+  GameItem.cpp
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameItem.cpp(124,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameItem.cpp(124,7): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameItem.cpp(130,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameItem.cpp(130,7): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameItem.cpp(136,43): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameItem.cpp(136,7): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameItem.cpp(142,43): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameItem.cpp(142,7): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameItem.cpp(148,43): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameItem.cpp(148,7): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameMap.cpp
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameMap.cpp(23,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameMap.cpp(26,27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameMap.cpp(308,74): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameMap.cpp(308,66): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameMap.cpp(308,58): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameMap.cpp(311,72): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameMap.cpp(311,64): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameMap.cpp(311,56): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameMap.cpp(318,93): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameMap.cpp(318,81): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameObj.cpp
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameObj.cpp(91,85): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameObj.cpp(91,50): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameObj.cpp(95,76): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameObj.cpp(95,41): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameSprite.cpp
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(366,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(366,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(366,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(366,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(381,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(381,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(381,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(381,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(421,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(421,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(421,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(421,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(426,8): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(427,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(429,19): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(435,8): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(436,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(438,19): warning C4244: '인수': 'wchar_t'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(455,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(455,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(455,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(455,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(479,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(479,28): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(479,25): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(479,22): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(490,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(490,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(490,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(490,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(493,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(493,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(493,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(493,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(496,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(496,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(496,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(496,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(500,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(500,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(500,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(500,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(504,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(504,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(504,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\GameProj\GameSprite.cpp(504,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameTimer.cpp
+  MainSrc.cpp
+  PathFinder.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 1334 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  GameProj.vcxproj -> C:\Users\tongm\OneDrive\Documents\GitHub\Win32_API_Proj\To_The_Top_Game\Release\GameProj.exe

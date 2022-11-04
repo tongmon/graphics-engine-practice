@@ -1,0 +1,7 @@
+﻿  Bot.cpp
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\Bot.cpp(256,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\Bot.cpp(324,22): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\Bot.cpp(390,39): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\Bot.cpp(473,32): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\Bot.cpp(491,49): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  GameProj.vcxproj -> C:\Users\tongm\source\repos\GameProj_2DPathFinder\Debug\GameProj.exe

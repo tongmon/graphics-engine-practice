@@ -1,0 +1,12 @@
+﻿  BaseApp.cpp
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\BaseApp.cpp(86,28): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\BaseApp.cpp(87,30): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BaseGame.cpp
+  Bot.cpp
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\Bot.cpp(258,22): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\Bot.cpp(324,39): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\Bot.cpp(407,32): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\tongm\source\repos\GameProj_2DPathFinder\GameProj\Bot.cpp(425,49): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  MainSrc.cpp
+  코드를 생성하고 있습니다...
+  GameProj.vcxproj -> C:\Users\tongm\source\repos\GameProj_2DPathFinder\Debug\GameProj.exe
