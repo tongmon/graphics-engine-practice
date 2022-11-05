@@ -32,9 +32,4 @@ C:\Windows\SysWOW64 여기에 붙여놓기 한다.
 
 9. 이렇게 하고 필요한 헤더 있으면 include "assimp/어쩌구저쩌구.h" 이러면 작동 잘 될 것이다.
 
-
-
-
-
-
-cmake CMakeLists.txt
+여담으로 vcpkg를 이용하면 위의 방법을 사용하지 않고 쉽게 빌드가 가능하다.
