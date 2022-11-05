@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{c8fcdb51-84e7-442f-b10f-37fe46c62305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\BitMap">
+      <UniqueIdentifier>{8eb1fdda-a2f1-4a1d-bce8-d8678e61a1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Director">
+      <UniqueIdentifier>{b35b40ec-3103-4757-9a80-bd9d220338b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\EntryPoint">
+      <UniqueIdentifier>{5df430cc-abe3-4b33-a04d-443e8c38f201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Scene">
+      <UniqueIdentifier>{d7ae7118-4aa9-4752-aa39-a1f9ea4ee1a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Timer">
+      <UniqueIdentifier>{9d956c59-7e03-4df1-8215-29cabe6b8c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Scene\Base_Scene">
+      <UniqueIdentifier>{ac439a56-5d82-47fc-978b-8d550dab0cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Scene\Manager">
+      <UniqueIdentifier>{4cdf602a-de1d-41c0-8c1a-56b765aa197a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork_Setting">
+      <UniqueIdentifier>{50029fac-440b-4a9b-b0ea-9f08186fe889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork_Setting\Value">
+      <UniqueIdentifier>{7677de58-a93d-4b96-a33f-786a2aa5e7df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{c6b232a5-9293-4127-a70d-5475e1e7401d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{529b3111-b4c2-4091-851f-470f907e8625}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>FrameWork\BitMap</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDirector.cpp">
+      <Filter>FrameWork\Director</Filter>
+    </ClCompile>
+    <ClCompile Include="WrappedWnd.cpp">
+      <Filter>FrameWork\Director</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>FrameWork\EntryPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>FrameWork\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>FrameWork\Scene\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="set.cpp">
+      <Filter>FrameWork_Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="PrepareWnd.cpp">
+      <Filter>FrameWork_Setting\Value</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWord.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitmap.h">
+      <Filter>FrameWork\BitMap</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDirector.h">
+      <Filter>FrameWork\Director</Filter>
+    </ClInclude>
+    <ClInclude Include="WrappedWnd.h">
+      <Filter>FrameWork\Director</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>FrameWork\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>FrameWork\Scene\Base_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>FrameWork\Scene\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PrepareWnd.h">
+      <Filter>FrameWork_Setting\Value</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWord.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

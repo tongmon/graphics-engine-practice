@@ -1,0 +1,15 @@
+﻿  Bitmap.cpp
+  GameDirector.cpp
+  GameTimer.cpp
+  HelloWord.cpp
+C:\Users\tongm\source\repos\WinApi_Game_FrameWork\WinApi_FrameWork\HelloWord.cpp(43,29): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\WinApi_Game_FrameWork\WinApi_FrameWork\HelloWord.cpp(43,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\WinApi_Game_FrameWork\WinApi_FrameWork\HelloWord.cpp(46,32): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\tongm\source\repos\WinApi_Game_FrameWork\WinApi_FrameWork\HelloWord.cpp(46,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+  PrepareWnd.cpp
+  SceneManager.cpp
+  set.cpp
+  WrappedWnd.cpp
+  코드를 생성하고 있습니다...
+  WinApi_FrameWork.vcxproj -> C:\Users\tongm\source\repos\WinApi_Game_FrameWork\Debug\WinApi_FrameWork.exe
