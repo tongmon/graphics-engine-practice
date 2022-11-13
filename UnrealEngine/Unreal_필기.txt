@@ -16,6 +16,9 @@ view mode를 player collision으로 하면 물리가 실제로 적용되는 충�
 예를 들어 "총알의 개수가 0개 초과면 true 아니면 false 반환"와 같은 함수가 Pure Function이 될 수 있다. 주의할 점은 함수의 side effect가 없는 경우에만 Pure 속성을 적용해야 한다는 것이다.
 만약에 "총알의 개수가 0개 초과면 true 아니면 현재 총알의 개수를 5개 추가시키고 false 반환" 이러한 함수는 bool형인 반환값 이외의 총알 개수라는 int형 변수의 상태를 변화시키고 있다. 즉 총알 개수를 바꾸면서 블루프린트 로직 흐름에 직접적인 영향을 끼치므로 Pure 속성을 사용하면 안된다.
 
+프로젝트 자체 설정에 대한 것은 에디터 메뉴바의 Edit -> Project Settings를 이용한다.
+언리얼 에디터 설정에 대한 것은 에디터 메뉴바의 Edit -> Editor Preferences를 이용한다.
+
 - 용어 설명
 
 object: 데이터 집합
@@ -84,3 +87,11 @@ Perforce는 클라우드 시스템이 없고 직접 서버를 구축하여 활�
 따라서 git을 사용하려면 바이너리 파일을 포함하여 대용량 파일들을 따로 관리해주는 git LFS를 함께 사용해야 한다.
 사설 서버에서 git LFS를 사용하는 방법은 gitea와 gitlab이 있으며 gitea가 서버 리소스 사용량이 적기에 더 추천된다.
 둘 중 어느 것을 사용하던 사설 서버를 구축하는 것이 맘 편하다.
+
+- Player Controller 관련
+Pawn에는 Auto Possess Player라는 옵션이 있는데 만약 플레이 시현을 했는데 자신이 구현한 주 캐릭터로 카메라가 이동하지 않고 캐릭터 자체도 컨트롤 반응이 없다면 해당 캐릭터의 Pawn 속성의 Auto Possess Player가 제대로 설정이 안되었는지 확인해보자.
+
+- 빌드 관련
+일단 Visual Studio로 빌드하기 위해서는 Editor Preferences에서 Source Code 탭에서 Visual Studio를 코드 편집 에디터로 설정해야 한다.
+새로운 C++ 클래스를 작성하기 위해서는 에디터 메뉴바의 Tools -> New C++ Class를 선택한다.
+새로운 C++ 클래스를 만들었다면 언리얼 엔진에서도 경고 창으로 알려주겠지만 에디터를 끄고 새로 추가된 클래스가 포함된 소스 코드를 빌드(Visual Studio에서는 Ctrl + B)하고 에디터를 다시 켜야 한다.
