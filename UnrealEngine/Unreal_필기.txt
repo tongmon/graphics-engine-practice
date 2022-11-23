@@ -47,6 +47,9 @@ Accel Change가 체크된 Add Force 함수의 수식은 원래의 식 f = m * a�
 Vel Change가 체크된 Add Impulse 함수의 수식은 원래의 식 f = m * a[v * t]에서 질량(m)과 시간(t)이 1로 무시되어 f = 1 * v * 1 = v 요렇게 된다.
 Vel Change가 체크된 상태에서 Add Impulse에 X축으로 100의 힘을 가한다고 하자 그려면 100 = 1 * v * 1가 되고 v는 100(단위는 이해를 위해 m/s라고 하자)m/s가 되는데 해당 Add Impulse 함수를 실행한 그 tick에 바로 Add Impulse가 된 물체는 100m/s에 도달할 것이다.
 
+* 단위
+언리얼에서 거리를 다룰 때 숫자 1은 1cm을 말한다. 즉 100은 1m이다.
+
 - 인 게임 관련
 
 게임이 시작될 때 자동으로 생성되는 default pawn의 rotation은 고정이다. 따라서 마우스를 움직여 카메라의 시점 위치에 따라 default pawn의 rotation이 바뀔 것이라 생각하는 것은 큰 오산이다.
@@ -103,4 +106,24 @@ Visual Studio 2022의 17.4 버전부터는 VS IDE 코드 에디터에서 C++ 클
 표준 C++ <-> 언리얼 C++
 int <-> int16, int32, int64
 존재하지 않음 <-> FVector (언리얼 전용 벡터 클래스다. 정규화, 벡터 덧셈 연산 등 많은 것이 포함됨.)
+
+- 언리얼 전용 함수, 매크로
+SetActorLocation, GetActorLoaction -> 액터 방향 setter, getter
+
+- UPROPERTY
+클래스 변수에 선언 위에 붙여주어 해당 변수를 언리얼 엔진 편집 창에 보여주거나 직접 인터페이스를 통해 편집할 수 있게 속성을 부여해주는 역할을 한다.
+예시는 밑과 같다.
+UPROPERTY(EditAnywhere)
+int Velocity;
+이렇게 하고 실제 Scene에 존재하는 해당 클래스 객체를 눌러보면 Details 창에 Velocity 변수 항목이 보일 것이다.
+UPROPERTY에는 EditAnywhere 같은 다양한 속성 타입이 존재한다.
+
+* EditAnywhere
+언리얼 편집창에서 보이고 수정도 가능하다.
+
+* Category
+변수에 카테고리 특성을 부여하는데 예를 들어 
+UPROPERTY(EditAnywhere, Category="Physics Values")
+int Velocity; 
+라고 하면 언리얼 편집창에서 Details 창에 Physics Values 카테고리가 나타나고 해당 카테고리 안에 Velocity 변수값 조절 인터페이스가 있을 것이다.
 
