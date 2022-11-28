@@ -107,8 +107,14 @@ Visual Studio 2022의 17.4 버전부터는 VS IDE 코드 에디터에서 C++ 클
 int <-> int16, int32, int64
 존재하지 않음 <-> FVector (언리얼 전용 벡터 클래스다. 정규화, 벡터 덧셈 연산, FVector::Dist()와 같은 클래스 정적 함수 등 많은 것이 포함됨.)
 
+- FVector
+GetSafeNormal() -> 정규화된 크기 1인 방향 벡터를 뽑아냄
+
 - 언리얼 전용 함수, 매크로
 SetActorLocation, GetActorLoaction -> 액터 방향 setter, getter
+
+- C++ 클래스에서 부모 클래스 생성
+만든 C++ 클래스에 우측 클릭 누르고 Create BluePrint Class Based on ... 누르면 된다.
 
 - UPROPERTY
 클래스 변수에 선언 위에 붙여주어 해당 변수를 언리얼 엔진 편집 창에 보여주거나 직접 인터페이스를 통해 편집할 수 있게 속성을 부여해주는 역할을 한다.
