@@ -24,7 +24,18 @@ view mode를 player collision으로 하면 물리가 실제로 적용되는 충�
 object: 데이터 집합
 actor: 레벨에 배치할 수 있는 object
 component: actor에 부착(확장)할 수 있는 object
+game mode: 게임의 규칙을 정해놓는 actor이다. 규칙이라 하면 적이 어떤 곳에 어떻게 어느 방향으로 어느 순간에 배치되어야 하는지, 플레이어가 어디서 스폰되어야 하는지, 멀티 플레이어 게임에서는 한 세션에 몇 명까지 허용하는지 등이 있다.
 
+- Game Mode 관련
+언리얼 에디터 상단 왼쪽에 Select Mode라는 곳 옆에 보면 아이콘 몇개가 있을 텐데 블루프린트 노드 3개가 연결된 것 같이 생긴 아이콘이 있을 것이다.
+이를 눌러보면 레벨 블루프린트, 프로젝트 게임 모드, 월드 게임 모드를 지정할 수가 있다.
+레벨 블루프린트는 해당 Scene에서 작동하는 블루 프린트다.
+프로젝트 게임 모드는 지금 만들고 있는 게임에서 모두 쓰이는 게임 모드이다.
+월드 게임 모드는 특정 Scene에서만 쓰이는 게임 모드이다.
+월드 게임 모드가 지정되면 프로젝트 게임 모드는 작동하지 않는다.
+지정된 월드 게임 모드가 없는 경우에만 프로젝트 게임 모드가 작동한다.
+게임 모드의 디폴트 클래스 속성을 보면 Default Pawn Class가 있는데 이 녀석이 플레이어가 조종하는 Pawn을 결정한다.
+Actor 종류에 Player Start라는 Actor가 있는데 이 녀석을 맵에 배치하고 플레이 해보면 게임 모드에서 지정된 Default Pawn Class 폰이 Player Start가 배치된 위치에서 스폰되는 것을 확인할 수 있다.
 
 - 물리 관련
 
@@ -112,6 +123,7 @@ GetSafeNormal() -> 정규화된 크기 1인 방향 벡터를 뽑아냄
 
 - 언리얼 전용 함수, 매크로
 SetActorLocation, GetActorLoaction -> 액터 방향 setter, getter
+MoveUpdatedComponent -> 타겟이 특정 물체에 충돌할 때마다 주어진 Delta 만큼 움직여주고 Rotation 만큼 회전시켜주고 sweep이나 teleport 옵션에 따라 다양하게 움직여주는 하수
 
 - C++ 클래스에서 부모 클래스 생성
 만든 C++ 클래스에 우측 클릭 누르고 Create BluePrint Class Based on ... 누르면 된다.
