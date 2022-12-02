@@ -117,9 +117,13 @@ Visual Studio 2022의 17.4 버전부터는 VS IDE 코드 에디터에서 C++ 클
 표준 C++ <-> 언리얼 C++
 int <-> int16, int32, int64
 존재하지 않음 <-> FVector (언리얼 전용 벡터 클래스다. 정규화, 벡터 덧셈 연산, FVector::Dist()와 같은 클래스 정적 함수 등 많은 것이 포함됨.)
+std::string <-> FString
 
 - FVector
 GetSafeNormal() -> 정규화된 크기 1인 방향 벡터를 뽑아냄
+
+- FString
+만약 FString을 TCHAR 배열 형태로 바꿔주고 싶다면 포인터 주소의 실제 값을 얻는 것 처럼 *를 붙여주면 된다. (ex. UE_LOG(LogTemp, Display, TEXT("ObjectName: %s), *Name);)
 
 - 언리얼 전용 함수, 매크로
 SetActorLocation, GetActorLoaction -> 액터 방향 setter, getter
@@ -147,4 +151,14 @@ UPROPERTY에는 EditAnywhere 같은 다양한 속성 타입이 존재한다.
 UPROPERTY(EditAnywhere, Category="Physics Values")
 int Velocity; 
 라고 하면 언리얼 편집창에서 Details 창에 Physics Values 카테고리가 나타나고 해당 카테고리 안에 Velocity 변수값 조절 인터페이스가 있을 것이다.
+
+- logging 관련
+언리얼에서 로깅을 할 때는 다양한 방법이 존재한다.
+
+* UE_LOG
+사용법을 예로 들면 UE_LOG(LogTemp, Display, TEXT("Float Variable: %f"), varFloat); 이렇게 사용한다.
+첫번째 인자는 로그 카테고리고 LogWorld, LogAudio, LogAIModule 등... 많은 카테고리가 있다.
+두번째 인자는 로깅 레벨이다. 해당 로그가 얼마나 중요한지, 어떤 역할을 하는지를 결정한다. Display, Fatal, Error, Verbose 등... 많은 레벨이 있다. (Fatal 레벨을 사용하면 해당 로그를 찍고 게임을 강제 종료시킨다.)
+세번째 인자는 로깅 출력 텍스트다. printf() 함수의 문법을 따른다.
+
 
