@@ -30,7 +30,7 @@ bool Game::Initialize() {
         return false;
     }
 
-    //// Create SDL renderer
+    // Create SDL renderer
     mRenderer = SDL_CreateRenderer(
         mWindow, // Window to create renderer for
         -1,      // Usually -1
