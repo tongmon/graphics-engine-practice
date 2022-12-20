@@ -1,14 +1,6 @@
 #ifndef __GAME_H__
 #define __GAME_H__
 
-// ----------------------------------------------------------------
-// From Game Programming in C++ by Sanjay Madhav
-// Copyright (C) 2017 Sanjay Madhav. All rights reserved.
-//
-// Released under the BSD License
-// See LICENSE in root directory for full details.
-// ----------------------------------------------------------------
-
 #include <SDL2/SDL.h>
 
 // Vector2 struct just stores x/y coordinates
