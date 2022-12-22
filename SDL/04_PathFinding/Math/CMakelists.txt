@@ -1,0 +1,5 @@
+file(GLOB LIB_SOURCES CONFIGURE_DEPENDS ./*.cpp)
+
+add_library(MathLib STATIC ${LIB_SOURCES})
+
+target_include_directories(MathLib PUBLIC "./")
