@@ -8,8 +8,8 @@ target_link_directories(AudioLib PUBLIC
 target_link_libraries(AudioLib PUBLIC 
     SDL2::SDL2-static
     MathLib
-    fmod64_vc.lib
-    fmodstudio64_vc.lib
+    fmod_vc.lib
+    fmodstudio_vc.lib
     )
 
 target_include_directories(AudioLib PUBLIC 

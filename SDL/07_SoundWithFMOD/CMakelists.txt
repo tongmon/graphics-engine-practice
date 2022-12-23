@@ -28,10 +28,10 @@ target_link_libraries(${GAME_NAME} PUBLIC GameLib)
 
 add_custom_command(TARGET ${GAME_NAME} POST_BUILD
     COMMAND ${CMAKE_COMMAND} 
-    -E copy ${CMAKE_SOURCE_DIR}/Library/FMOD/x64/fmod64.dll ${CMAKE_CURRENT_BINARY_DIR}/fmod64.dll
+    -E copy ${CMAKE_SOURCE_DIR}/Library/FMOD/x64/fmod.dll ${CMAKE_CURRENT_BINARY_DIR}/fmod.dll
 )
 
 add_custom_command(TARGET ${GAME_NAME} POST_BUILD
     COMMAND ${CMAKE_COMMAND} 
-    -E copy ${CMAKE_SOURCE_DIR}/Library/FMOD/x64/fmodstudio64.dll ${CMAKE_CURRENT_BINARY_DIR}/fmodstudio64.dll
+    -E copy ${CMAKE_SOURCE_DIR}/Library/FMOD/x64/fmodstudio.dll ${CMAKE_CURRENT_BINARY_DIR}/fmodstudio.dll
 )
