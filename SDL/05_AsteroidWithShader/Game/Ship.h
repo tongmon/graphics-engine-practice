@@ -2,6 +2,7 @@
 #define __SHIP_H__
 
 #include "Actor.h"
+
 class Ship : public Actor {
   public:
     Ship(class Game *game);
@@ -12,4 +13,5 @@ class Ship : public Actor {
   private:
     float mLaserCooldown;
 };
+
 #endif // __SHIP_H__

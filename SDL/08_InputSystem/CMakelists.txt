@@ -13,7 +13,6 @@ set(GAME_NAME Asteroid)
 file(GLOB EXE_SOURCES CONFIGURE_DEPENDS ./*.cpp)
 
 find_package(SDL2 CONFIG REQUIRED)
-find_package(SDL2_image CONFIG REQUIRED)
 find_package(soil CONFIG REQUIRED)
 find_package(GLEW CONFIG REQUIRED)
 

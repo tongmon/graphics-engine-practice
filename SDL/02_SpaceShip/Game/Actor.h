@@ -1,7 +1,7 @@
 #ifndef __ACTOR_H__
 #define __ACTOR_H__
 
-#include <Math.h>
+#include <MyMath.h>
 #include <vector>
 
 class Actor {

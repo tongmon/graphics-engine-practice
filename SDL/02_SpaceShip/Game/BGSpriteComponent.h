@@ -2,7 +2,7 @@
 #define __BGSPRITECOMPONENT_H__
 
 #include "SpriteComponent.h"
-#include <Math.h>
+#include <MyMath.h>
 #include <vector>
 
 class BGSpriteComponent : public SpriteComponent {

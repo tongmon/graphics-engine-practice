@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.16)
 
+set(VCPKG_TARGET_TRIPLET "x64-windows-static" CACHE STRING "")
+set(CMAKE_TOOLCHAIN_FILE C:/vcpkg/scripts/buildsystems/vcpkg.cmake)
+
 project(PONGGAME VERSION 1.0.0 LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD          17)
@@ -9,10 +12,7 @@ set(GAME_NAME Pong)
 
 file(GLOB EXE_SOURCES CONFIGURE_DEPENDS ./*.cpp)
 
-include(FetchContent)
-
-FetchContent_Declare(SDL2 GIT_REPOSITORY https://github.com/libsdl-org/SDL.git GIT_TAG release-2.26.1)
-FetchContent_MakeAvailable(SDL2)
+find_package(SDL2 CONFIG REQUIRED)
 
 add_subdirectory(Game)
 

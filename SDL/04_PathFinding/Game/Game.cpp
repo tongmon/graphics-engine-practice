@@ -4,7 +4,7 @@
 #include "Actor.h"
 #include "Enemy.h"
 #include "Grid.h"
-#include "SDL_image.h"
+#include "SDL2/SDL_image.h"
 #include "SpriteComponent.h"
 #include <algorithm>
 

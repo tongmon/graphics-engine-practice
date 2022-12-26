@@ -1,10 +1,10 @@
-#ifndef __MATH_H__
-#define __MATH_H__
+#ifndef __MYMATH_H__
+#define __MYMATH_H__
 
 #include <cmath>
+#include <cstdint>
 #include <limits>
 #include <memory.h>
-#include <stdint.h>
 
 namespace Math {
 const float Pi = 3.1415926535f;
@@ -901,4 +901,4 @@ static const Vector3 LightPink(1.0f, 0.71f, 0.76f);
 static const Vector3 LightGreen(0.56f, 0.93f, 0.56f);
 } // namespace Color
 
-#endif // __MATH_H__
+#endif // __MYMATH_H__

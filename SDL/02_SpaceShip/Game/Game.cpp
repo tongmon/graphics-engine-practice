@@ -9,7 +9,7 @@
 #include "Game.h"
 #include "Actor.h"
 #include "BGSpriteComponent.h"
-#include "SDL_image.h"
+#include "SDL2/SDL_image.h"
 #include "Ship.h"
 #include "SpriteComponent.h"
 #include <algorithm>

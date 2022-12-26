@@ -1,7 +1,7 @@
 #ifndef __RENDERER_H__
 #define __RENDERER_H__
 
-#include "Math.h"
+#include "MyMath.h"
 #include <SDL2/SDL.h>
 #include <string>
 #include <unordered_map>

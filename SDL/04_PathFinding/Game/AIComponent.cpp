@@ -1,7 +1,7 @@
 #include "AIComponent.h"
 #include "AIState.h"
 #include "Actor.h"
-#include <SDL_log.h>
+#include <SDL2/SDL_log.h>
 
 AIComponent::AIComponent(class Actor *owner)
     : Component(owner), mCurrentState(nullptr) {

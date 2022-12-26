@@ -1,8 +1,8 @@
 #ifndef __GAME_H__
 #define __GAME_H__
 
-#include "Math.h"
-#include "SDL.h"
+#include "MyMath.h"
+#include "SDL2/SDL.h"
 #include <string>
 #include <unordered_map>
 #include <vector>

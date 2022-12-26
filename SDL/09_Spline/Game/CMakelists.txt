@@ -3,12 +3,9 @@ file(GLOB LIB_SOURCES CONFIGURE_DEPENDS ./*.cpp)
 add_library(GameLib STATIC ${LIB_SOURCES})
 
 target_link_libraries(GameLib PUBLIC 
-    SDL2::SDL2-static 
-    SDL2_image::SDL2_image-static 
     soil 
     GLEW::GLEW
-    rapidjson 
-    MathLib
+    rapidjson
     AudioLib)
 
 target_include_directories(GameLib PUBLIC "./")

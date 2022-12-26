@@ -1,6 +1,6 @@
 #include "AIState.h"
 #include "AIComponent.h"
-#include <SDL_log.h>
+#include <SDL2/SDL_log.h>
 
 void AIPatrol::Update(float deltaTime) {
     SDL_Log("Updating %s state", GetName());

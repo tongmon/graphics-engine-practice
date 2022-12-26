@@ -2,7 +2,8 @@
 #define __SPRITECOMPONENT_H__
 
 #include "Component.h"
-#include "SDL.h"
+#include "SDL2/SDL.h"
+
 class SpriteComponent : public Component {
   public:
     // (Lower draw order corresponds with further back)

@@ -1,7 +1,7 @@
 #ifndef __SHADER_H__
 #define __SHADER_H__
 
-#include "Math.h"
+#include "MyMath.h"
 #include <gl/glew.h>
 #include <string>
 

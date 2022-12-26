@@ -1,5 +1,5 @@
-#ifndef __MATH_H__
-#define __MATH_H__
+#ifndef __MYMATH_H__
+#define __MYMATH_H__
 
 #include <cmath>
 #include <cstdint>
@@ -92,12 +92,10 @@ class Vector2 {
     float y;
 
     Vector2()
-        : x(0.0f), y(0.0f) {
-    }
+        : x(0.0f), y(0.0f) {}
 
     explicit Vector2(float inX, float inY)
-        : x(inX), y(inY) {
-    }
+        : x(inX), y(inY) {}
 
     // Set both components in one line
     void Set(float inX, float inY) {
@@ -209,12 +207,10 @@ class Vector3 {
     float z;
 
     Vector3()
-        : x(0.0f), y(0.0f), z(0.0f) {
-    }
+        : x(0.0f), y(0.0f), z(0.0f) {}
 
     explicit Vector3(float inX, float inY, float inZ)
-        : x(inX), y(inY), z(inZ) {
-    }
+        : x(inX), y(inY), z(inZ) {}
 
     // Cast to a const float pointer
     const float *GetAsFloatPtr() const {
@@ -905,4 +901,4 @@ static const Vector3 LightPink(1.0f, 0.71f, 0.76f);
 static const Vector3 LightGreen(0.56f, 0.93f, 0.56f);
 } // namespace Color
 
-#endif // __MATH_H__
+#endif // __MYMATH_H__

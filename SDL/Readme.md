@@ -1,0 +1,1 @@
+해당 SDL 프로젝트들을 정상적으로 빌드하기 위해선 CMake와 Makefile(Unix), LLVM이 설치되어 있어야 한다.

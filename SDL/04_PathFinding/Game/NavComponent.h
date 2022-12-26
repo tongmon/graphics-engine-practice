@@ -1,7 +1,7 @@
 #ifndef __NAVCOMPONENT_H__
 #define __NAVCOMPONENT_H__
 
-#include "Math.h"
+#include "MyMath.h"
 #include "MoveComponent.h"
 
 class NavComponent : public MoveComponent {

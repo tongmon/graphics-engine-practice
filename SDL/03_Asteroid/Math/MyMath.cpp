@@ -1,12 +1,4 @@
-// ----------------------------------------------------------------
-// From Game Programming in C++ by Sanjay Madhav
-// Copyright (C) 2017 Sanjay Madhav. All rights reserved.
-//
-// Released under the BSD License
-// See LICENSE in root directory for full details.
-// ----------------------------------------------------------------
-
-#include "Math.h"
+#include "MyMath.h"
 
 const Vector2 Vector2::Zero(0.0f, 0.0f);
 const Vector2 Vector2::UnitX(1.0f, 0.0f);
@@ -27,6 +19,7 @@ const Vector3 Vector3::NegInfinity(Math::NegInfinity, Math::NegInfinity, Math::N
 static float m3Ident[3][3] = {{1.0f, 0.0f, 0.0f},
                               {0.0f, 1.0f, 0.0f},
                               {0.0f, 0.0f, 1.0f}};
+
 const Matrix3 Matrix3::Identity(m3Ident);
 
 static float m4Ident[4][4] = {{1.0f, 0.0f, 0.0f, 0.0f},
