@@ -1,0 +1,20 @@
+{
+    //
+    // CMake Tools 세팅
+    //
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.buildDirectory": "${workspaceFolder}/Build/${buildType}",
+    "cmake.buildBeforeRun": true,
+    "cmake.saveBeforeBuild": true,
+    "cmake.buildToolArgs": [
+        // "--target AudioLib"
+    ],
+    "cmake.configureArgs": [
+        // "--graphviz=${command:cmake.buildDirectory}/Graph_Info/graph.dot"
+    ],
+    "cmake.configureSettings": {
+        // "CMAKE_CXX_FLAGS": "-O3 -Wall -m64" // -m32로 32비트용 빌드
+    },
+    "cmake.parallelJobs": 12,
+    "cmake.generator": "Unix Makefiles"
+}
