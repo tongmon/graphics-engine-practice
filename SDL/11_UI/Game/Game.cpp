@@ -21,7 +21,6 @@
 #include "TargetActor.h"
 #include "UIScreen.h"
 #include <SDL2/SDL.h>
-#include <SDL2/SDL_ttf.h>
 #include <algorithm>
 #include <fstream>
 #include <rapidjson/document.h>
