@@ -1,0 +1,2690 @@
+***************Animation_File_Header***************
+#Nodes: 58
+#KeyFrames: 38
+#Duration: 700
+#TicksPerSecond: 30
+#GlobalInverseTransform: 1 -0 0 0 -0 1 0 0 0 -0 1 0 0 -0 0 1 
+#RootBoneName: Hips
+#RootBoneIndex: 1
+
+***********************Nodes***********************
+#0_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 0 0 -0 1 
+#1_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 0 97.4216 -0 1 
+#2_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 0 13.6639 1.184 1 
+#3_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 0 15.9412 1.3813 1 
+#4_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 0 11.7769 1.5786 1 
+#5_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 0 29.7346 -7.5259 1 
+#6_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 0 7.5065 -6.3985 1 
+#7_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 0 17.3363 -4.0579 1 
+#8_Matrix: 1 -0.00013471 -0 0 0.00013471 1 -0 0 -0 -0 1 -0 14.6442 23.6531 1.686 1 
+#9_Matrix: 0.998348 -0.00127579 -0.0574356 0 0.00127446 0.999999 -5.98163e-05 0 0.0574356 -1.34817e-05 0.998349 -0 18.647 -6.5686 -0.18 1 
+#10_Matrix: 0.998348 0.0014121 0.0574356 0 -0.00141209 0.999999 -4.07544e-05 0 -0.0574356 -4.04173e-05 0.998349 -0 31.1017 0.0439 1.7893 1 
+#11_Matrix: 1 -2.93466e-06 -0 0 2.93466e-06 0.999999 0.00110869 0 -3.25362e-09 -0.00110869 0.999999 -0 34.0755 -0.0001 -0 1 
+#12_Matrix: 1 -0.00037178 0.000382894 0 0.000371947 1 -0.000435648 0 -0.000382732 0.000435791 1 -0 10.0175 -6.8066 -11.6421 1 
+#13_Matrix: 0.999807 0.0196269 -0.000768339 0 -0.0196164 0.999737 0.0118481 0 0.00100068 -0.0118307 0.999929 -0 5.3814 -3.107 -3.107 1 
+#14_Matrix: 0.990032 -0.0528255 -0.130557 0 0.0588982 0.997333 0.0430957 0 0.127933 -0.0503557 0.990504 -0 4.6238 -2.8225 -2.6627 1 
+#15_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 5.2553 -2.7521 -1.9716 1 
+#16_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 22.4678 -1.2684 -9.8026 1 
+#17_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 10.0424 0 -0 1 
+#18_Matrix: 0.998162 -0.000898289 -0.0605958 0 0.000898289 1 -2.72413e-05 0 0.0605958 -2.72413e-05 0.998162 -0 4.639 0 -0 1 
+#19_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 12.8897 0.0116 0.7825 1 
+#20_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 26.136 0 -0 1 
+#21_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 6.0735 0 -0 1 
+#22_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 6.2581 0 -0 1 
+#23_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 10.9277 0 -0 1 
+#24_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 22.3177 -1.2971 8.8336 1 
+#25_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 7.4219 0 -0 1 
+#26_Matrix: 0.999376 -0.0207813 -0.0285772 0 0.0207813 0.999784 -0.000297028 0 0.0285772 -0.000297027 0.999592 -0 3.7112 0 -0 1 
+#27_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 8.4735 0.1762 0.2423 1 
+#28_Matrix: 1 0.00013471 -0 0 -0.00013471 1 -0 0 -0 -0 1 -0 -14.6442 23.6531 1.686 1 
+#29_Matrix: 0.998348 0.001279 0.0574356 0 -0.00127767 0.999999 -5.99968e-05 0 -0.0574356 -1.34859e-05 0.998349 -0 -18.647 -6.5686 -0.18 1 
+#30_Matrix: 0.998348 -0.00141238 -0.0574356 0 0.00141238 0.999999 -4.05939e-05 0 0.0574356 -4.05939e-05 0.998349 -0 -31.1017 0.044 1.7893 1 
+#31_Matrix: 1 4.22188e-09 -3.82614e-06 0 -4.44089e-16 0.999999 0.00110343 0 3.82614e-06 -0.00110343 0.999999 -0 -34.0755 0 -0 1 
+#32_Matrix: 1 0.000388318 -0.000371582 0 -0.000388481 1 -0.000438646 0 0.000371412 0.00043879 1 -0 -10.0174 -6.8066 -11.6421 1 
+#33_Matrix: 0.999807 -0.0196445 0.000761819 0 0.0196341 0.999737 0.0118543 0 -0.000994491 -0.0118371 0.999929 -0 -5.3815 -3.1069 -3.107 1 
+#34_Matrix: 0.990032 0.0528255 0.130557 0 -0.0588982 0.997333 0.0430957 0 -0.127933 -0.0503557 0.990504 -0 -4.6238 -2.8225 -2.6627 1 
+#35_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -5.2553 -2.7521 -1.9716 1 
+#36_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -22.4678 -1.2684 -9.8027 1 
+#37_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -10.0424 0 -0 1 
+#38_Matrix: 0.998163 0.000913778 0.0605804 0 -0.000913778 1 -2.77039e-05 0 -0.0605804 -2.7704e-05 0.998163 -0 -4.639 0 -0 1 
+#39_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -12.8897 0.0118 0.7823 1 
+#40_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -26.136 0 -0.0001 1 
+#41_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -6.0735 0 -0 1 
+#42_Matrix: 1 0 -9.15106e-06 0 0 1 -0 0 9.15106e-06 -0 1 -0 -6.2581 0 -0 1 
+#43_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -10.9277 0 -0.0001 1 
+#44_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -22.3177 -1.2972 8.8335 1 
+#45_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -7.4219 0 -0 1 
+#46_Matrix: 0.999376 0.0207695 0.0285772 0 -0.0207695 0.999784 -0.000296859 0 -0.0285772 -0.000296859 0.999592 -0 -3.7112 0 -0 1 
+#47_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -8.4735 0.1761 0.2423 1 
+#48_Matrix: 1 -0.00015866 -0 0 0.00015866 1 -0 0 -0 -0 1 -0 11.6219 -7.591 0.7136 1 
+#49_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 0.6211 -37.0221 -3.7871 1 
+#50_Matrix: 1 0.00015866 -0 0 -0.00015866 1 -0 0 -0 -0 1 -0 -0.6089 -39.8718 6.2804 1 
+#51_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 8.9308 -12.5416 -21.0731 1 
+#52_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 4.07 0.2639 -8.72 1 
+#53_Matrix: 1 -0.00015866 -0 0 0.00015866 1 -0 0 -0 -0 1 -0 -11.6219 -7.591 0.7136 1 
+#54_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -0.6095 -37.0223 -3.7869 1 
+#55_Matrix: 1 0.00015866 -0 0 -0.00015866 1 -0 0 -0 -0 1 -0 0.6217 -39.8717 6.2802 1 
+#56_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -8.9308 -12.5416 -21.0731 1 
+#57_Matrix: 1 0 -0 0 0 1 -0 0 -0 -0 1 -0 -4.07 0.2639 -8.72 1 
+
+**********************Parents**********************
+#0_Parents: -1
+#1_Parents: 0
+#2_Parents: 1
+#3_Parents: 2
+#4_Parents: 3
+#5_Parents: 4
+#6_Parents: 5
+#7_Parents: 6
+#8_Parents: 4
+#9_Parents: 8
+#10_Parents: 9
+#11_Parents: 10
+#12_Parents: 11
+#13_Parents: 12
+#14_Parents: 13
+#15_Parents: 14
+#16_Parents: 11
+#17_Parents: 16
+#18_Parents: 17
+#19_Parents: 18
+#20_Parents: 11
+#21_Parents: 20
+#22_Parents: 21
+#23_Parents: 22
+#24_Parents: 11
+#25_Parents: 24
+#26_Parents: 25
+#27_Parents: 26
+#28_Parents: 4
+#29_Parents: 28
+#30_Parents: 29
+#31_Parents: 30
+#32_Parents: 31
+#33_Parents: 32
+#34_Parents: 33
+#35_Parents: 34
+#36_Parents: 31
+#37_Parents: 36
+#38_Parents: 37
+#39_Parents: 38
+#40_Parents: 31
+#41_Parents: 40
+#42_Parents: 41
+#43_Parents: 42
+#44_Parents: 31
+#45_Parents: 44
+#46_Parents: 45
+#47_Parents: 46
+#48_Parents: 1
+#49_Parents: 48
+#50_Parents: 49
+#51_Parents: 50
+#52_Parents: 51
+#53_Parents: 1
+#54_Parents: 53
+#55_Parents: 54
+#56_Parents: 55
+#57_Parents: 56
+
+********************BoneIndices********************
+#0_BoneIndex: -1
+#1_BoneIndex: 0
+#2_BoneIndex: 1
+#3_BoneIndex: 2
+#4_BoneIndex: 3
+#5_BoneIndex: 4
+#6_BoneIndex: 5
+#7_BoneIndex: 6
+#8_BoneIndex: 7
+#9_BoneIndex: 8
+#10_BoneIndex: 9
+#11_BoneIndex: 10
+#12_BoneIndex: 11
+#13_BoneIndex: 12
+#14_BoneIndex: 13
+#15_BoneIndex: 14
+#16_BoneIndex: 15
+#17_BoneIndex: 16
+#18_BoneIndex: 17
+#19_BoneIndex: 18
+#20_BoneIndex: 19
+#21_BoneIndex: 20
+#22_BoneIndex: 21
+#23_BoneIndex: 22
+#24_BoneIndex: 23
+#25_BoneIndex: 24
+#26_BoneIndex: 25
+#27_BoneIndex: 26
+#28_BoneIndex: 27
+#29_BoneIndex: 28
+#30_BoneIndex: 29
+#31_BoneIndex: 30
+#32_BoneIndex: 31
+#33_BoneIndex: 32
+#34_BoneIndex: 33
+#35_BoneIndex: 34
+#36_BoneIndex: 35
+#37_BoneIndex: 36
+#38_BoneIndex: 37
+#39_BoneIndex: 38
+#40_BoneIndex: 39
+#41_BoneIndex: 40
+#42_BoneIndex: 41
+#43_BoneIndex: 42
+#44_BoneIndex: 43
+#45_BoneIndex: 44
+#46_BoneIndex: 45
+#47_BoneIndex: 46
+#48_BoneIndex: 47
+#49_BoneIndex: 48
+#50_BoneIndex: 49
+#51_BoneIndex: 50
+#52_BoneIndex: 51
+#53_BoneIndex: 52
+#54_BoneIndex: 53
+#55_BoneIndex: 54
+#56_BoneIndex: 55
+#57_BoneIndex: 56
+
+******************KeyFrameIndices******************
+#0_KeyFrameIndex: -1
+#1_KeyFrameIndex: 1
+#2_KeyFrameIndex: 35
+#3_KeyFrameIndex: 36
+#4_KeyFrameIndex: 37
+#5_KeyFrameIndex: 18
+#6_KeyFrameIndex: 0
+#7_KeyFrameIndex: -1
+#8_KeyFrameIndex: 15
+#9_KeyFrameIndex: 2
+#10_KeyFrameIndex: 4
+#11_KeyFrameIndex: 5
+#12_KeyFrameIndex: 12
+#13_KeyFrameIndex: 13
+#14_KeyFrameIndex: -1
+#15_KeyFrameIndex: -1
+#16_KeyFrameIndex: 6
+#17_KeyFrameIndex: 7
+#18_KeyFrameIndex: -1
+#19_KeyFrameIndex: -1
+#20_KeyFrameIndex: 8
+#21_KeyFrameIndex: 9
+#22_KeyFrameIndex: -1
+#23_KeyFrameIndex: -1
+#24_KeyFrameIndex: 10
+#25_KeyFrameIndex: 11
+#26_KeyFrameIndex: -1
+#27_KeyFrameIndex: -1
+#28_KeyFrameIndex: 32
+#29_KeyFrameIndex: 19
+#30_KeyFrameIndex: 21
+#31_KeyFrameIndex: 22
+#32_KeyFrameIndex: 29
+#33_KeyFrameIndex: 30
+#34_KeyFrameIndex: -1
+#35_KeyFrameIndex: -1
+#36_KeyFrameIndex: 23
+#37_KeyFrameIndex: 24
+#38_KeyFrameIndex: -1
+#39_KeyFrameIndex: -1
+#40_KeyFrameIndex: 25
+#41_KeyFrameIndex: 26
+#42_KeyFrameIndex: -1
+#43_KeyFrameIndex: -1
+#44_KeyFrameIndex: 27
+#45_KeyFrameIndex: 28
+#46_KeyFrameIndex: -1
+#47_KeyFrameIndex: -1
+#48_KeyFrameIndex: 17
+#49_KeyFrameIndex: 14
+#50_KeyFrameIndex: 3
+#51_KeyFrameIndex: 16
+#52_KeyFrameIndex: -1
+#53_KeyFrameIndex: 34
+#54_KeyFrameIndex: 31
+#55_KeyFrameIndex: 20
+#56_KeyFrameIndex: 33
+#57_KeyFrameIndex: -1
+
+*********************KeyFrames*********************
+#0_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.119447 0.0692484 -0.037522 0.989712
+Rotate_Time: 33.3333 Rotation: 0.0976287 0.105265 -0.0319694 0.989124
+Rotate_Time: 66.6667 Rotation: 0.083339 0.14166 -0.0309104 0.985917
+Rotate_Time: 100 Rotation: 0.0536203 0.17177 -0.0174006 0.983523
+Rotate_Time: 133.333 Rotation: 0.0498327 0.184721 -0.0166275 0.981386
+Rotate_Time: 166.667 Rotation: 0.0561425 0.168604 -0.0239159 0.983793
+Rotate_Time: 200 Rotation: 0.0459737 0.165908 -0.00597152 0.985051
+Rotate_Time: 233.333 Rotation: 0.0521853 0.164557 0.0133731 0.984895
+Rotate_Time: 266.667 Rotation: 0.0720708 0.145269 0.0273681 0.986384
+Rotate_Time: 333.333 Rotation: 0.134332 0.0704626 0.0520594 0.987056
+Rotate_Time: 366.667 Rotation: 0.129451 0.0288349 0.0311071 0.990678
+Rotate_Time: 400 Rotation: 0.12516 -0.0063224 0.0261719 0.991771
+Rotate_Time: 433.333 Rotation: 0.0873387 -0.0632867 0.00828729 0.994132
+Rotate_Time: 466.667 Rotation: 0.0832215 -0.0940848 -0.00463275 0.992069
+Rotate_Time: 500 Rotation: 0.0925354 -0.104264 -0.00882138 0.990196
+Rotate_Time: 533.333 Rotation: 0.103673 -0.0950431 -0.0267714 0.989698
+Rotate_Time: 600 Rotation: 0.110988 -0.0577801 -0.025396 0.991816
+Rotate_Time: 666.667 Rotation: 0.131421 0.0262045 -0.0354245 0.990347
+Rotate_Time: 700 Rotation: 0.119447 0.0692485 -0.037522 0.989712
+Pos_Time: 0 Pos: 0 7.5065 -6.3985
+Pos_Time: 33.3333 Pos: 0 7.5065 -6.3985
+Pos_Time: 66.6667 Pos: 0 7.5065 -6.3985
+Pos_Time: 100 Pos: 0 7.5065 -6.3985
+Pos_Time: 133.333 Pos: 0 7.5065 -6.3985
+Pos_Time: 166.667 Pos: 0 7.5065 -6.3985
+Pos_Time: 200 Pos: 0 7.5065 -6.3985
+Pos_Time: 233.333 Pos: 0 7.5065 -6.3985
+Pos_Time: 266.667 Pos: 0 7.5065 -6.3985
+Pos_Time: 333.333 Pos: 0 7.5065 -6.3985
+Pos_Time: 366.667 Pos: 0 7.5065 -6.3985
+Pos_Time: 400 Pos: 0 7.5065 -6.3985
+Pos_Time: 433.333 Pos: 0 7.5065 -6.3985
+Pos_Time: 466.667 Pos: 0 7.5065 -6.3985
+Pos_Time: 500 Pos: 0 7.5065 -6.3985
+Pos_Time: 533.333 Pos: 0 7.5065 -6.3985
+Pos_Time: 600 Pos: 0 7.5065 -6.3985
+Pos_Time: 666.667 Pos: 0 7.5065 -6.3985
+Pos_Time: 700 Pos: 0 7.5065 -6.3985
+
+#1_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0466284 -0.0284169 -0.0331424 0.997958
+Rotate_Time: 33.3333 Rotation: -0.0466784 -0.0216487 -0.0255974 0.998347
+Rotate_Time: 66.6667 Rotation: -0.0437507 -0.0280837 -0.0171061 0.998501
+Rotate_Time: 100 Rotation: -0.0446795 -0.0463971 -4.40301e-05 0.997923
+Rotate_Time: 133.333 Rotation: -0.0470715 -0.0479293 0.00522169 0.997727
+Rotate_Time: 166.667 Rotation: -0.0354158 -0.0297898 0.00277379 0.998925
+Rotate_Time: 200 Rotation: -0.0251202 -0.0318497 0.00510012 0.999164
+Rotate_Time: 233.333 Rotation: -0.0210017 -0.0473378 0.00871758 0.99862
+Rotate_Time: 266.667 Rotation: -0.0195385 -0.0478749 0.0115188 0.998596
+Rotate_Time: 333.333 Rotation: -0.0330173 -0.043411 0.0147152 0.998403
+Rotate_Time: 366.667 Rotation: -0.0359398 -0.046334 0.00146742 0.998278
+Rotate_Time: 400 Rotation: -0.0447609 -0.0315073 -0.0139923 0.998403
+Rotate_Time: 433.333 Rotation: -0.0623159 -0.00520074 -0.0321628 0.997525
+Rotate_Time: 466.667 Rotation: -0.0764313 -0.000280325 -0.036538 0.996405
+Rotate_Time: 500 Rotation: -0.0667027 -0.00292255 -0.0330549 0.997221
+Rotate_Time: 533.333 Rotation: -0.0564951 -0.00337019 -0.0298861 0.99795
+Rotate_Time: 600 Rotation: -0.0541111 -0.0221707 -0.0263976 0.99794
+Rotate_Time: 666.667 Rotation: -0.0487127 -0.0414751 -0.0484124 0.996776
+Rotate_Time: 700 Rotation: -0.0466284 -0.0284169 -0.0331423 0.997958
+Pos_Time: 0 Pos: -0.02442 85.989 0.115083
+Pos_Time: 33.3333 Pos: 0.550597 88.3894 -16.8914
+Pos_Time: 66.6667 Pos: 0.705056 92.1052 -33.8251
+Pos_Time: 100 Pos: 0.868192 95.1878 -50.7381
+Pos_Time: 133.333 Pos: 0.856223 95.3371 -66.8597
+Pos_Time: 166.667 Pos: 1.03128 94.7199 -81.6048
+Pos_Time: 200 Pos: 1.06384 93.7633 -96.0629
+Pos_Time: 233.333 Pos: 0.931438 92.103 -109.82
+Pos_Time: 266.667 Pos: 0.534078 88.2752 -123.154
+Pos_Time: 333.333 Pos: -0.19597 84.1505 -150.776
+Pos_Time: 366.667 Pos: -0.120494 86.2067 -166.609
+Pos_Time: 400 Pos: 0.0429064 89.4936 -183.491
+Pos_Time: 433.333 Pos: 0.12195 92.1013 -199.439
+Pos_Time: 466.667 Pos: 0.312013 93.9124 -214.032
+Pos_Time: 500 Pos: 0.346345 93.602 -228.847
+Pos_Time: 533.333 Pos: 0.235521 92.3816 -243.875
+Pos_Time: 600 Pos: -0.0341873 88.0064 -272.262
+Pos_Time: 666.667 Pos: -0.228812 84.1332 -300.445
+Pos_Time: 700 Pos: -0.0244176 85.989 -316.306
+
+#2_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0603817 -0.197389 -0.536306 0.818394
+Rotate_Time: 33.3333 Rotation: -0.0703358 -0.217133 -0.510227 0.829201
+Rotate_Time: 66.6667 Rotation: -0.0877681 -0.223933 -0.477571 0.845031
+Rotate_Time: 100 Rotation: -0.10773 -0.222846 -0.44415 0.861083
+Rotate_Time: 133.333 Rotation: -0.124778 -0.218308 -0.41726 0.873308
+Rotate_Time: 166.667 Rotation: -0.131085 -0.208668 -0.401686 0.882
+Rotate_Time: 200 Rotation: -0.118608 -0.184831 -0.397158 0.891087
+Rotate_Time: 233.333 Rotation: -0.084699 -0.139259 -0.402498 0.900793
+Rotate_Time: 266.667 Rotation: -0.0367661 -0.0765953 -0.419201 0.903909
+Rotate_Time: 333.333 Rotation: 0.0467635 0.0297675 -0.471333 0.880212
+Rotate_Time: 366.667 Rotation: 0.0725006 0.0488742 -0.484933 0.870169
+Rotate_Time: 400 Rotation: 0.0930576 0.047416 -0.482763 0.869501
+Rotate_Time: 433.333 Rotation: 0.110664 0.0355808 -0.470298 0.874819
+Rotate_Time: 466.667 Rotation: 0.122754 0.0217356 -0.457612 0.880369
+Rotate_Time: 500 Rotation: 0.122993 0.00537789 -0.453181 0.882876
+Rotate_Time: 533.333 Rotation: 0.105698 -0.0192021 -0.459598 0.881606
+Rotate_Time: 600 Rotation: 0.0303247 -0.0861903 -0.494112 0.864584
+Rotate_Time: 666.667 Rotation: -0.0417291 -0.1527 -0.527565 0.834635
+Rotate_Time: 700 Rotation: -0.0603817 -0.197389 -0.536306 0.818394
+Pos_Time: 0 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 33.3333 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 66.6667 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 100 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 133.333 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 166.667 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 200 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 233.333 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 266.667 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 333.333 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 366.667 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 400 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 433.333 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 466.667 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 500 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 533.333 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 600 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 666.667 Pos: 18.647 -6.5686 -0.18
+Pos_Time: 700 Pos: 18.647 -6.5686 -0.18
+
+#3_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.074064 0.00464371 0.056336 0.99565
+Rotate_Time: 33.3333 Rotation: 0.0988064 0.00146465 -0.0759648 0.992202
+Rotate_Time: 66.6667 Rotation: 0.0891657 0.00129758 -0.00574801 0.995999
+Rotate_Time: 100 Rotation: 0.0674841 -0.000993251 -0.0119154 0.997649
+Rotate_Time: 133.333 Rotation: 0.111983 -0.00225323 -0.022304 0.993457
+Rotate_Time: 166.667 Rotation: 0.142112 -0.00223402 -0.0139867 0.989749
+Rotate_Time: 200 Rotation: 0.128873 -0.00247766 -0.00932975 0.991614
+Rotate_Time: 233.333 Rotation: 0.054455 0.000994774 0.0504708 0.997239
+Rotate_Time: 266.667 Rotation: -0.00543384 0.000888827 0.0456009 0.998945
+Rotate_Time: 333.333 Rotation: 0.266172 -0.000188338 0.0587737 0.962132
+Rotate_Time: 366.667 Rotation: 0.298856 -0.00149581 0.0476191 0.953108
+Rotate_Time: 400 Rotation: 0.192704 -0.00103486 0.0366889 0.98057
+Rotate_Time: 433.333 Rotation: -0.0321673 0.000840186 0.013329 0.999393
+Rotate_Time: 466.667 Rotation: -0.0697846 -0.000415043 -0.00807228 0.997529
+Rotate_Time: 500 Rotation: -0.0581724 -0.00271605 -0.0334967 0.997741
+Rotate_Time: 533.333 Rotation: -0.0659634 -0.00388984 -0.0535181 0.996378
+Rotate_Time: 600 Rotation: 0.00880573 -0.00259683 -0.0525532 0.998576
+Rotate_Time: 666.667 Rotation: 0.0704483 0.00278277 0.0230186 0.997246
+Rotate_Time: 700 Rotation: 0.0740635 0.00464375 0.0563362 0.99565
+Pos_Time: 0 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 33.3333 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 66.6667 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 100 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 133.333 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 166.667 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 200 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 233.333 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 266.667 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 333.333 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 366.667 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 400 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 433.333 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 466.667 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 500 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 533.333 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 600 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 666.667 Pos: -0.6089 -39.8718 6.2804
+Pos_Time: 700 Pos: -0.6089 -39.8718 6.2804
+
+#4_KeyFrame
+Scale_Size: 40
+Rotate_Size: 40
+Pos_Size: 40
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 6.66667 Scale: 1 1 1
+Scale_Time: 10 Scale: 1 1 1
+Scale_Time: 13.3333 Scale: 1 1 1
+Scale_Time: 16.6667 Scale: 1 1 1
+Scale_Time: 20 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 300 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 376.667 Scale: 1 1 1
+Scale_Time: 383.333 Scale: 1 1 1
+Scale_Time: 386.667 Scale: 1 1 1
+Scale_Time: 390 Scale: 1 1 1
+Scale_Time: 393.333 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 406.667 Scale: 1 1 1
+Scale_Time: 410 Scale: 1 1 1
+Scale_Time: 413.333 Scale: 1 1 1
+Scale_Time: 416.667 Scale: 1 1 1
+Scale_Time: 420 Scale: 1 1 1
+Scale_Time: 423.333 Scale: 1 1 1
+Scale_Time: 426.667 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 566.667 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 633.333 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 680 Scale: 1 1 1
+Scale_Time: 683.333 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0684975 0.766565 -0.0700925 0.634644
+Rotate_Time: 6.66667 Rotation: -0.0740941 0.758644 -0.0694549 0.643542
+Rotate_Time: 10 Rotation: -0.0768878 0.754634 -0.0691314 0.647949
+Rotate_Time: 13.3333 Rotation: -0.079678 0.75059 -0.0688049 0.652328
+Rotate_Time: 16.6667 Rotation: -0.0824649 0.746515 -0.0684757 0.656678
+Rotate_Time: 20 Rotation: -0.0852481 0.742407 -0.0681433 0.661
+Rotate_Time: 33.3333 Rotation: -0.0963429 0.725654 -0.0667845 0.678
+Rotate_Time: 66.6667 Rotation: -0.121541 0.680324 -0.059615 0.720301
+Rotate_Time: 100 Rotation: -0.140984 0.639828 -0.0519126 0.75369
+Rotate_Time: 166.667 Rotation: -0.154229 0.603588 -0.0490165 0.7807
+Rotate_Time: 200 Rotation: -0.150004 0.606253 -0.0586693 0.77879
+Rotate_Time: 233.333 Rotation: -0.139911 0.614655 -0.0731509 0.772834
+Rotate_Time: 266.667 Rotation: -0.123461 0.625037 -0.0860708 0.765949
+Rotate_Time: 300 Rotation: -0.100918 0.638818 -0.0914365 0.75721
+Rotate_Time: 333.333 Rotation: -0.0743746 0.660582 -0.0871001 0.741966
+Rotate_Time: 366.667 Rotation: -0.0465215 0.693447 -0.0750074 0.715081
+Rotate_Time: 376.667 Rotation: -0.0382405 0.705294 -0.07052 0.704361
+Rotate_Time: 383.333 Rotation: -0.0327335 0.713665 -0.0672966 0.696478
+Rotate_Time: 386.667 Rotation: -0.0300078 0.717929 -0.0656522 0.692363
+Rotate_Time: 390 Rotation: -0.027311 0.722219 -0.064002 0.688155
+Rotate_Time: 393.333 Rotation: -0.0246514 0.726516 -0.0623591 0.68387
+Rotate_Time: 400 Rotation: -0.0194752 0.735055 -0.0591444 0.675142
+Rotate_Time: 406.667 Rotation: -0.0144211 0.743672 -0.0559559 0.666042
+Rotate_Time: 410 Rotation: -0.011919 0.748055 -0.0543416 0.661301
+Rotate_Time: 413.333 Rotation: -0.00944846 0.752453 -0.052727 0.656464
+Rotate_Time: 416.667 Rotation: -0.00702018 0.75684 -0.0511222 0.65156
+Rotate_Time: 420 Rotation: -0.00464556 0.761193 -0.0495367 0.646614
+Rotate_Time: 423.333 Rotation: -0.00233545 0.765487 -0.0479806 0.641656
+Rotate_Time: 426.667 Rotation: -0.000101111 0.769701 -0.046464 0.636711
+Rotate_Time: 433.333 Rotation: 0.00409663 0.777801 -0.0435894 0.626984
+Rotate_Time: 466.667 Rotation: 0.020447 0.813789 -0.0317005 0.579935
+Rotate_Time: 500 Rotation: 0.0271793 0.838983 -0.0263142 0.542841
+Rotate_Time: 533.333 Rotation: 0.0250877 0.852647 -0.0297998 0.521033
+Rotate_Time: 566.667 Rotation: 0.0168467 0.854473 -0.0428294 0.517453
+Rotate_Time: 600 Rotation: 0.00405296 0.843707 -0.0619305 0.533205
+Rotate_Time: 633.333 Rotation: -0.0139316 0.821608 -0.0785429 0.564445
+Rotate_Time: 666.667 Rotation: -0.0381256 0.79353 -0.0833267 0.601592
+Rotate_Time: 680 Rotation: -0.0502928 0.783018 -0.0780602 0.615029
+Rotate_Time: 683.333 Rotation: -0.0533312 0.780332 -0.0767376 0.618343
+Rotate_Time: 700 Rotation: -0.0684978 0.766565 -0.0700925 0.634644
+Pos_Time: 0 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 6.66667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 10 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 13.3333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 16.6667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 20 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 33.3333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 66.6667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 100 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 166.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 200 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 233.333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 266.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 300 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 333.333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 366.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 376.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 383.333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 386.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 390 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 393.333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 400 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 406.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 410 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 413.333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 416.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 420 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 423.333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 426.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 433.333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 466.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 500 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 533.333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 566.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 600 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 633.333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 666.667 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 680 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 683.333 Pos: 31.1017 0.0439 1.7893
+Pos_Time: 700 Pos: 31.1017 0.0439 1.7893
+
+#5_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0964436 0.177268 0.00608636 0.979407
+Rotate_Time: 33.3333 Rotation: -0.116053 0.176915 0.00412056 0.977351
+Rotate_Time: 66.6667 Rotation: -0.123673 0.177957 0.00525705 0.976222
+Rotate_Time: 100 Rotation: -0.122647 0.179626 0.00752794 0.97603
+Rotate_Time: 133.333 Rotation: -0.115995 0.181327 0.00898513 0.976517
+Rotate_Time: 166.667 Rotation: -0.105293 0.183275 0.00852564 0.977369
+Rotate_Time: 200 Rotation: -0.0902719 0.186502 0.00681738 0.978275
+Rotate_Time: 233.333 Rotation: -0.0710493 0.191886 0.00668562 0.978819
+Rotate_Time: 266.667 Rotation: -0.0503429 0.199057 0.0117211 0.978624
+Rotate_Time: 333.333 Rotation: -0.0228104 0.21333 0.0355596 0.976066
+Rotate_Time: 366.667 Rotation: -0.0195087 0.218712 0.045068 0.974553
+Rotate_Time: 400 Rotation: -0.0198123 0.22249 0.047244 0.973588
+Rotate_Time: 433.333 Rotation: -0.0202943 0.224358 0.0420347 0.973388
+Rotate_Time: 466.667 Rotation: -0.020428 0.224257 0.0323737 0.973778
+Rotate_Time: 500 Rotation: -0.0229087 0.222738 0.0212845 0.974377
+Rotate_Time: 533.333 Rotation: -0.030524 0.218954 0.0114121 0.975191
+Rotate_Time: 600 Rotation: -0.052755 0.210727 0.00956229 0.976074
+Rotate_Time: 666.667 Rotation: -0.0717017 0.200428 0.0198015 0.97688
+Rotate_Time: 700 Rotation: -0.0964437 0.177269 0.00608647 0.979407
+Pos_Time: 0 Pos: 34.0755 -0.0001 -0
+Pos_Time: 33.3333 Pos: 34.0755 -0.0001 -0
+Pos_Time: 66.6667 Pos: 34.0755 -0.0001 -0
+Pos_Time: 100 Pos: 34.0755 -0.0001 -0
+Pos_Time: 133.333 Pos: 34.0755 -0.0001 -0
+Pos_Time: 166.667 Pos: 34.0755 -0.0001 -0
+Pos_Time: 200 Pos: 34.0755 -0.0001 -0
+Pos_Time: 233.333 Pos: 34.0755 -0.0001 -0
+Pos_Time: 266.667 Pos: 34.0755 -0.0001 -0
+Pos_Time: 333.333 Pos: 34.0755 -0.0001 -0
+Pos_Time: 366.667 Pos: 34.0755 -0.0001 -0
+Pos_Time: 400 Pos: 34.0755 -0.0001 -0
+Pos_Time: 433.333 Pos: 34.0755 -0.0001 -0
+Pos_Time: 466.667 Pos: 34.0755 -0.0001 -0
+Pos_Time: 500 Pos: 34.0755 -0.0001 -0
+Pos_Time: 533.333 Pos: 34.0755 -0.0001 -0
+Pos_Time: 600 Pos: 34.0755 -0.0001 -0
+Pos_Time: 666.667 Pos: 34.0755 -0.0001 -0
+Pos_Time: 700 Pos: 34.0755 -0.0001 -0
+
+#6_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.000163578 0.0610035 -0.62736 0.776336
+Rotate_Time: 33.3333 Rotation: 0.000153195 0.060001 -0.617202 0.784513
+Rotate_Time: 66.6667 Rotation: 0.000128846 0.0575694 -0.592557 0.803469
+Rotate_Time: 100 Rotation: 9.97278e-05 0.0545937 -0.562388 0.825069
+Rotate_Time: 133.333 Rotation: 7.49382e-05 0.0520427 -0.536511 0.842287
+Rotate_Time: 166.667 Rotation: 6.45976e-05 0.0509575 -0.525502 0.849265
+Rotate_Time: 200 Rotation: 6.7256e-05 0.0512366 -0.528333 0.84749
+Rotate_Time: 233.333 Rotation: 7.47271e-05 0.051999 -0.536067 0.842572
+Rotate_Time: 266.667 Rotation: 8.55094e-05 0.0531296 -0.547538 0.835093
+Rotate_Time: 333.333 Rotation: 0.000113999 0.0560376 -0.57703 0.814798
+Rotate_Time: 366.667 Rotation: 0.00012935 0.0575929 -0.592797 0.80329
+Rotate_Time: 400 Rotation: 0.000144179 0.0590755 -0.607826 0.79187
+Rotate_Time: 433.333 Rotation: 0.000157492 0.0603876 -0.621123 0.781383
+Rotate_Time: 466.667 Rotation: 0.000168221 0.0614364 -0.631749 0.772735
+Rotate_Time: 500 Rotation: 0.000175144 0.0621316 -0.638795 0.766864
+Rotate_Time: 533.333 Rotation: 0.000177996 0.0623841 -0.64135 0.764708
+Rotate_Time: 600 Rotation: 0.000173007 0.0619004 -0.63645 0.76883
+Rotate_Time: 666.667 Rotation: 0.000164934 0.0611482 -0.628825 0.775139
+Rotate_Time: 700 Rotation: 0.000153084 0.0610216 -0.627359 0.776336
+Pos_Time: 0 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 33.3333 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 66.6667 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 100 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 133.333 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 166.667 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 200 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 233.333 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 266.667 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 333.333 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 366.667 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 400 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 433.333 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 466.667 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 500 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 533.333 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 600 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 666.667 Pos: 22.4678 -1.2684 -9.8026
+Pos_Time: 700 Pos: 22.4678 -1.2684 -9.8026
+
+#7_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.0141854 0.062218 -0.679866 0.730554
+Rotate_Time: 33.3333 Rotation: 0.0139261 0.0608823 -0.670345 0.739417
+Rotate_Time: 66.6667 Rotation: 0.0132969 0.0576551 -0.647179 0.760038
+Rotate_Time: 100 Rotation: 0.0125276 0.05373 -0.61871 0.78368
+Rotate_Time: 133.333 Rotation: 0.0118702 0.0503841 -0.594194 0.802654
+Rotate_Time: 166.667 Rotation: 0.0115912 0.0489662 -0.58374 0.81038
+Rotate_Time: 200 Rotation: 0.0116631 0.0493306 -0.586431 0.808411
+Rotate_Time: 233.333 Rotation: 0.0118594 0.0503269 -0.593774 0.802969
+Rotate_Time: 266.667 Rotation: 0.0121509 0.0518072 -0.604652 0.794711
+Rotate_Time: 333.333 Rotation: 0.0129015 0.0556302 -0.632543 0.772417
+Rotate_Time: 366.667 Rotation: 0.0133035 0.0576847 -0.647408 0.759841
+Rotate_Time: 400 Rotation: 0.0136876 0.0596498 -0.661544 0.747405
+Rotate_Time: 433.333 Rotation: 0.0140279 0.0613948 -0.674024 0.73602
+Rotate_Time: 466.667 Rotation: 0.0143001 0.0627936 -0.683977 0.726655
+Rotate_Time: 500 Rotation: 0.014481 0.063723 -0.690567 0.72031
+Rotate_Time: 533.333 Rotation: 0.0145464 0.064061 -0.692956 0.717981
+Rotate_Time: 600 Rotation: 0.0144199 0.0634147 -0.688374 0.722434
+Rotate_Time: 666.667 Rotation: 0.0142231 0.0624108 -0.681238 0.729258
+Rotate_Time: 700 Rotation: 0.0141853 0.0622182 -0.679866 0.730554
+Pos_Time: 0 Pos: 10.0424 0 -0
+Pos_Time: 33.3333 Pos: 10.0424 0 -0
+Pos_Time: 66.6667 Pos: 10.0424 0 -0
+Pos_Time: 100 Pos: 10.0424 0 -0
+Pos_Time: 133.333 Pos: 10.0424 0 -0
+Pos_Time: 166.667 Pos: 10.0424 0 -0
+Pos_Time: 200 Pos: 10.0424 0 -0
+Pos_Time: 233.333 Pos: 10.0424 0 -0
+Pos_Time: 266.667 Pos: 10.0424 0 -0
+Pos_Time: 333.333 Pos: 10.0424 0 -0
+Pos_Time: 366.667 Pos: 10.0424 0 -0
+Pos_Time: 400 Pos: 10.0424 0 -0
+Pos_Time: 433.333 Pos: 10.0424 0 -0
+Pos_Time: 466.667 Pos: 10.0424 0 -0
+Pos_Time: 500 Pos: 10.0424 0 -0
+Pos_Time: 533.333 Pos: 10.0424 0 -0
+Pos_Time: 600 Pos: 10.0424 0 -0
+Pos_Time: 666.667 Pos: 10.0424 0 -0
+Pos_Time: 700 Pos: 10.0424 0 -0
+
+#8_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.010397 0.0513921 -0.651362 0.756953
+Rotate_Time: 33.3333 Rotation: 0.0102308 0.0503122 -0.641465 0.765432
+Rotate_Time: 66.6667 Rotation: 0.00985081 0.0476595 -0.617428 0.785121
+Rotate_Time: 100 Rotation: 0.00938516 0.0444326 -0.587953 0.80762
+Rotate_Time: 133.333 Rotation: 0.0089846 0.0416816 -0.562629 0.825609
+Rotate_Time: 166.667 Rotation: 0.00881406 0.0405159 -0.551845 0.832915
+Rotate_Time: 200 Rotation: 0.00885805 0.0408155 -0.55462 0.831055
+Rotate_Time: 233.333 Rotation: 0.00897799 0.0416347 -0.562195 0.825907
+Rotate_Time: 266.667 Rotation: 0.00915533 0.0428521 -0.573425 0.818086
+Rotate_Time: 333.333 Rotation: 0.00961145 0.0459959 -0.602264 0.796913
+Rotate_Time: 366.667 Rotation: 0.00985485 0.047685 -0.617662 0.784935
+Rotate_Time: 400 Rotation: 0.0100868 0.0493009 -0.632324 0.773068
+Rotate_Time: 433.333 Rotation: 0.0102915 0.0507354 -0.645286 0.762185
+Rotate_Time: 466.667 Rotation: 0.010455 0.0518853 -0.655634 0.753221
+Rotate_Time: 500 Rotation: 0.0105753 0.0526274 -0.662494 0.747142
+Rotate_Time: 533.333 Rotation: 0.0106134 0.0528902 -0.664982 0.744909
+Rotate_Time: 600 Rotation: 0.0105341 0.0523825 -0.660211 0.749177
+Rotate_Time: 666.667 Rotation: 0.0103906 0.0516045 -0.652784 0.755713
+Rotate_Time: 700 Rotation: 0.0103882 0.0514691 -0.651355 0.756954
+Pos_Time: 0 Pos: 26.136 0 -0
+Pos_Time: 33.3333 Pos: 26.136 0 -0
+Pos_Time: 66.6667 Pos: 26.136 0 -0
+Pos_Time: 100 Pos: 26.136 0 -0
+Pos_Time: 133.333 Pos: 26.136 0 -0
+Pos_Time: 166.667 Pos: 26.136 0 -0
+Pos_Time: 200 Pos: 26.136 0 -0
+Pos_Time: 233.333 Pos: 26.136 0 -0
+Pos_Time: 266.667 Pos: 26.136 0 -0
+Pos_Time: 333.333 Pos: 26.136 0 -0
+Pos_Time: 366.667 Pos: 26.136 0 -0
+Pos_Time: 400 Pos: 26.136 0 -0
+Pos_Time: 433.333 Pos: 26.136 0 -0
+Pos_Time: 466.667 Pos: 26.136 0 -0
+Pos_Time: 500 Pos: 26.136 0 -0
+Pos_Time: 533.333 Pos: 26.136 0 -0
+Pos_Time: 600 Pos: 26.136 0 -0
+Pos_Time: 666.667 Pos: 26.136 0 -0
+Pos_Time: 700 Pos: 26.136 0 -0
+
+#9_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.00423967 0.0639066 -0.639083 0.766466
+Rotate_Time: 33.3333 Rotation: 0.00417049 0.062766 -0.629068 0.774801
+Rotate_Time: 66.6667 Rotation: 0.00400125 0.0600032 -0.604756 0.794137
+Rotate_Time: 100 Rotation: 0.00379326 0.0566293 -0.574971 0.816203
+Rotate_Time: 133.333 Rotation: 0.00361515 0.0537424 -0.5494 0.833821
+Rotate_Time: 166.667 Rotation: 0.00353956 0.0525158 -0.538516 0.840969
+Rotate_Time: 200 Rotation: 0.0035592 0.052831 -0.541316 0.83915
+Rotate_Time: 233.333 Rotation: 0.00361262 0.0536928 -0.548962 0.834113
+Rotate_Time: 266.667 Rotation: 0.00369181 0.0549714 -0.560299 0.826456
+Rotate_Time: 333.333 Rotation: 0.00389515 0.0582643 -0.589431 0.805705
+Rotate_Time: 366.667 Rotation: 0.00400374 0.0600282 -0.604995 0.793953
+Rotate_Time: 400 Rotation: 0.00410719 0.0617118 -0.619823 0.782301
+Rotate_Time: 433.333 Rotation: 0.00419893 0.0632035 -0.632937 0.771608
+Rotate_Time: 466.667 Rotation: 0.00427227 0.0643969 -0.643411 0.762796
+Rotate_Time: 500 Rotation: 0.0043208 0.0651884 -0.650354 0.756816
+Rotate_Time: 533.333 Rotation: 0.00434515 0.0654646 -0.652873 0.754621
+Rotate_Time: 600 Rotation: 0.00430389 0.0649263 -0.648043 0.758819
+Rotate_Time: 666.667 Rotation: 0.00424043 0.0640879 -0.640526 0.765246
+Rotate_Time: 700 Rotation: 0.00423286 0.0639458 -0.639079 0.766466
+Pos_Time: 0 Pos: 6.0735 0 -0
+Pos_Time: 33.3333 Pos: 6.0735 0 -0
+Pos_Time: 66.6667 Pos: 6.0735 0 -0
+Pos_Time: 100 Pos: 6.0735 0 -0
+Pos_Time: 133.333 Pos: 6.0735 0 -0
+Pos_Time: 166.667 Pos: 6.0735 0 -0
+Pos_Time: 200 Pos: 6.0735 0 -0
+Pos_Time: 233.333 Pos: 6.0735 0 -0
+Pos_Time: 266.667 Pos: 6.0735 0 -0
+Pos_Time: 333.333 Pos: 6.0735 0 -0
+Pos_Time: 366.667 Pos: 6.0735 0 -0
+Pos_Time: 400 Pos: 6.0735 0 -0
+Pos_Time: 433.333 Pos: 6.0735 0 -0
+Pos_Time: 466.667 Pos: 6.0735 0 -0
+Pos_Time: 500 Pos: 6.0735 0 -0
+Pos_Time: 533.333 Pos: 6.0735 0 -0
+Pos_Time: 600 Pos: 6.0735 0 -0
+Pos_Time: 666.667 Pos: 6.0735 0 -0
+Pos_Time: 700 Pos: 6.0735 0 -0
+
+#10_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.0879934 -0.0470426 -0.713406 0.693611
+Rotate_Time: 33.3333 Rotation: 0.0868819 -0.0486634 -0.704346 0.702837
+Rotate_Time: 66.6667 Rotation: 0.0841728 -0.0524942 -0.682259 0.724349
+Rotate_Time: 100 Rotation: 0.0808325 -0.0569998 -0.65503 0.749102
+Rotate_Time: 133.333 Rotation: 0.0779471 -0.0607134 -0.631516 0.769042
+Rotate_Time: 166.667 Rotation: 0.0767146 -0.0622535 -0.621472 0.777182
+Rotate_Time: 200 Rotation: 0.0770319 -0.0618598 -0.624057 0.775108
+Rotate_Time: 233.333 Rotation: 0.0778978 -0.0607761 -0.631112 0.769374
+Rotate_Time: 266.667 Rotation: 0.0791789 -0.0591473 -0.641553 0.760685
+Rotate_Time: 333.333 Rotation: 0.082457 -0.0548375 -0.66827 0.737298
+Rotate_Time: 366.667 Rotation: 0.0841997 -0.0524577 -0.682475 0.724145
+Rotate_Time: 400 Rotation: 0.0858538 -0.0501377 -0.69596 0.711164
+Rotate_Time: 433.333 Rotation: 0.0873115 -0.048041 -0.707846 0.699302
+Rotate_Time: 466.667 Rotation: 0.0884725 -0.0463347 -0.717312 0.689558
+Rotate_Time: 500 Rotation: 0.08924 -0.0451878 -0.723572 0.682963
+Rotate_Time: 533.333 Rotation: 0.089511 -0.0447587 -0.725839 0.680545
+Rotate_Time: 600 Rotation: 0.0889847 -0.0455708 -0.72149 0.68517
+Rotate_Time: 666.667 Rotation: 0.0881647 -0.0468237 -0.714709 0.692261
+Rotate_Time: 700 Rotation: 0.0880159 -0.0470754 -0.713405 0.693607
+Pos_Time: 0 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 33.3333 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 66.6667 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 100 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 133.333 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 166.667 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 200 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 233.333 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 266.667 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 333.333 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 366.667 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 400 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 433.333 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 466.667 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 500 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 533.333 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 600 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 666.667 Pos: 22.3177 -1.2971 8.8336
+Pos_Time: 700 Pos: 22.3177 -1.2971 8.8336
+
+#11_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0287913 0.0474375 -0.718463 0.693349
+Rotate_Time: 33.3333 Rotation: -0.0283584 0.0476262 -0.709327 0.702697
+Rotate_Time: 66.6667 Rotation: -0.0273081 0.0480426 -0.687056 0.7245
+Rotate_Time: 100 Rotation: -0.0260213 0.048478 -0.659602 0.749598
+Rotate_Time: 133.333 Rotation: -0.0249144 0.0487914 -0.635895 0.769828
+Rotate_Time: 166.667 Rotation: -0.0244431 0.0489086 -0.625768 0.77809
+Rotate_Time: 200 Rotation: -0.0245642 0.0488794 -0.628376 0.775984
+Rotate_Time: 233.333 Rotation: -0.024895 0.048796 -0.635489 0.770165
+Rotate_Time: 266.667 Rotation: -0.0253855 0.0486638 -0.646015 0.761348
+Rotate_Time: 333.333 Rotation: -0.0266448 0.0482749 -0.672954 0.737626
+Rotate_Time: 366.667 Rotation: -0.0273171 0.0480366 -0.687277 0.724291
+Rotate_Time: 400 Rotation: -0.0279569 0.0477888 -0.700874 0.711133
+Rotate_Time: 433.333 Rotation: -0.0285226 0.0475517 -0.71286 0.699111
+Rotate_Time: 466.667 Rotation: -0.0289743 0.04735 -0.722404 0.689239
+Rotate_Time: 500 Rotation: -0.029273 0.0472097 -0.728717 0.682558
+Rotate_Time: 533.333 Rotation: -0.029382 0.047158 -0.731003 0.680108
+Rotate_Time: 600 Rotation: -0.0291749 0.0472584 -0.726616 0.684795
+Rotate_Time: 666.667 Rotation: -0.0288531 0.0474094 -0.719778 0.691982
+Rotate_Time: 700 Rotation: -0.0287847 0.0474216 -0.718464 0.693349
+Pos_Time: 0 Pos: 7.4219 0 -0
+Pos_Time: 33.3333 Pos: 7.4219 0 -0
+Pos_Time: 66.6667 Pos: 7.4219 0 -0
+Pos_Time: 100 Pos: 7.4219 0 -0
+Pos_Time: 133.333 Pos: 7.4219 0 -0
+Pos_Time: 166.667 Pos: 7.4219 0 -0
+Pos_Time: 200 Pos: 7.4219 0 -0
+Pos_Time: 233.333 Pos: 7.4219 0 -0
+Pos_Time: 266.667 Pos: 7.4219 0 -0
+Pos_Time: 333.333 Pos: 7.4219 0 -0
+Pos_Time: 366.667 Pos: 7.4219 0 -0
+Pos_Time: 400 Pos: 7.4219 0 -0
+Pos_Time: 433.333 Pos: 7.4219 0 -0
+Pos_Time: 466.667 Pos: 7.4219 0 -0
+Pos_Time: 500 Pos: 7.4219 0 -0
+Pos_Time: 533.333 Pos: 7.4219 0 -0
+Pos_Time: 600 Pos: 7.4219 0 -0
+Pos_Time: 666.667 Pos: 7.4219 0 -0
+Pos_Time: 700 Pos: 7.4219 0 -0
+
+#12_KeyFrame
+Scale_Size: 1
+Rotate_Size: 1
+Pos_Size: 1
+Scale_Time: 0 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.0282846 0.0632912 -0.0559701 0.996023
+Pos_Time: 0 Pos: 10.0175 -6.8066 -11.6421
+
+#13_KeyFrame
+Scale_Size: 1
+Rotate_Size: 1
+Pos_Size: 1
+Scale_Time: 0 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.04458 -0.116614 0.0397351 0.99138
+Pos_Time: 0 Pos: 5.3814 -3.107 -3.107
+
+#14_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.754648 -0.0509431 0.109622 0.644899
+Rotate_Time: 33.3333 Rotation: -0.681072 -0.0488228 0.069436 0.72728
+Rotate_Time: 66.6667 Rotation: -0.510006 -0.0791181 0.0379283 0.855684
+Rotate_Time: 100 Rotation: -0.252785 -0.079972 0.0132331 0.964121
+Rotate_Time: 133.333 Rotation: -0.149535 -0.0698639 0.00907947 0.986243
+Rotate_Time: 166.667 Rotation: -0.13412 -0.0306291 -0.00182973 0.99049
+Rotate_Time: 200 Rotation: -0.111629 -0.0260455 0.000727137 0.993408
+Rotate_Time: 233.333 Rotation: -0.168443 -0.0364376 0.00579971 0.985021
+Rotate_Time: 266.667 Rotation: -0.289001 -0.0162032 0.00355224 0.957185
+Rotate_Time: 333.333 Rotation: -0.432708 0.0146363 -0.0149509 0.901291
+Rotate_Time: 366.667 Rotation: -0.305581 0.0428033 0.00228054 0.951201
+Rotate_Time: 400 Rotation: -0.19905 0.0559621 0.00881603 0.978351
+Rotate_Time: 433.333 Rotation: -0.195507 0.0579098 0.023152 0.978717
+Rotate_Time: 466.667 Rotation: -0.172255 0.0646652 0.0328406 0.982379
+Rotate_Time: 500 Rotation: -0.295202 0.0641603 0.0451537 0.952208
+Rotate_Time: 533.333 Rotation: -0.426674 0.0268052 0.0585986 0.902107
+Rotate_Time: 600 Rotation: -0.669665 -0.0516402 0.116389 0.731667
+Rotate_Time: 666.667 Rotation: -0.794373 -0.0253431 0.106005 0.597572
+Rotate_Time: 700 Rotation: -0.754648 -0.0509432 0.109622 0.644899
+Pos_Time: 0 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 33.3333 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 66.6667 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 100 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 133.333 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 166.667 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 200 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 233.333 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 266.667 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 333.333 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 366.667 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 400 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 433.333 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 466.667 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 500 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 533.333 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 600 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 666.667 Pos: 0.6211 -37.0221 -3.7871
+Pos_Time: 700 Pos: 0.6211 -37.0221 -3.7871
+
+#15_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0103189 0.00991348 -0.0795698 0.996727
+Rotate_Time: 33.3333 Rotation: -0.0102259 0.00236722 -0.0748029 0.997143
+Rotate_Time: 66.6667 Rotation: -0.0100688 -0.00629389 -0.0686289 0.997572
+Rotate_Time: 100 Rotation: -0.009794 -0.0147372 -0.0623938 0.997895
+Rotate_Time: 133.333 Rotation: -0.0094588 -0.0208773 -0.0582893 0.998037
+Rotate_Time: 166.667 Rotation: -0.0092566 -0.0220355 -0.059071 0.997968
+Rotate_Time: 200 Rotation: -0.00936201 -0.0162373 -0.0660326 0.997641
+Rotate_Time: 233.333 Rotation: -0.00973746 -0.00354703 -0.0771974 0.996962
+Rotate_Time: 266.667 Rotation: -0.0102521 0.0135891 -0.0878501 0.995988
+Rotate_Time: 333.333 Rotation: -0.0117646 0.0455716 -0.0938483 0.994473
+Rotate_Time: 366.667 Rotation: -0.0125139 0.0536589 -0.0912567 0.994302
+Rotate_Time: 400 Rotation: -0.0128069 0.0551595 -0.0895 0.994376
+Rotate_Time: 433.333 Rotation: -0.0126371 0.0526054 -0.0900016 0.994471
+Rotate_Time: 466.667 Rotation: -0.0123322 0.0498667 -0.0919102 0.994441
+Rotate_Time: 500 Rotation: -0.0121537 0.0493292 -0.0939608 0.994279
+Rotate_Time: 533.333 Rotation: -0.0121047 0.0504589 -0.0956167 0.994065
+Rotate_Time: 600 Rotation: -0.0119327 0.0473436 -0.0950619 0.994273
+Rotate_Time: 666.667 Rotation: -0.0111606 0.0262018 -0.0850672 0.995968
+Rotate_Time: 700 Rotation: -0.0103189 0.00991345 -0.0795698 0.996727
+Pos_Time: 0 Pos: 14.6442 23.6531 1.686
+Pos_Time: 33.3333 Pos: 14.6442 23.6531 1.686
+Pos_Time: 66.6667 Pos: 14.6442 23.6531 1.686
+Pos_Time: 100 Pos: 14.6442 23.6531 1.686
+Pos_Time: 133.333 Pos: 14.6442 23.6531 1.686
+Pos_Time: 166.667 Pos: 14.6442 23.6531 1.686
+Pos_Time: 200 Pos: 14.6442 23.6531 1.686
+Pos_Time: 233.333 Pos: 14.6442 23.6531 1.686
+Pos_Time: 266.667 Pos: 14.6442 23.6531 1.686
+Pos_Time: 333.333 Pos: 14.6442 23.6531 1.686
+Pos_Time: 366.667 Pos: 14.6442 23.6531 1.686
+Pos_Time: 400 Pos: 14.6442 23.6531 1.686
+Pos_Time: 433.333 Pos: 14.6442 23.6531 1.686
+Pos_Time: 466.667 Pos: 14.6442 23.6531 1.686
+Pos_Time: 500 Pos: 14.6442 23.6531 1.686
+Pos_Time: 533.333 Pos: 14.6442 23.6531 1.686
+Pos_Time: 600 Pos: 14.6442 23.6531 1.686
+Pos_Time: 666.667 Pos: 14.6442 23.6531 1.686
+Pos_Time: 700 Pos: 14.6442 23.6531 1.686
+
+#16_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.00636906 0.0256091 -0.0575867 0.997992
+Rotate_Time: 33.3333 Rotation: -0.00623999 -0.0167259 0.0549722 0.998328
+Rotate_Time: 66.6667 Rotation: 0.0241339 0.0223011 0.00615568 0.999441
+Rotate_Time: 100 Rotation: 0.0340565 0.035257 -0.0100013 0.998748
+Rotate_Time: 133.333 Rotation: 0.0312303 0.0296264 0.00154218 0.999072
+Rotate_Time: 166.667 Rotation: 0.0295067 0.0381353 -0.0323377 0.998313
+Rotate_Time: 200 Rotation: 0.0289488 0.0349751 -0.0229066 0.998706
+Rotate_Time: 233.333 Rotation: 0.0318536 0.0356368 -0.0166134 0.998719
+Rotate_Time: 266.667 Rotation: 0.0413173 0.0359232 0.00040239 0.9985
+Rotate_Time: 333.333 Rotation: 0.0410503 0.0396542 -0.0112112 0.998307
+Rotate_Time: 366.667 Rotation: 0.0465027 0.0360396 0.00211287 0.998266
+Rotate_Time: 400 Rotation: 0.243751 0.0385788 0.0257435 0.968728
+Rotate_Time: 433.333 Rotation: 0.420269 0.0451209 0.00278698 0.906273
+Rotate_Time: 466.667 Rotation: 0.194428 0.0643437 0.0649607 0.976646
+Rotate_Time: 500 Rotation: 0.00121568 0.0361492 -0.0398887 0.998549
+Rotate_Time: 533.333 Rotation: 0.0194428 0.0322454 -0.040079 0.998487
+Rotate_Time: 600 Rotation: 0.0127977 0.0211982 -0.0255627 0.999367
+Rotate_Time: 666.667 Rotation: 0.0378162 0.0639045 -0.0835701 0.993731
+Rotate_Time: 700 Rotation: 0.00636909 0.0256091 -0.0575867 0.997992
+Pos_Time: 0 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 33.3333 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 66.6667 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 100 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 133.333 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 166.667 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 200 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 233.333 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 266.667 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 333.333 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 366.667 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 400 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 433.333 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 466.667 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 500 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 533.333 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 600 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 666.667 Pos: 8.9308 -12.5416 -21.0731
+Pos_Time: 700 Pos: 8.9308 -12.5416 -21.0731
+
+#17_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.37943 -0.0389788 -0.0204824 0.924172
+Rotate_Time: 33.3333 Rotation: 0.435956 -0.0172844 -0.0063535 0.899779
+Rotate_Time: 66.6667 Rotation: 0.412784 -0.00183784 -0.0112364 0.910758
+Rotate_Time: 100 Rotation: 0.344012 0.0251362 -0.0380077 0.937859
+Rotate_Time: 133.333 Rotation: 0.339905 0.048308 -0.0427949 0.938243
+Rotate_Time: 166.667 Rotation: 0.336455 0.0464447 -0.0368042 0.939833
+Rotate_Time: 200 Rotation: 0.299664 0.0522523 -0.0449752 0.95155
+Rotate_Time: 233.333 Rotation: 0.297475 0.0578976 -0.0686077 0.9505
+Rotate_Time: 266.667 Rotation: 0.310609 0.0462955 -0.072102 0.946668
+Rotate_Time: 333.333 Rotation: 0.205985 -0.0043086 -0.0565031 0.976913
+Rotate_Time: 366.667 Rotation: 0.0300552 -0.021078 -0.0383539 0.99859
+Rotate_Time: 400 Rotation: -0.101981 -0.0523024 -0.0119559 0.993339
+Rotate_Time: 433.333 Rotation: -0.128793 -0.096061 0.00500575 0.986995
+Rotate_Time: 466.667 Rotation: -0.172712 -0.0853908 6.48998e-05 0.981264
+Rotate_Time: 500 Rotation: -0.180014 -0.065774 -0.0135551 0.981369
+Rotate_Time: 533.333 Rotation: -0.157055 -0.0673444 -0.0115587 0.985223
+Rotate_Time: 600 Rotation: 0.00796768 -0.0583037 0.00827847 0.998233
+Rotate_Time: 666.667 Rotation: 0.294399 -0.0224782 -0.000735394 0.955418
+Rotate_Time: 700 Rotation: 0.379431 -0.0389789 -0.0204826 0.924172
+Pos_Time: 0 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 33.3333 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 66.6667 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 100 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 133.333 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 166.667 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 200 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 233.333 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 266.667 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 333.333 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 366.667 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 400 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 433.333 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 466.667 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 500 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 533.333 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 600 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 666.667 Pos: 11.6219 -7.591 0.7136
+Pos_Time: 700 Pos: 11.6219 -7.591 0.7136
+
+#18_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.0652443 0.0276307 -0.00199074 0.997485
+Rotate_Time: 33.3333 Rotation: 0.0662575 0.0387652 -0.00700521 0.997025
+Rotate_Time: 66.6667 Rotation: 0.0575098 0.054315 -0.00163554 0.996865
+Rotate_Time: 100 Rotation: 0.0483167 0.0640535 -0.00211246 0.996774
+Rotate_Time: 133.333 Rotation: 0.026457 0.0720586 0.00575888 0.997033
+Rotate_Time: 166.667 Rotation: 0.0124399 0.0705304 0.0136702 0.997338
+Rotate_Time: 200 Rotation: 0.0170577 0.0635216 0.00461348 0.997824
+Rotate_Time: 233.333 Rotation: 0.0225783 0.0598639 0.00415203 0.997943
+Rotate_Time: 266.667 Rotation: 0.0416003 0.0541154 0.0139489 0.99757
+Rotate_Time: 333.333 Rotation: 0.0574375 0.0190449 0.00754551 0.998139
+Rotate_Time: 366.667 Rotation: 0.0720159 0.0090257 0.0190441 0.997181
+Rotate_Time: 400 Rotation: 0.0649173 -0.0148951 -0.0116083 0.997712
+Rotate_Time: 433.333 Rotation: 0.0776571 -0.032007 -0.00476449 0.996455
+Rotate_Time: 466.667 Rotation: 0.0864372 -0.0430347 -0.00645506 0.995306
+Rotate_Time: 500 Rotation: 0.0906203 -0.0475964 -0.010893 0.994688
+Rotate_Time: 533.333 Rotation: 0.07904 -0.0424841 -0.0141822 0.995865
+Rotate_Time: 600 Rotation: 0.0779854 -0.0349841 -0.0305625 0.995872
+Rotate_Time: 666.667 Rotation: 0.0774941 0.00274486 -0.0212552 0.996762
+Rotate_Time: 700 Rotation: 0.0652442 0.0276307 -0.00199075 0.997485
+Pos_Time: 0 Pos: 0 29.7346 -7.5259
+Pos_Time: 33.3333 Pos: 0 29.7346 -7.5259
+Pos_Time: 66.6667 Pos: 0 29.7346 -7.5259
+Pos_Time: 100 Pos: 0 29.7346 -7.5259
+Pos_Time: 133.333 Pos: 0 29.7346 -7.5259
+Pos_Time: 166.667 Pos: 0 29.7346 -7.5259
+Pos_Time: 200 Pos: 0 29.7346 -7.5259
+Pos_Time: 233.333 Pos: 0 29.7346 -7.5259
+Pos_Time: 266.667 Pos: 0 29.7346 -7.5259
+Pos_Time: 333.333 Pos: 0 29.7346 -7.5259
+Pos_Time: 366.667 Pos: 0 29.7346 -7.5259
+Pos_Time: 400 Pos: 0 29.7346 -7.5259
+Pos_Time: 433.333 Pos: 0 29.7346 -7.5259
+Pos_Time: 466.667 Pos: 0 29.7346 -7.5259
+Pos_Time: 500 Pos: 0 29.7346 -7.5259
+Pos_Time: 533.333 Pos: 0 29.7346 -7.5259
+Pos_Time: 600 Pos: 0 29.7346 -7.5259
+Pos_Time: 666.667 Pos: 0 29.7346 -7.5259
+Pos_Time: 700 Pos: 0 29.7346 -7.5259
+
+#19_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.0136136 0.077945 0.459809 0.884486
+Rotate_Time: 33.3333 Rotation: 0.0453419 0.0265478 0.459528 0.886608
+Rotate_Time: 66.6667 Rotation: 0.0538544 0.0203582 0.460037 0.886031
+Rotate_Time: 100 Rotation: 0.0577694 0.0100363 0.456679 0.887697
+Rotate_Time: 133.333 Rotation: 0.0560977 0.00348108 0.449085 0.891719
+Rotate_Time: 166.667 Rotation: 0.0465715 -0.00414191 0.447721 0.89295
+Rotate_Time: 200 Rotation: 0.0324474 0.00876753 0.450921 0.891931
+Rotate_Time: 233.333 Rotation: 0.0102279 0.0574664 0.463933 0.883945
+Rotate_Time: 266.667 Rotation: -0.00961992 0.0951076 0.478578 0.872826
+Rotate_Time: 333.333 Rotation: -0.0349342 0.138333 0.485647 0.862433
+Rotate_Time: 366.667 Rotation: -0.0540059 0.183408 0.458955 0.867644
+Rotate_Time: 400 Rotation: -0.0780572 0.249905 0.416017 0.870853
+Rotate_Time: 433.333 Rotation: -0.0950818 0.299422 0.379164 0.870368
+Rotate_Time: 466.667 Rotation: -0.102107 0.320051 0.367337 0.867298
+Rotate_Time: 500 Rotation: -0.106972 0.333503 0.384128 0.854271
+Rotate_Time: 533.333 Rotation: -0.109249 0.33304 0.399893 0.846897
+Rotate_Time: 600 Rotation: -0.0854752 0.253724 0.414246 0.869896
+Rotate_Time: 666.667 Rotation: -0.0123197 0.109462 0.450807 0.885799
+Rotate_Time: 700 Rotation: 0.0136135 0.077945 0.459809 0.884485
+Pos_Time: 0 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 33.3333 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 66.6667 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 100 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 133.333 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 166.667 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 200 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 233.333 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 266.667 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 333.333 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 366.667 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 400 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 433.333 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 466.667 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 500 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 533.333 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 600 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 666.667 Pos: -18.647 -6.5686 -0.18
+Pos_Time: 700 Pos: -18.647 -6.5686 -0.18
+
+#20_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.235268 -0.00186527 -0.0153681 0.971807
+Rotate_Time: 33.3333 Rotation: 0.226667 -0.00294487 -0.0175492 0.97381
+Rotate_Time: 66.6667 Rotation: 0.0575795 -0.0106007 -0.0220021 0.998042
+Rotate_Time: 100 Rotation: -0.236116 0.00633542 0.154427 0.959355
+Rotate_Time: 133.333 Rotation: -0.247269 0.0035404 0.136868 0.959225
+Rotate_Time: 166.667 Rotation: -0.247447 0.00175045 0.127032 0.960536
+Rotate_Time: 200 Rotation: -0.211423 -0.000148968 0.0991099 0.972357
+Rotate_Time: 233.333 Rotation: -0.176109 -0.00270114 0.0925234 0.980009
+Rotate_Time: 266.667 Rotation: -0.12395 -0.00390098 0.0561334 0.990692
+Rotate_Time: 333.333 Rotation: -0.105069 -0.00312272 0.0224695 0.994206
+Rotate_Time: 366.667 Rotation: -0.107504 -0.00251138 0.00177494 0.9942
+Rotate_Time: 400 Rotation: -0.0732722 -0.0030512 -0.00336544 0.997302
+Rotate_Time: 433.333 Rotation: -0.0581887 -0.00252311 -0.000178671 0.998302
+Rotate_Time: 466.667 Rotation: -0.0626363 -0.00101664 0.0127614 0.997954
+Rotate_Time: 500 Rotation: -0.0155741 -0.000826938 0.0359015 0.999234
+Rotate_Time: 533.333 Rotation: 0.0166765 0.000472327 0.0782734 0.996792
+Rotate_Time: 600 Rotation: -0.0480828 -0.00168608 -0.0142783 0.99874
+Rotate_Time: 666.667 Rotation: 0.181344 -0.00131312 -0.022146 0.98317
+Rotate_Time: 700 Rotation: 0.235269 -0.00186523 -0.0153679 0.971807
+Pos_Time: 0 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 33.3333 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 66.6667 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 100 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 133.333 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 166.667 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 200 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 233.333 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 266.667 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 333.333 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 366.667 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 400 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 433.333 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 466.667 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 500 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 533.333 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 600 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 666.667 Pos: 0.6217 -39.8717 6.2802
+Pos_Time: 700 Pos: 0.6217 -39.8717 6.2802
+
+#21_KeyFrame
+Scale_Size: 62
+Rotate_Size: 62
+Pos_Size: 62
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 16.6667 Scale: 1 1 1
+Scale_Time: 20 Scale: 1 1 1
+Scale_Time: 23.3333 Scale: 1 1 1
+Scale_Time: 26.6667 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 40 Scale: 1 1 1
+Scale_Time: 43.3333 Scale: 1 1 1
+Scale_Time: 46.6667 Scale: 1 1 1
+Scale_Time: 53.3333 Scale: 1 1 1
+Scale_Time: 56.6667 Scale: 1 1 1
+Scale_Time: 60 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 246.667 Scale: 1 1 1
+Scale_Time: 250 Scale: 1 1 1
+Scale_Time: 253.333 Scale: 1 1 1
+Scale_Time: 256.667 Scale: 1 1 1
+Scale_Time: 260 Scale: 1 1 1
+Scale_Time: 263.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 270 Scale: 1 1 1
+Scale_Time: 273.333 Scale: 1 1 1
+Scale_Time: 276.667 Scale: 1 1 1
+Scale_Time: 280 Scale: 1 1 1
+Scale_Time: 283.333 Scale: 1 1 1
+Scale_Time: 286.667 Scale: 1 1 1
+Scale_Time: 290 Scale: 1 1 1
+Scale_Time: 293.333 Scale: 1 1 1
+Scale_Time: 296.667 Scale: 1 1 1
+Scale_Time: 300 Scale: 1 1 1
+Scale_Time: 303.333 Scale: 1 1 1
+Scale_Time: 306.667 Scale: 1 1 1
+Scale_Time: 310 Scale: 1 1 1
+Scale_Time: 313.333 Scale: 1 1 1
+Scale_Time: 316.667 Scale: 1 1 1
+Scale_Time: 320 Scale: 1 1 1
+Scale_Time: 323.333 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 340 Scale: 1 1 1
+Scale_Time: 343.333 Scale: 1 1 1
+Scale_Time: 346.667 Scale: 1 1 1
+Scale_Time: 350 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 566.667 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 633.333 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 673.333 Scale: 1 1 1
+Scale_Time: 676.667 Scale: 1 1 1
+Scale_Time: 680 Scale: 1 1 1
+Scale_Time: 683.333 Scale: 1 1 1
+Scale_Time: 686.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.00874879 -0.679617 0.0482628 0.731926
+Rotate_Time: 16.6667 Rotation: -0.000411402 -0.689371 0.0456526 0.722969
+Rotate_Time: 20 Rotation: 0.00125603 -0.691301 0.0451293 0.721155
+Rotate_Time: 23.3333 Rotation: 0.00292394 -0.693224 0.044605 0.719335
+Rotate_Time: 26.6667 Rotation: 0.00459138 -0.69514 0.0440807 0.717507
+Rotate_Time: 33.3333 Rotation: 0.00792601 -0.698951 0.043031 0.71383
+Rotate_Time: 40 Rotation: 0.012631 -0.70391 0.0447266 0.708767
+Rotate_Time: 43.3333 Rotation: 0.0152569 -0.706553 0.0460421 0.705996
+Rotate_Time: 46.6667 Rotation: 0.0179913 -0.709273 0.047577 0.703096
+Rotate_Time: 53.3333 Rotation: 0.023555 -0.714854 0.0510361 0.697011
+Rotate_Time: 56.6667 Rotation: 0.0262729 -0.717672 0.0528222 0.693878
+Rotate_Time: 60 Rotation: 0.0288719 -0.720481 0.0545564 0.690722
+Rotate_Time: 66.6667 Rotation: 0.0334908 -0.726003 0.0575946 0.684456
+Rotate_Time: 100 Rotation: 0.0491151 -0.75326 0.0691878 0.652227
+Rotate_Time: 133.333 Rotation: 0.0382103 -0.771011 0.0637852 0.632466
+Rotate_Time: 166.667 Rotation: 0.029533 -0.778473 0.0717638 0.622862
+Rotate_Time: 233.333 Rotation: 0.0176599 -0.768622 0.0734372 0.635229
+Rotate_Time: 246.667 Rotation: 0.015226 -0.759507 0.0722756 0.646292
+Rotate_Time: 250 Rotation: 0.0146789 -0.756611 0.0720488 0.649717
+Rotate_Time: 253.333 Rotation: 0.0140531 -0.753395 0.0718403 0.653481
+Rotate_Time: 256.667 Rotation: 0.0132965 -0.749821 0.0716468 0.657615
+Rotate_Time: 260 Rotation: 0.012358 -0.745849 0.0714639 0.662155
+Rotate_Time: 263.333 Rotation: 0.0111853 -0.741437 0.0712878 0.667132
+Rotate_Time: 266.667 Rotation: 0.00972681 -0.73654 0.0711145 0.672575
+Rotate_Time: 270 Rotation: 0.00796831 -0.730967 0.0708951 0.678673
+Rotate_Time: 273.333 Rotation: 0.00595533 -0.724633 0.0706042 0.685483
+Rotate_Time: 276.667 Rotation: 0.00372634 -0.71766 0.070274 0.692829
+Rotate_Time: 280 Rotation: 0.0013191 -0.710175 0.0699372 0.700542
+Rotate_Time: 283.333 Rotation: -0.00122748 -0.70231 0.0696258 0.708457
+Rotate_Time: 286.667 Rotation: -0.00387555 -0.694205 0.0693742 0.716416
+Rotate_Time: 290 Rotation: -0.00658576 -0.686006 0.0692157 0.724267
+Rotate_Time: 293.333 Rotation: -0.00931986 -0.677865 0.0691853 0.731864
+Rotate_Time: 296.667 Rotation: -0.0120393 -0.669943 0.0693183 0.739071
+Rotate_Time: 300 Rotation: -0.0147052 -0.662404 0.0696501 0.745757
+Rotate_Time: 303.333 Rotation: -0.0174098 -0.654954 0.0701979 0.7522
+Rotate_Time: 306.667 Rotation: -0.0202435 -0.64726 0.0709346 0.758692
+Rotate_Time: 310 Rotation: -0.023166 -0.639439 0.0718296 0.765129
+Rotate_Time: 313.333 Rotation: -0.0261367 -0.631612 0.0728529 0.771411
+Rotate_Time: 316.667 Rotation: -0.0291155 -0.623905 0.0739749 0.777446
+Rotate_Time: 320 Rotation: -0.0320623 -0.616448 0.0751664 0.783144
+Rotate_Time: 323.333 Rotation: -0.0349371 -0.609373 0.0763985 0.788421
+Rotate_Time: 333.333 Rotation: -0.0427339 -0.591816 0.080056 0.800949
+Rotate_Time: 340 Rotation: -0.0470651 -0.583856 0.0825888 0.806273
+Rotate_Time: 343.333 Rotation: -0.0490389 -0.580813 0.0839777 0.808208
+Rotate_Time: 346.667 Rotation: -0.0509108 -0.57832 0.0854062 0.809728
+Rotate_Time: 350 Rotation: -0.0527005 -0.576322 0.0868424 0.810884
+Rotate_Time: 366.667 Rotation: -0.0610929 -0.571718 0.0930155 0.812868
+Rotate_Time: 400 Rotation: -0.0763839 -0.585546 0.098182 0.801038
+Rotate_Time: 433.333 Rotation: -0.0743628 -0.60239 0.108736 0.787257
+Rotate_Time: 466.667 Rotation: -0.0761338 -0.612036 0.103391 0.780337
+Rotate_Time: 500 Rotation: -0.0762087 -0.625119 0.0889719 0.771688
+Rotate_Time: 533.333 Rotation: -0.0689844 -0.641276 0.0837859 0.759596
+Rotate_Time: 566.667 Rotation: -0.0704743 -0.65958 0.0785696 0.744188
+Rotate_Time: 600 Rotation: -0.0680797 -0.670915 0.0705538 0.735024
+Rotate_Time: 633.333 Rotation: -0.0431696 -0.66092 0.0701685 0.74592
+Rotate_Time: 666.667 Rotation: -0.0288357 -0.652952 0.0611235 0.754378
+Rotate_Time: 673.333 Rotation: -0.0248212 -0.65838 0.0585593 0.749994
+Rotate_Time: 676.667 Rotation: -0.0228133 -0.661076 0.0572757 0.747782
+Rotate_Time: 680 Rotation: -0.0208052 -0.66376 0.0559911 0.745556
+Rotate_Time: 683.333 Rotation: -0.0187965 -0.666433 0.0547054 0.743318
+Rotate_Time: 686.667 Rotation: -0.0167875 -0.669094 0.0534188 0.741066
+Rotate_Time: 700 Rotation: -0.00874897 -0.679617 0.048263 0.731926
+Pos_Time: 0 Pos: -31.1017 0.044 1.7893
+Pos_Time: 16.6667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 20 Pos: -31.1017 0.044 1.7893
+Pos_Time: 23.3333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 26.6667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 33.3333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 40 Pos: -31.1017 0.044 1.7893
+Pos_Time: 43.3333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 46.6667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 53.3333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 56.6667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 60 Pos: -31.1017 0.044 1.7893
+Pos_Time: 66.6667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 100 Pos: -31.1017 0.044 1.7893
+Pos_Time: 133.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 166.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 233.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 246.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 250 Pos: -31.1017 0.044 1.7893
+Pos_Time: 253.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 256.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 260 Pos: -31.1017 0.044 1.7893
+Pos_Time: 263.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 266.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 270 Pos: -31.1017 0.044 1.7893
+Pos_Time: 273.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 276.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 280 Pos: -31.1017 0.044 1.7893
+Pos_Time: 283.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 286.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 290 Pos: -31.1017 0.044 1.7893
+Pos_Time: 293.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 296.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 300 Pos: -31.1017 0.044 1.7893
+Pos_Time: 303.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 306.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 310 Pos: -31.1017 0.044 1.7893
+Pos_Time: 313.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 316.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 320 Pos: -31.1017 0.044 1.7893
+Pos_Time: 323.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 333.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 340 Pos: -31.1017 0.044 1.7893
+Pos_Time: 343.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 346.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 350 Pos: -31.1017 0.044 1.7893
+Pos_Time: 366.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 400 Pos: -31.1017 0.044 1.7893
+Pos_Time: 433.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 466.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 500 Pos: -31.1017 0.044 1.7893
+Pos_Time: 533.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 566.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 600 Pos: -31.1017 0.044 1.7893
+Pos_Time: 633.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 666.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 673.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 676.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 680 Pos: -31.1017 0.044 1.7893
+Pos_Time: 683.333 Pos: -31.1017 0.044 1.7893
+Pos_Time: 686.667 Pos: -31.1017 0.044 1.7893
+Pos_Time: 700 Pos: -31.1017 0.044 1.7893
+
+#22_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.00419067 -0.0506142 0.0210179 0.998488
+Rotate_Time: 33.3333 Rotation: 0.00779802 -0.0617836 0.0177695 0.997901
+Rotate_Time: 66.6667 Rotation: 0.0405592 -0.108543 0.0261748 0.992919
+Rotate_Time: 100 Rotation: 0.0633693 -0.156398 0.0553898 0.984102
+Rotate_Time: 133.333 Rotation: 0.0429665 -0.236699 0.0898666 0.966463
+Rotate_Time: 166.667 Rotation: 0.0378339 -0.237957 0.0989812 0.965478
+Rotate_Time: 200 Rotation: 0.0388667 -0.234707 0.0998324 0.966145
+Rotate_Time: 233.333 Rotation: 0.0204838 -0.261157 0.0839428 0.961421
+Rotate_Time: 266.667 Rotation: 0.029571 -0.209562 0.0903842 0.97316
+Rotate_Time: 333.333 Rotation: 0.0281532 -0.214344 0.0311116 0.975857
+Rotate_Time: 366.667 Rotation: 0.0304129 -0.210917 0.0255088 0.976698
+Rotate_Time: 400 Rotation: 0.0250076 -0.189537 0.0434634 0.980592
+Rotate_Time: 433.333 Rotation: 0.0385274 -0.165137 0.054765 0.983995
+Rotate_Time: 466.667 Rotation: 0.0314033 -0.15462 0.0627105 0.985482
+Rotate_Time: 500 Rotation: 0.0108436 -0.134373 0.0634821 0.988836
+Rotate_Time: 533.333 Rotation: 0.00405452 -0.118722 0.049177 0.991701
+Rotate_Time: 600 Rotation: -0.0230531 -0.0803683 0.0534678 0.995063
+Rotate_Time: 666.667 Rotation: 0.00780212 -0.0543496 0.0102415 0.998439
+Rotate_Time: 700 Rotation: 0.00419064 -0.0506142 0.0210179 0.998488
+Pos_Time: 0 Pos: -34.0755 0 -0
+Pos_Time: 33.3333 Pos: -34.0755 0 -0
+Pos_Time: 66.6667 Pos: -34.0755 0 -0
+Pos_Time: 100 Pos: -34.0755 0 -0
+Pos_Time: 133.333 Pos: -34.0755 0 -0
+Pos_Time: 166.667 Pos: -34.0755 0 -0
+Pos_Time: 200 Pos: -34.0755 0 -0
+Pos_Time: 233.333 Pos: -34.0755 0 -0
+Pos_Time: 266.667 Pos: -34.0755 0 -0
+Pos_Time: 333.333 Pos: -34.0755 0 -0
+Pos_Time: 366.667 Pos: -34.0755 0 -0
+Pos_Time: 400 Pos: -34.0755 0 -0
+Pos_Time: 433.333 Pos: -34.0755 0 -0
+Pos_Time: 466.667 Pos: -34.0755 0 -0
+Pos_Time: 500 Pos: -34.0755 0 -0
+Pos_Time: 533.333 Pos: -34.0755 0 -0
+Pos_Time: 600 Pos: -34.0755 0 -0
+Pos_Time: 666.667 Pos: -34.0755 0 -0
+Pos_Time: 700 Pos: -34.0755 0 -0
+
+#23_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0394351 -0.00247464 0.593911 0.80356
+Rotate_Time: 33.3333 Rotation: -0.0398101 -0.00329441 0.599414 0.799442
+Rotate_Time: 66.6667 Rotation: -0.0407196 -0.00530079 0.612767 0.789196
+Rotate_Time: 100 Rotation: -0.0418427 -0.00781344 0.629258 0.77603
+Rotate_Time: 133.333 Rotation: -0.0428732 -0.010154 0.644378 0.763437
+Rotate_Time: 166.667 Rotation: -0.0435226 -0.0116468 0.653901 0.755238
+Rotate_Time: 200 Rotation: -0.0435638 -0.011741 0.654502 0.754713
+Rotate_Time: 233.333 Rotation: -0.0431665 -0.0108256 0.648677 0.759762
+Rotate_Time: 266.667 Rotation: -0.0424465 -0.00917957 0.638114 0.768716
+Rotate_Time: 333.333 Rotation: -0.0403443 -0.00446809 0.607257 0.793468
+Rotate_Time: 366.667 Rotation: -0.0391228 -0.00179192 0.58932 0.80695
+Rotate_Time: 400 Rotation: -0.0379044 0.000836462 0.571417 0.819783
+Rotate_Time: 433.333 Rotation: -0.0367828 0.00322026 0.554933 0.831075
+Rotate_Time: 466.667 Rotation: -0.0358568 0.00516386 0.541319 0.840036
+Rotate_Time: 500 Rotation: -0.0352277 0.00647227 0.532065 0.845945
+Rotate_Time: 533.333 Rotation: -0.034996 0.00695164 0.528658 0.848084
+Rotate_Time: 600 Rotation: -0.0365854 0.00363578 0.552032 0.833012
+Rotate_Time: 666.667 Rotation: -0.0389848 -0.00149418 0.587293 0.808433
+Rotate_Time: 700 Rotation: -0.0394351 -0.00247465 0.593911 0.80356
+Pos_Time: 0 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 33.3333 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 66.6667 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 100 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 133.333 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 166.667 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 200 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 233.333 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 266.667 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 333.333 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 366.667 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 400 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 433.333 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 466.667 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 500 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 533.333 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 600 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 666.667 Pos: -22.4678 -1.2684 -9.8027
+Pos_Time: 700 Pos: -22.4678 -1.2684 -9.8027
+
+#24_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.0152723 -0.0520993 0.718221 0.693694
+Rotate_Time: 33.3333 Rotation: 0.0154022 -0.0526794 0.722981 0.688684
+Rotate_Time: 66.6667 Rotation: 0.015721 -0.0540864 0.734484 0.676285
+Rotate_Time: 100 Rotation: 0.0161156 -0.0558266 0.7486 0.66047
+Rotate_Time: 133.333 Rotation: 0.0164768 -0.0574276 0.761463 0.64545
+Rotate_Time: 166.667 Rotation: 0.0167045 -0.0584381 0.769519 0.635725
+Rotate_Time: 200 Rotation: 0.016719 -0.0585018 0.770026 0.635104
+Rotate_Time: 233.333 Rotation: 0.01658 -0.0578828 0.765104 0.641086
+Rotate_Time: 266.667 Rotation: 0.0163276 -0.0567631 0.756144 0.651734
+Rotate_Time: 333.333 Rotation: 0.0155898 -0.0535022 0.729739 0.681451
+Rotate_Time: 366.667 Rotation: 0.0151602 -0.0516141 0.714242 0.697829
+Rotate_Time: 400 Rotation: 0.014731 -0.0497348 0.698671 0.71356
+Rotate_Time: 433.333 Rotation: 0.0143355 -0.0480089 0.684249 0.727525
+Rotate_Time: 466.667 Rotation: 0.0140087 -0.0465866 0.672278 0.738698
+Rotate_Time: 500 Rotation: 0.0137864 -0.0456214 0.664111 0.746113
+Rotate_Time: 533.333 Rotation: 0.0137044 -0.0452663 0.661098 0.748807
+Rotate_Time: 600 Rotation: 0.0142666 -0.0477072 0.681704 0.729931
+Rotate_Time: 666.667 Rotation: 0.015113 -0.0514034 0.712487 0.699637
+Rotate_Time: 700 Rotation: 0.015272 -0.0520997 0.718221 0.693694
+Pos_Time: 0 Pos: -10.0424 0 -0
+Pos_Time: 33.3333 Pos: -10.0424 0 -0
+Pos_Time: 66.6667 Pos: -10.0424 0 -0
+Pos_Time: 100 Pos: -10.0424 0 -0
+Pos_Time: 133.333 Pos: -10.0424 0 -0
+Pos_Time: 166.667 Pos: -10.0424 0 -0
+Pos_Time: 200 Pos: -10.0424 0 -0
+Pos_Time: 233.333 Pos: -10.0424 0 -0
+Pos_Time: 266.667 Pos: -10.0424 0 -0
+Pos_Time: 333.333 Pos: -10.0424 0 -0
+Pos_Time: 366.667 Pos: -10.0424 0 -0
+Pos_Time: 400 Pos: -10.0424 0 -0
+Pos_Time: 433.333 Pos: -10.0424 0 -0
+Pos_Time: 466.667 Pos: -10.0424 0 -0
+Pos_Time: 500 Pos: -10.0424 0 -0
+Pos_Time: 533.333 Pos: -10.0424 0 -0
+Pos_Time: 600 Pos: -10.0424 0 -0
+Pos_Time: 666.667 Pos: -10.0424 0 -0
+Pos_Time: 700 Pos: -10.0424 0 -0
+
+#25_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.00351746 -0.0251782 0.629675 0.776442
+Rotate_Time: 33.3333 Rotation: 0.00346022 -0.0258242 0.635011 0.772064
+Rotate_Time: 66.6667 Rotation: 0.00330212 -0.0273927 0.647946 0.761186
+Rotate_Time: 100 Rotation: 0.00306795 -0.0293304 0.6639 0.74724
+Rotate_Time: 133.333 Rotation: 0.00281388 -0.031107 0.678507 0.733929
+Rotate_Time: 166.667 Rotation: 0.00263466 -0.0322246 0.687697 0.725278
+Rotate_Time: 200 Rotation: 0.00262277 -0.032295 0.688276 0.724725
+Rotate_Time: 233.333 Rotation: 0.002735 -0.0316115 0.682657 0.73005
+Rotate_Time: 266.667 Rotation: 0.00292377 -0.0303708 0.672458 0.739506
+Rotate_Time: 333.333 Rotation: 0.00337142 -0.0267438 0.64261 0.765719
+Rotate_Time: 366.667 Rotation: 0.00360283 -0.0246581 0.625221 0.78005
+Rotate_Time: 400 Rotation: 0.00385652 -0.0226126 0.607837 0.79373
+Rotate_Time: 433.333 Rotation: 0.00408524 -0.0207476 0.591808 0.805802
+Rotate_Time: 466.667 Rotation: 0.00427043 -0.01922 0.578555 0.815406
+Rotate_Time: 500 Rotation: 0.00439443 -0.0181878 0.569537 0.821752
+Rotate_Time: 533.333 Rotation: 0.00443992 -0.0178091 0.566216 0.824052
+Rotate_Time: 600 Rotation: 0.00412519 -0.0204217 0.588985 0.807875
+Rotate_Time: 666.667 Rotation: 0.00363183 -0.0244273 0.623254 0.781629
+Rotate_Time: 700 Rotation: 0.00354506 -0.0251918 0.629674 0.776443
+Pos_Time: 0 Pos: -26.136 0 -0.0001
+Pos_Time: 33.3333 Pos: -26.136 0 -0.0001
+Pos_Time: 66.6667 Pos: -26.136 0 -0.0001
+Pos_Time: 100 Pos: -26.136 0 -0.0001
+Pos_Time: 133.333 Pos: -26.136 0 -0.0001
+Pos_Time: 166.667 Pos: -26.136 0 -0.0001
+Pos_Time: 200 Pos: -26.136 0 -0.0001
+Pos_Time: 233.333 Pos: -26.136 0 -0.0001
+Pos_Time: 266.667 Pos: -26.136 0 -0.0001
+Pos_Time: 333.333 Pos: -26.136 0 -0.0001
+Pos_Time: 366.667 Pos: -26.136 0 -0.0001
+Pos_Time: 400 Pos: -26.136 0 -0.0001
+Pos_Time: 433.333 Pos: -26.136 0 -0.0001
+Pos_Time: 466.667 Pos: -26.136 0 -0.0001
+Pos_Time: 500 Pos: -26.136 0 -0.0001
+Pos_Time: 533.333 Pos: -26.136 0 -0.0001
+Pos_Time: 600 Pos: -26.136 0 -0.0001
+Pos_Time: 666.667 Pos: -26.136 0 -0.0001
+Pos_Time: 700 Pos: -26.136 0 -0.0001
+
+#26_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.0045731 -0.0549205 0.679429 0.731669
+Rotate_Time: 33.3333 Rotation: 0.00461369 -0.0553866 0.684466 0.726923
+Rotate_Time: 66.6667 Rotation: 0.00469858 -0.0565433 0.696652 0.715162
+Rotate_Time: 100 Rotation: 0.00480585 -0.0579682 0.711639 0.700133
+Rotate_Time: 133.333 Rotation: 0.00490261 -0.0592747 0.725329 0.685828
+Rotate_Time: 166.667 Rotation: 0.00497583 -0.0600801 0.733923 0.676552
+Rotate_Time: 200 Rotation: 0.00498128 -0.0601301 0.734464 0.67596
+Rotate_Time: 233.333 Rotation: 0.00494057 -0.0596314 0.729212 0.681667
+Rotate_Time: 266.667 Rotation: 0.00486293 -0.0587326 0.719664 0.691817
+Rotate_Time: 333.333 Rotation: 0.00466485 -0.0560621 0.691622 0.720065
+Rotate_Time: 366.667 Rotation: 0.00454923 -0.0545074 0.675224 0.735582
+Rotate_Time: 400 Rotation: 0.00443361 -0.0529537 0.658787 0.75045
+Rotate_Time: 433.333 Rotation: 0.00432685 -0.0515218 0.643597 0.763617
+Rotate_Time: 466.667 Rotation: 0.00423854 -0.0503384 0.631012 0.774127
+Rotate_Time: 500 Rotation: 0.00417844 -0.0495333 0.622436 0.78109
+Rotate_Time: 533.333 Rotation: 0.00415627 -0.0492369 0.619276 0.783617
+Rotate_Time: 600 Rotation: 0.00430861 -0.0512712 0.64092 0.765882
+Rotate_Time: 666.667 Rotation: 0.00453732 -0.0543341 0.673369 0.737293
+Rotate_Time: 700 Rotation: 0.00458894 -0.054895 0.679431 0.731668
+Pos_Time: 0 Pos: -6.0735 0 -0
+Pos_Time: 33.3333 Pos: -6.0735 0 -0
+Pos_Time: 66.6667 Pos: -6.0735 0 -0
+Pos_Time: 100 Pos: -6.0735 0 -0
+Pos_Time: 133.333 Pos: -6.0735 0 -0
+Pos_Time: 166.667 Pos: -6.0735 0 -0
+Pos_Time: 200 Pos: -6.0735 0 -0
+Pos_Time: 233.333 Pos: -6.0735 0 -0
+Pos_Time: 266.667 Pos: -6.0735 0 -0
+Pos_Time: 333.333 Pos: -6.0735 0 -0
+Pos_Time: 366.667 Pos: -6.0735 0 -0
+Pos_Time: 400 Pos: -6.0735 0 -0
+Pos_Time: 433.333 Pos: -6.0735 0 -0
+Pos_Time: 466.667 Pos: -6.0735 0 -0
+Pos_Time: 500 Pos: -6.0735 0 -0
+Pos_Time: 533.333 Pos: -6.0735 0 -0
+Pos_Time: 600 Pos: -6.0735 0 -0
+Pos_Time: 666.667 Pos: -6.0735 0 -0
+Pos_Time: 700 Pos: -6.0735 0 -0
+
+#27_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.0750443 0.0185509 0.754864 0.65131
+Rotate_Time: 33.3333 Rotation: 0.075722 0.0175349 0.759279 0.646107
+Rotate_Time: 66.6667 Rotation: 0.0773812 0.015064 0.769936 0.633233
+Rotate_Time: 100 Rotation: 0.0794614 0.0119992 0.78298 0.616834
+Rotate_Time: 133.333 Rotation: 0.0813513 0.00911463 0.794825 0.601291
+Rotate_Time: 166.667 Rotation: 0.0825538 0.00728387 0.802225 0.591241
+Rotate_Time: 200 Rotation: 0.0826317 0.00717042 0.80269 0.5906
+Rotate_Time: 233.333 Rotation: 0.0818886 0.00828516 0.798172 0.596781
+Rotate_Time: 266.667 Rotation: 0.0805694 0.0103179 0.789932 0.607791
+Rotate_Time: 333.333 Rotation: 0.0767047 0.016101 0.765547 0.638588
+Rotate_Time: 366.667 Rotation: 0.0744668 0.0193813 0.751171 0.655607
+Rotate_Time: 400 Rotation: 0.0722276 0.0225861 0.736683 0.671991
+Rotate_Time: 433.333 Rotation: 0.0701651 0.0254836 0.723225 0.686566
+Rotate_Time: 466.667 Rotation: 0.068462 0.0278393 0.71203 0.698248
+Rotate_Time: 500 Rotation: 0.0673037 0.0294223 0.704381 0.706011
+Rotate_Time: 533.333 Rotation: 0.0668775 0.0300015 0.701555 0.708835
+Rotate_Time: 600 Rotation: 0.0698027 0.0259871 0.720847 0.689081
+Rotate_Time: 666.667 Rotation: 0.0742139 0.0197455 0.749538 0.657492
+Rotate_Time: 700 Rotation: 0.0750244 0.0185255 0.754864 0.651313
+Pos_Time: 0 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 33.3333 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 66.6667 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 100 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 133.333 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 166.667 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 200 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 233.333 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 266.667 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 333.333 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 366.667 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 400 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 433.333 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 466.667 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 500 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 533.333 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 600 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 666.667 Pos: -22.3177 -1.2972 8.8335
+Pos_Time: 700 Pos: -22.3177 -1.2972 8.8335
+
+#28_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0304489 -0.0880806 0.750198 0.654612
+Rotate_Time: 33.3333 Rotation: -0.0306664 -0.0882105 0.754723 0.649362
+Rotate_Time: 66.6667 Rotation: -0.0311898 -0.0885098 0.765644 0.636382
+Rotate_Time: 100 Rotation: -0.031831 -0.0888482 0.779021 0.619855
+Rotate_Time: 133.333 Rotation: -0.0324174 -0.089128 0.791179 0.604186
+Rotate_Time: 166.667 Rotation: -0.032785 -0.0892884 0.798781 0.594056
+Rotate_Time: 200 Rotation: -0.0328078 -0.0892981 0.799259 0.59341
+Rotate_Time: 233.333 Rotation: -0.0325829 -0.0892018 0.794616 0.599639
+Rotate_Time: 266.667 Rotation: -0.0321747 -0.0890153 0.786155 0.610738
+Rotate_Time: 333.333 Rotation: -0.0309727 -0.088387 0.761143 0.641786
+Rotate_Time: 366.667 Rotation: -0.0302688 -0.0879679 0.746414 0.658948
+Rotate_Time: 400 Rotation: -0.0295626 -0.0875128 0.731581 0.675468
+Rotate_Time: 433.333 Rotation: -0.0289095 -0.0870626 0.717814 0.690165
+Rotate_Time: 466.667 Rotation: -0.0283679 -0.0866691 0.706368 0.701946
+Rotate_Time: 500 Rotation: -0.027998 -0.0863904 0.698548 0.709778
+Rotate_Time: 533.333 Rotation: -0.0278623 -0.0862862 0.695662 0.712624
+Rotate_Time: 600 Rotation: -0.0287941 -0.0869811 0.715382 0.6927
+Rotate_Time: 666.667 Rotation: -0.0301888 -0.0879199 0.744743 0.660846
+Rotate_Time: 700 Rotation: -0.030449 -0.0880808 0.750198 0.654612
+Pos_Time: 0 Pos: -7.4219 0 -0
+Pos_Time: 33.3333 Pos: -7.4219 0 -0
+Pos_Time: 66.6667 Pos: -7.4219 0 -0
+Pos_Time: 100 Pos: -7.4219 0 -0
+Pos_Time: 133.333 Pos: -7.4219 0 -0
+Pos_Time: 166.667 Pos: -7.4219 0 -0
+Pos_Time: 200 Pos: -7.4219 0 -0
+Pos_Time: 233.333 Pos: -7.4219 0 -0
+Pos_Time: 266.667 Pos: -7.4219 0 -0
+Pos_Time: 333.333 Pos: -7.4219 0 -0
+Pos_Time: 366.667 Pos: -7.4219 0 -0
+Pos_Time: 400 Pos: -7.4219 0 -0
+Pos_Time: 433.333 Pos: -7.4219 0 -0
+Pos_Time: 466.667 Pos: -7.4219 0 -0
+Pos_Time: 500 Pos: -7.4219 0 -0
+Pos_Time: 533.333 Pos: -7.4219 0 -0
+Pos_Time: 600 Pos: -7.4219 0 -0
+Pos_Time: 666.667 Pos: -7.4219 0 -0
+Pos_Time: 700 Pos: -7.4219 0 -0
+
+#29_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0118822 -0.0194287 0.0635172 0.997721
+Rotate_Time: 33.3333 Rotation: -0.0122145 -0.0182637 0.0633914 0.997747
+Rotate_Time: 66.6667 Rotation: -0.0130291 -0.0154125 0.0630836 0.997804
+Rotate_Time: 100 Rotation: -0.0140519 -0.0118364 0.0626976 0.997863
+Rotate_Time: 133.333 Rotation: -0.0150043 -0.0085038 0.0623358 0.997906
+Rotate_Time: 166.667 Rotation: -0.0156126 -0.00637496 0.0621047 0.997927
+Rotate_Time: 200 Rotation: -0.0156727 -0.00605691 0.0620875 0.997929
+Rotate_Time: 233.333 Rotation: -0.0156325 -0.00604803 0.0621111 0.997929
+Rotate_Time: 266.667 Rotation: -0.0156125 -0.00604351 0.0621228 0.997928
+Rotate_Time: 333.333 Rotation: -0.0156157 -0.00604414 0.0621207 0.997928
+Rotate_Time: 366.667 Rotation: -0.0156313 -0.00604779 0.0621117 0.997929
+Rotate_Time: 400 Rotation: -0.0156515 -0.00605221 0.0621 0.997929
+Rotate_Time: 433.333 Rotation: -0.0156724 -0.0060569 0.0620875 0.997929
+Rotate_Time: 466.667 Rotation: -0.01569 -0.00606083 0.0620776 0.99793
+Rotate_Time: 500 Rotation: -0.0157006 -0.00606306 0.0620717 0.99793
+Rotate_Time: 533.333 Rotation: -0.0157021 -0.00606324 0.062071 0.99793
+Rotate_Time: 600 Rotation: -0.0143581 -0.0107682 0.0625811 0.997878
+Rotate_Time: 666.667 Rotation: -0.012279 -0.0180385 0.0633671 0.997752
+Rotate_Time: 700 Rotation: -0.0118822 -0.0194287 0.0635172 0.997721
+Pos_Time: 0 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 33.3333 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 66.6667 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 100 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 133.333 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 166.667 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 200 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 233.333 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 266.667 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 333.333 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 366.667 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 400 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 433.333 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 466.667 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 500 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 533.333 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 600 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 666.667 Pos: -10.0174 -6.8066 -11.6421
+Pos_Time: 700 Pos: -10.0174 -6.8066 -11.6421
+
+#30_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0340846 0.0948251 -0.0362879 0.994248
+Rotate_Time: 33.3333 Rotation: -0.0364848 0.0997563 -0.0370846 0.993651
+Rotate_Time: 66.6667 Rotation: -0.042342 0.111824 -0.0390218 0.992058
+Rotate_Time: 100 Rotation: -0.049644 0.12694 -0.0414244 0.989801
+Rotate_Time: 133.333 Rotation: -0.0564122 0.14102 -0.0436354 0.987435
+Rotate_Time: 166.667 Rotation: -0.060713 0.15 -0.0450318 0.985792
+Rotate_Time: 200 Rotation: -0.0613494 0.151331 -0.0452378 0.98554
+Rotate_Time: 233.333 Rotation: -0.0614128 0.151468 -0.045263 0.985514
+Rotate_Time: 266.667 Rotation: -0.0615301 0.151715 -0.045302 0.985467
+Rotate_Time: 333.333 Rotation: -0.061868 0.152414 -0.0454054 0.985333
+Rotate_Time: 366.667 Rotation: -0.0620583 0.152812 -0.045467 0.985256
+Rotate_Time: 400 Rotation: -0.0622449 0.153203 -0.0455286 0.985181
+Rotate_Time: 433.333 Rotation: -0.0624153 0.153557 -0.0455807 0.985113
+Rotate_Time: 466.667 Rotation: -0.0625543 0.153846 -0.0456239 0.985057
+Rotate_Time: 500 Rotation: -0.0626468 0.15404 -0.0456553 0.985019
+Rotate_Time: 533.333 Rotation: -0.0626801 0.154112 -0.045668 0.985005
+Rotate_Time: 600 Rotation: -0.0526961 0.133275 -0.0424232 0.988768
+Rotate_Time: 666.667 Rotation: -0.0370927 0.101001 -0.0372867 0.993495
+Rotate_Time: 700 Rotation: -0.0340866 0.094824 -0.0362891 0.994248
+Pos_Time: 0 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 33.3333 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 66.6667 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 100 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 133.333 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 166.667 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 200 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 233.333 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 266.667 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 333.333 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 366.667 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 400 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 433.333 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 466.667 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 500 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 533.333 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 600 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 666.667 Pos: -5.3815 -3.1069 -3.107
+Pos_Time: 700 Pos: -5.3815 -3.1069 -3.107
+
+#31_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.427163 -0.00188431 -0.0155983 0.904038
+Rotate_Time: 33.3333 Rotation: -0.29842 -0.0375905 -0.0106074 0.953635
+Rotate_Time: 66.6667 Rotation: -0.150904 -0.0972798 -0.000421238 0.98375
+Rotate_Time: 100 Rotation: -0.0514762 -0.126849 -0.0172581 0.990435
+Rotate_Time: 133.333 Rotation: -0.130481 -0.0847916 -0.0047263 0.987807
+Rotate_Time: 166.667 Rotation: -0.280554 0.00977908 -0.0228921 0.959515
+Rotate_Time: 200 Rotation: -0.448562 -0.00545683 -0.0169176 0.893575
+Rotate_Time: 233.333 Rotation: -0.58548 0.0343037 -0.0138759 0.809842
+Rotate_Time: 266.667 Rotation: -0.71042 0.02395 0.00729601 0.703333
+Rotate_Time: 333.333 Rotation: -0.805794 0.0148097 0.0309317 0.591201
+Rotate_Time: 366.667 Rotation: -0.745985 0.0238551 0.0186426 0.665275
+Rotate_Time: 400 Rotation: -0.629929 0.0350372 0.00940201 0.775805
+Rotate_Time: 433.333 Rotation: -0.451348 0.0449043 0.00218577 0.891215
+Rotate_Time: 466.667 Rotation: -0.208195 0.0798864 -0.0110806 0.974757
+Rotate_Time: 500 Rotation: -0.101576 0.0307463 -0.00272904 0.994349
+Rotate_Time: 533.333 Rotation: -0.0848824 -0.0151854 -0.00298436 0.996271
+Rotate_Time: 600 Rotation: -0.228823 0.00648078 -0.00687447 0.973422
+Rotate_Time: 666.667 Rotation: -0.450892 0.0212268 0.00359934 0.892319
+Rotate_Time: 700 Rotation: -0.427164 -0.00188428 -0.0155983 0.904038
+Pos_Time: 0 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 33.3333 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 66.6667 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 100 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 133.333 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 166.667 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 200 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 233.333 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 266.667 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 333.333 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 366.667 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 400 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 433.333 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 466.667 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 500 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 533.333 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 600 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 666.667 Pos: -0.6095 -37.0223 -3.7869
+Pos_Time: 700 Pos: -0.6095 -37.0223 -3.7869
+
+#32_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0111331 -0.0520608 0.0833732 0.995095
+Rotate_Time: 33.3333 Rotation: -0.0133359 -0.0656259 0.0730595 0.995077
+Rotate_Time: 66.6667 Rotation: -0.0140403 -0.0731875 0.074264 0.99445
+Rotate_Time: 100 Rotation: -0.0132046 -0.0675326 0.0774462 0.994619
+Rotate_Time: 133.333 Rotation: -0.0133252 -0.0693783 0.0784326 0.994413
+Rotate_Time: 166.667 Rotation: -0.0147748 -0.0785843 0.0719271 0.9942
+Rotate_Time: 200 Rotation: -0.0148043 -0.0752198 0.0664841 0.994838
+Rotate_Time: 233.333 Rotation: -0.0139993 -0.069858 0.0696157 0.995026
+Rotate_Time: 266.667 Rotation: -0.0125941 -0.0608069 0.0756644 0.995198
+Rotate_Time: 333.333 Rotation: -0.0112444 -0.0434042 0.0675443 0.996708
+Rotate_Time: 366.667 Rotation: -0.00850918 -0.0251177 0.0782594 0.99658
+Rotate_Time: 400 Rotation: -0.00791675 -0.00917577 0.0603124 0.998106
+Rotate_Time: 433.333 Rotation: -0.00860826 -0.0110662 0.0521666 0.99854
+Rotate_Time: 466.667 Rotation: -0.00752143 0.0055795 0.0394039 0.999179
+Rotate_Time: 500 Rotation: -0.00659675 0.0180616 0.0300213 0.999364
+Rotate_Time: 533.333 Rotation: -0.00620206 0.0188025 0.0348795 0.999195
+Rotate_Time: 600 Rotation: -0.00597513 0.0073828 0.0583264 0.998252
+Rotate_Time: 666.667 Rotation: -0.00870199 -0.0307784 0.084061 0.995947
+Rotate_Time: 700 Rotation: -0.0111331 -0.0520608 0.0833732 0.995095
+Pos_Time: 0 Pos: -14.6442 23.6531 1.686
+Pos_Time: 33.3333 Pos: -14.6442 23.6531 1.686
+Pos_Time: 66.6667 Pos: -14.6442 23.6531 1.686
+Pos_Time: 100 Pos: -14.6442 23.6531 1.686
+Pos_Time: 133.333 Pos: -14.6442 23.6531 1.686
+Pos_Time: 166.667 Pos: -14.6442 23.6531 1.686
+Pos_Time: 200 Pos: -14.6442 23.6531 1.686
+Pos_Time: 233.333 Pos: -14.6442 23.6531 1.686
+Pos_Time: 266.667 Pos: -14.6442 23.6531 1.686
+Pos_Time: 333.333 Pos: -14.6442 23.6531 1.686
+Pos_Time: 366.667 Pos: -14.6442 23.6531 1.686
+Pos_Time: 400 Pos: -14.6442 23.6531 1.686
+Pos_Time: 433.333 Pos: -14.6442 23.6531 1.686
+Pos_Time: 466.667 Pos: -14.6442 23.6531 1.686
+Pos_Time: 500 Pos: -14.6442 23.6531 1.686
+Pos_Time: 533.333 Pos: -14.6442 23.6531 1.686
+Pos_Time: 600 Pos: -14.6442 23.6531 1.686
+Pos_Time: 666.667 Pos: -14.6442 23.6531 1.686
+Pos_Time: 700 Pos: -14.6442 23.6531 1.686
+
+#33_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.0909091 -0.111985 -0.0166145 0.989403
+Rotate_Time: 33.3333 Rotation: 0.150637 -0.12053 -0.0260472 0.980868
+Rotate_Time: 66.6667 Rotation: 0.280003 -0.0955069 -0.0459026 0.954133
+Rotate_Time: 100 Rotation: 0.514559 -0.113379 -0.151609 0.836295
+Rotate_Time: 133.333 Rotation: 0.0527922 -0.0187967 -0.0358483 0.997785
+Rotate_Time: 166.667 Rotation: 0.100183 -0.0434794 -0.0401672 0.993207
+Rotate_Time: 200 Rotation: 0.167231 -0.0766705 -0.0670011 0.980646
+Rotate_Time: 233.333 Rotation: 0.172643 -0.0999784 -0.0727119 0.977196
+Rotate_Time: 266.667 Rotation: 0.153912 -0.0784381 -0.0604204 0.983111
+Rotate_Time: 333.333 Rotation: 0.125799 -0.0794994 -0.0528139 0.987454
+Rotate_Time: 366.667 Rotation: 0.125753 -0.0732059 -0.0539414 0.987885
+Rotate_Time: 400 Rotation: 0.100743 -0.082335 -0.0491345 0.990282
+Rotate_Time: 433.333 Rotation: 0.0856914 -0.0857068 -0.0475027 0.991491
+Rotate_Time: 466.667 Rotation: 0.0766393 -0.111938 -0.0568838 0.989121
+Rotate_Time: 500 Rotation: 0.0667892 -0.109198 -0.0561731 0.990182
+Rotate_Time: 533.333 Rotation: 0.0628639 -0.123608 -0.0643224 0.988247
+Rotate_Time: 600 Rotation: 0.0631742 -0.107504 -0.0655928 0.990025
+Rotate_Time: 666.667 Rotation: 0.0459213 -0.105428 -0.0111486 0.993304
+Rotate_Time: 700 Rotation: 0.0909091 -0.111985 -0.0166146 0.989403
+Pos_Time: 0 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 33.3333 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 66.6667 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 100 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 133.333 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 166.667 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 200 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 233.333 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 266.667 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 333.333 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 366.667 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 400 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 433.333 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 466.667 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 500 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 533.333 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 600 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 666.667 Pos: -8.9308 -12.5416 -21.0731
+Pos_Time: 700 Pos: -8.9308 -12.5416 -21.0731
+
+#34_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: 0.188618 0.0461207 0.0565006 0.979339
+Rotate_Time: 33.3333 Rotation: 0.00754288 0.0685767 0.0412134 0.996766
+Rotate_Time: 66.6667 Rotation: -0.151342 0.10051 0.0191309 0.983172
+Rotate_Time: 100 Rotation: -0.226896 0.130009 -0.0129974 0.965115
+Rotate_Time: 133.333 Rotation: -0.254791 0.114022 -0.0285811 0.959825
+Rotate_Time: 166.667 Rotation: -0.242242 0.0801092 -0.0450688 0.965852
+Rotate_Time: 200 Rotation: -0.193092 0.0705361 -0.0461354 0.977554
+Rotate_Time: 233.333 Rotation: -0.113782 0.0501526 -0.0499171 0.990983
+Rotate_Time: 266.667 Rotation: 0.00510529 0.0297746 -0.0528715 0.998144
+Rotate_Time: 333.333 Rotation: 0.354487 0.0114697 -0.0736009 0.932089
+Rotate_Time: 366.667 Rotation: 0.438508 0.0262976 -0.0634515 0.896099
+Rotate_Time: 400 Rotation: 0.469341 0.026551 -0.0368959 0.881846
+Rotate_Time: 433.333 Rotation: 0.471294 0.0163555 0.00308223 0.881819
+Rotate_Time: 466.667 Rotation: 0.424849 0.016122 0.0201151 0.904897
+Rotate_Time: 500 Rotation: 0.401878 0.0184157 0.0222923 0.915237
+Rotate_Time: 533.333 Rotation: 0.387702 0.0194127 0.0264547 0.9212
+Rotate_Time: 600 Rotation: 0.37555 0.0288164 0.036592 0.925631
+Rotate_Time: 666.667 Rotation: 0.312325 0.0453051 0.0540152 0.947356
+Rotate_Time: 700 Rotation: 0.188618 0.0461206 0.0565005 0.979338
+Pos_Time: 0 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 33.3333 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 66.6667 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 100 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 133.333 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 166.667 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 200 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 233.333 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 266.667 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 333.333 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 366.667 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 400 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 433.333 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 466.667 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 500 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 533.333 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 600 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 666.667 Pos: -11.6219 -7.591 0.7136
+Pos_Time: 700 Pos: -11.6219 -7.591 0.7136
+
+#35_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0430067 -0.0101242 0.0207978 0.998807
+Rotate_Time: 33.3333 Rotation: -0.0393409 -0.0221617 0.0188394 0.998802
+Rotate_Time: 66.6667 Rotation: -0.0351812 -0.0323827 0.0134182 0.998766
+Rotate_Time: 100 Rotation: -0.0297579 -0.0378257 0.00143117 0.99884
+Rotate_Time: 133.333 Rotation: -0.0247319 -0.042574 -0.00714144 0.998762
+Rotate_Time: 166.667 Rotation: -0.0257154 -0.045695 -0.0101491 0.998573
+Rotate_Time: 200 Rotation: -0.0290706 -0.0447363 -0.0127226 0.998495
+Rotate_Time: 233.333 Rotation: -0.033757 -0.0415311 -0.0152669 0.99845
+Rotate_Time: 266.667 Rotation: -0.0397068 -0.0365007 -0.0172965 0.998395
+Rotate_Time: 333.333 Rotation: -0.0470197 -0.00265297 -0.0217409 0.998654
+Rotate_Time: 366.667 Rotation: -0.0474312 0.0141437 -0.0178894 0.998614
+Rotate_Time: 400 Rotation: -0.0431591 0.0268166 -0.00866129 0.998671
+Rotate_Time: 433.333 Rotation: -0.0379968 0.0370687 0.00518023 0.998577
+Rotate_Time: 466.667 Rotation: -0.0352811 0.0424568 0.0161172 0.998345
+Rotate_Time: 500 Rotation: -0.0384116 0.0448421 0.0205025 0.998045
+Rotate_Time: 533.333 Rotation: -0.0404429 0.0429078 0.021735 0.998024
+Rotate_Time: 600 Rotation: -0.0428999 0.0366371 0.0236977 0.998126
+Rotate_Time: 666.667 Rotation: -0.0461275 0.00937009 0.0284723 0.998486
+Rotate_Time: 700 Rotation: -0.0430067 -0.0101242 0.0207978 0.998807
+Pos_Time: 0 Pos: 0 13.6639 1.184
+Pos_Time: 33.3333 Pos: 0 13.6639 1.184
+Pos_Time: 66.6667 Pos: 0 13.6639 1.184
+Pos_Time: 100 Pos: 0 13.6639 1.184
+Pos_Time: 133.333 Pos: 0 13.6639 1.184
+Pos_Time: 166.667 Pos: 0 13.6639 1.184
+Pos_Time: 200 Pos: 0 13.6639 1.184
+Pos_Time: 233.333 Pos: 0 13.6639 1.184
+Pos_Time: 266.667 Pos: 0 13.6639 1.184
+Pos_Time: 333.333 Pos: 0 13.6639 1.184
+Pos_Time: 366.667 Pos: 0 13.6639 1.184
+Pos_Time: 400 Pos: 0 13.6639 1.184
+Pos_Time: 433.333 Pos: 0 13.6639 1.184
+Pos_Time: 466.667 Pos: 0 13.6639 1.184
+Pos_Time: 500 Pos: 0 13.6639 1.184
+Pos_Time: 533.333 Pos: 0 13.6639 1.184
+Pos_Time: 600 Pos: 0 13.6639 1.184
+Pos_Time: 666.667 Pos: 0 13.6639 1.184
+Pos_Time: 700 Pos: 0 13.6639 1.184
+
+#36_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.086244 -0.0230505 0.0170668 0.995861
+Rotate_Time: 33.3333 Rotation: -0.0792132 -0.0436015 0.0102054 0.995851
+Rotate_Time: 66.6667 Rotation: -0.0710397 -0.0617371 0.00271961 0.995557
+Rotate_Time: 100 Rotation: -0.0598216 -0.0728667 -0.00698597 0.995521
+Rotate_Time: 133.333 Rotation: -0.0494202 -0.0811389 -0.0138366 0.995381
+Rotate_Time: 166.667 Rotation: -0.0511878 -0.0830221 -0.014286 0.99513
+Rotate_Time: 200 Rotation: -0.0577578 -0.0762696 -0.0142588 0.995311
+Rotate_Time: 233.333 Rotation: -0.0670421 -0.0664696 -0.0143914 0.99543
+Rotate_Time: 266.667 Rotation: -0.0790284 -0.0550104 -0.0174504 0.9952
+Rotate_Time: 333.333 Rotation: -0.0940128 0.00127276 -0.0132538 0.995482
+Rotate_Time: 366.667 Rotation: -0.0952792 0.0296398 -0.000998948 0.995009
+Rotate_Time: 400 Rotation: -0.0870585 0.0499913 0.0151034 0.994833
+Rotate_Time: 433.333 Rotation: -0.0765171 0.0676091 0.0262546 0.994427
+Rotate_Time: 466.667 Rotation: -0.0706014 0.0797374 0.0336386 0.993743
+Rotate_Time: 500 Rotation: -0.0765296 0.0828875 0.0339951 0.993034
+Rotate_Time: 533.333 Rotation: -0.0805735 0.0749499 0.033241 0.993371
+Rotate_Time: 600 Rotation: -0.0855506 0.057155 0.0327762 0.994153
+Rotate_Time: 666.667 Rotation: -0.0921609 0.0113833 0.0343913 0.995085
+Rotate_Time: 700 Rotation: -0.0862441 -0.0230506 0.0170668 0.995861
+Pos_Time: 0 Pos: 0 15.9412 1.3813
+Pos_Time: 33.3333 Pos: 0 15.9412 1.3813
+Pos_Time: 66.6667 Pos: 0 15.9412 1.3813
+Pos_Time: 100 Pos: 0 15.9412 1.3813
+Pos_Time: 133.333 Pos: 0 15.9412 1.3813
+Pos_Time: 166.667 Pos: 0 15.9412 1.3813
+Pos_Time: 200 Pos: 0 15.9412 1.3813
+Pos_Time: 233.333 Pos: 0 15.9412 1.3813
+Pos_Time: 266.667 Pos: 0 15.9412 1.3813
+Pos_Time: 333.333 Pos: 0 15.9412 1.3813
+Pos_Time: 366.667 Pos: 0 15.9412 1.3813
+Pos_Time: 400 Pos: 0 15.9412 1.3813
+Pos_Time: 433.333 Pos: 0 15.9412 1.3813
+Pos_Time: 466.667 Pos: 0 15.9412 1.3813
+Pos_Time: 500 Pos: 0 15.9412 1.3813
+Pos_Time: 533.333 Pos: 0 15.9412 1.3813
+Pos_Time: 600 Pos: 0 15.9412 1.3813
+Pos_Time: 666.667 Pos: 0 15.9412 1.3813
+Pos_Time: 700 Pos: 0 15.9412 1.3813
+
+#37_KeyFrame
+Scale_Size: 19
+Rotate_Size: 19
+Pos_Size: 19
+Scale_Time: 0 Scale: 1 1 1
+Scale_Time: 33.3333 Scale: 1 1 1
+Scale_Time: 66.6667 Scale: 1 1 1
+Scale_Time: 100 Scale: 1 1 1
+Scale_Time: 133.333 Scale: 1 1 1
+Scale_Time: 166.667 Scale: 1 1 1
+Scale_Time: 200 Scale: 1 1 1
+Scale_Time: 233.333 Scale: 1 1 1
+Scale_Time: 266.667 Scale: 1 1 1
+Scale_Time: 333.333 Scale: 1 1 1
+Scale_Time: 366.667 Scale: 1 1 1
+Scale_Time: 400 Scale: 1 1 1
+Scale_Time: 433.333 Scale: 1 1 1
+Scale_Time: 466.667 Scale: 1 1 1
+Scale_Time: 500 Scale: 1 1 1
+Scale_Time: 533.333 Scale: 1 1 1
+Scale_Time: 600 Scale: 1 1 1
+Scale_Time: 666.667 Scale: 1 1 1
+Scale_Time: 700 Scale: 1 1 1
+Rotate_Time: 0 Rotation: -0.0862441 -0.0230506 0.0170668 0.995861
+Rotate_Time: 33.3333 Rotation: -0.0792131 -0.0436015 0.0102053 0.995851
+Rotate_Time: 66.6667 Rotation: -0.0710397 -0.0617372 0.00271961 0.995557
+Rotate_Time: 100 Rotation: -0.0598216 -0.0728666 -0.00698595 0.995521
+Rotate_Time: 133.333 Rotation: -0.0494202 -0.0811388 -0.0138366 0.995381
+Rotate_Time: 166.667 Rotation: -0.0511878 -0.0830222 -0.014286 0.99513
+Rotate_Time: 200 Rotation: -0.0577578 -0.0762696 -0.0142588 0.995311
+Rotate_Time: 233.333 Rotation: -0.0670421 -0.0664696 -0.0143914 0.99543
+Rotate_Time: 266.667 Rotation: -0.0790284 -0.0550104 -0.0174504 0.9952
+Rotate_Time: 333.333 Rotation: -0.0940127 0.00127276 -0.0132538 0.995482
+Rotate_Time: 366.667 Rotation: -0.0952791 0.0296398 -0.00099895 0.995009
+Rotate_Time: 400 Rotation: -0.0870585 0.0499913 0.0151034 0.994833
+Rotate_Time: 433.333 Rotation: -0.0765171 0.0676091 0.0262546 0.994427
+Rotate_Time: 466.667 Rotation: -0.0706015 0.0797374 0.0336386 0.993743
+Rotate_Time: 500 Rotation: -0.0765296 0.0828875 0.0339951 0.993034
+Rotate_Time: 533.333 Rotation: -0.0805734 0.0749499 0.033241 0.993371
+Rotate_Time: 600 Rotation: -0.0855507 0.0571551 0.0327762 0.994153
+Rotate_Time: 666.667 Rotation: -0.0921609 0.0113833 0.0343913 0.995085
+Rotate_Time: 700 Rotation: -0.0862441 -0.0230506 0.0170668 0.995861
+Pos_Time: 0 Pos: 0 11.7769 1.5786
+Pos_Time: 33.3333 Pos: 0 11.7769 1.5786
+Pos_Time: 66.6667 Pos: 0 11.7769 1.5786
+Pos_Time: 100 Pos: 0 11.7769 1.5786
+Pos_Time: 133.333 Pos: 0 11.7769 1.5786
+Pos_Time: 166.667 Pos: 0 11.7769 1.5786
+Pos_Time: 200 Pos: 0 11.7769 1.5786
+Pos_Time: 233.333 Pos: 0 11.7769 1.5786
+Pos_Time: 266.667 Pos: 0 11.7769 1.5786
+Pos_Time: 333.333 Pos: 0 11.7769 1.5786
+Pos_Time: 366.667 Pos: 0 11.7769 1.5786
+Pos_Time: 400 Pos: 0 11.7769 1.5786
+Pos_Time: 433.333 Pos: 0 11.7769 1.5786
+Pos_Time: 466.667 Pos: 0 11.7769 1.5786
+Pos_Time: 500 Pos: 0 11.7769 1.5786
+Pos_Time: 533.333 Pos: 0 11.7769 1.5786
+Pos_Time: 600 Pos: 0 11.7769 1.5786
+Pos_Time: 666.667 Pos: 0 11.7769 1.5786
+Pos_Time: 700 Pos: 0 11.7769 1.5786
+

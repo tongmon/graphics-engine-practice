@@ -1,8 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
 
-set(VCPKG_TARGET_TRIPLET "x64-windows-static" CACHE STRING "")
-set(CMAKE_TOOLCHAIN_FILE C:/vcpkg/scripts/buildsystems/vcpkg.cmake)
-
 add_custom_target(Graphviz ALL
     COMMAND ${CMAKE_COMMAND} "--graphviz=${CMAKE_BINARY_DIR}/Graph_Info/graph.dot" .
     COMMAND dot -Tpng ${CMAKE_BINARY_DIR}/Graph_Info/graph.dot -o ${CMAKE_BINARY_DIR}/../Graph_${CMAKE_BUILD_TYPE}.png

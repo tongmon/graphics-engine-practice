@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>ee969c27-e901-4ade-80e1-1dc5978f1661</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>54297137-2885-4f6e-9443-6cd88a2b26c0</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{b690f169-fa8f-46f3-9a19-e66ea5602a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXTK">
+      <UniqueIdentifier>{7e90b6f8-9c56-4e2b-ab77-6ae1c57f4bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Frame_Kit">
+      <UniqueIdentifier>{107e2543-167b-4b75-8fbe-08ad7e7731b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Essential">
+      <UniqueIdentifier>{f00d4cac-547a-4378-ba92-44b90de70935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{4b63b2fb-0a19-4696-8c03-58a59ce85b68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="DXTK\Audio.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\DDSTextureLoader.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\DirectXHelpers.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\GamePad.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Keyboard.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Mouse.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\SimpleMath.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\VertexTypes.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\WICTextureLoader.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\d3dx11effect.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\d3dxGlobal.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\dxerr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Kit\Camera.h">
+      <Filter>Frame_Kit</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Kit\d3dUtil.h">
+      <Filter>Frame_Kit</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Kit\GeometryGenerator.h">
+      <Filter>Frame_Kit</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Kit\LightHelper.h">
+      <Filter>Frame_Kit</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Kit\MathHelper.h">
+      <Filter>Frame_Kit</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Kit\TextureMgr.h">
+      <Filter>Frame_Kit</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Kit\Waves.h">
+      <Filter>Frame_Kit</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\DDS.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\Geometry.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\pch.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="goh.h" />
+    <ClInclude Include="Essential\BasicModel.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential\LoadM3d.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential\MeshGeometry.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential\RenderStates.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential\ShadowMap.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential\SkinnedData.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential\SkinnedModel.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential\Sky.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential\Ssao.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential\Vertex.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="Essential\EssEffects.h">
+      <Filter>Essential</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\LoaderHelpers.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\PlatformHelpers.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTK\ScreenGrab.h">
+      <Filter>DXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimation.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMesh.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Common\dxerr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Kit\Camera.cpp">
+      <Filter>Frame_Kit</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Kit\d3dUtil.cpp">
+      <Filter>Frame_Kit</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Kit\GeometryGenerator.cpp">
+      <Filter>Frame_Kit</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Kit\LightHelper.cpp">
+      <Filter>Frame_Kit</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Kit\MathHelper.cpp">
+      <Filter>Frame_Kit</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Kit\TextureMgr.cpp">
+      <Filter>Frame_Kit</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Kit\Waves.cpp">
+      <Filter>Frame_Kit</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK\DDSTextureLoader.cpp">
+      <Filter>DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK\DirectXHelpers.cpp">
+      <Filter>DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK\Geometry.cpp">
+      <Filter>DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK\Keyboard.cpp">
+      <Filter>DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK\Mouse.cpp">
+      <Filter>DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK\pch.cpp">
+      <Filter>DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK\SimpleMath.cpp">
+      <Filter>DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK\VertexTypes.cpp">
+      <Filter>DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK\WICTextureLoader.cpp">
+      <Filter>DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="goh.cpp" />
+    <ClCompile Include="Essential\BasicModel.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="Essential\LoadM3d.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="Essential\MeshGeometry.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="Essential\RenderStates.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="Essential\ShadowMap.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="Essential\SkinnedData.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="Essential\SkinnedModel.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="Essential\Sky.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="Essential\Ssao.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="Essential\Vertex.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="Essential\EssEffects.cpp">
+      <Filter>Essential</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTK\ScreenGrab.cpp">
+      <Filter>DXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimation.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMesh.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXTK\SimpleMath.inl">
+      <Filter>DXTK</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FX\Basic.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BuildShadowMap.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DebugTexture.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\LightHelper.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\NormalMap.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Sky.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Ssao.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SsaoBlur.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SsaoNormalDepth.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

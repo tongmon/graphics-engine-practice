@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <RootNamespace>DX11_FRAMEWORK</RootNamespace>
+    <ProjectGuid>{15f3f850-7e29-47ba-8058-1e918b2bc872}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\DX11_FRAMEWORK\DXTK;$(SolutionDir)\DX11_FRAMEWORK\Common;$(SolutionDir)\DX11_FRAMEWORK\Assimp\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\DX11_FRAMEWORK\Assimp\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\DX11_FRAMEWORK\DXTK;$(SolutionDir)\DX11_FRAMEWORK\Common;$(SolutionDir)\DX11_FRAMEWORK\Assimp\include;$(SolutionDir)\DX11_FRAMEWORK\Assimp_Sample;$(SolutionDir)\DX11_FRAMEWORK\Frame_Kit;$(SolutionDir)\DX11_FRAMEWORK\Essential;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\DX11_FRAMEWORK\Assimp\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\DX11_FRAMEWORK\DXTK;$(SolutionDir)\DX11_FRAMEWORK\Common;$(SolutionDir)\DX11_FRAMEWORK\Assimp\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\DX11_FRAMEWORK\Assimp\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\DX11_FRAMEWORK\DXTK;$(SolutionDir)\DX11_FRAMEWORK\Common;$(SolutionDir)\DX11_FRAMEWORK\Assimp\include;$(SolutionDir)\DX11_FRAMEWORK\Assimp_Sample;$(SolutionDir)\DX11_FRAMEWORK\Frame_Kit;$(SolutionDir)\DX11_FRAMEWORK\Essential;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\DX11_FRAMEWORK\Assimp\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
+    <FxCompile />
+    <FxCompile>
+      <ShaderModel>4.0</ShaderModel>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FloatingPointModel>Fast</FloatingPointModel>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d11.lib;dxgi.lib;dxguid.lib;uuid.lib;kernel32.lib;user32.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+    </Manifest>
+    <FxCompile />
+    <FxCompile>
+      <ShaderModel>4.0</ShaderModel>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\d3dx11effect.h" />
+    <ClInclude Include="Common\d3dxGlobal.h" />
+    <ClInclude Include="Common\DeviceResources.h" />
+    <ClInclude Include="Common\dxerr.h" />
+    <ClInclude Include="Common\StepTimer.h" />
+    <ClInclude Include="DXTK\Audio.h" />
+    <ClInclude Include="DXTK\DDS.h" />
+    <ClInclude Include="DXTK\DDSTextureLoader.h" />
+    <ClInclude Include="DXTK\DirectXHelpers.h" />
+    <ClInclude Include="DXTK\GamePad.h" />
+    <ClInclude Include="DXTK\Geometry.h" />
+    <ClInclude Include="DXTK\Keyboard.h" />
+    <ClInclude Include="DXTK\LoaderHelpers.h" />
+    <ClInclude Include="DXTK\Mouse.h" />
+    <ClInclude Include="DXTK\pch.h" />
+    <ClInclude Include="DXTK\PlatformHelpers.h" />
+    <ClInclude Include="DXTK\ScreenGrab.h" />
+    <ClInclude Include="DXTK\SimpleMath.h" />
+    <ClInclude Include="DXTK\VertexTypes.h" />
+    <ClInclude Include="DXTK\WICTextureLoader.h" />
+    <ClInclude Include="Essential\BasicModel.h" />
+    <ClInclude Include="Essential\EssEffects.h" />
+    <ClInclude Include="Essential\LoadM3d.h" />
+    <ClInclude Include="Essential\MeshGeometry.h" />
+    <ClInclude Include="Essential\RenderStates.h" />
+    <ClInclude Include="Essential\ShadowMap.h" />
+    <ClInclude Include="Essential\SkinnedData.h" />
+    <ClInclude Include="Essential\SkinnedModel.h" />
+    <ClInclude Include="Essential\Sky.h" />
+    <ClInclude Include="Essential\Ssao.h" />
+    <ClInclude Include="Essential\Vertex.h" />
+    <ClInclude Include="Frame_Kit\Camera.h" />
+    <ClInclude Include="Frame_Kit\d3dUtil.h" />
+    <ClInclude Include="Frame_Kit\GeometryGenerator.h" />
+    <ClInclude Include="Frame_Kit\LightHelper.h" />
+    <ClInclude Include="Frame_Kit\MathHelper.h" />
+    <ClInclude Include="Frame_Kit\TextureMgr.h" />
+    <ClInclude Include="Frame_Kit\Waves.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="goh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="ModelAnimation.h" />
+    <ClInclude Include="ModelLoader.h" />
+    <ClInclude Include="ModelMesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\DeviceResources.cpp" />
+    <ClCompile Include="Common\dxerr.cpp" />
+    <ClCompile Include="DXTK\DDSTextureLoader.cpp" />
+    <ClCompile Include="DXTK\DirectXHelpers.cpp" />
+    <ClCompile Include="DXTK\Geometry.cpp" />
+    <ClCompile Include="DXTK\Keyboard.cpp" />
+    <ClCompile Include="DXTK\Mouse.cpp" />
+    <ClCompile Include="DXTK\pch.cpp" />
+    <ClCompile Include="DXTK\ScreenGrab.cpp" />
+    <ClCompile Include="DXTK\SimpleMath.cpp" />
+    <ClCompile Include="DXTK\VertexTypes.cpp" />
+    <ClCompile Include="DXTK\WICTextureLoader.cpp" />
+    <ClCompile Include="Essential\BasicModel.cpp" />
+    <ClCompile Include="Essential\EssEffects.cpp" />
+    <ClCompile Include="Essential\LoadM3d.cpp" />
+    <ClCompile Include="Essential\MeshGeometry.cpp" />
+    <ClCompile Include="Essential\RenderStates.cpp" />
+    <ClCompile Include="Essential\ShadowMap.cpp" />
+    <ClCompile Include="Essential\SkinnedData.cpp" />
+    <ClCompile Include="Essential\SkinnedModel.cpp" />
+    <ClCompile Include="Essential\Sky.cpp" />
+    <ClCompile Include="Essential\Ssao.cpp" />
+    <ClCompile Include="Essential\Vertex.cpp" />
+    <ClCompile Include="Frame_Kit\Camera.cpp" />
+    <ClCompile Include="Frame_Kit\d3dUtil.cpp" />
+    <ClCompile Include="Frame_Kit\GeometryGenerator.cpp" />
+    <ClCompile Include="Frame_Kit\LightHelper.cpp" />
+    <ClCompile Include="Frame_Kit\MathHelper.cpp" />
+    <ClCompile Include="Frame_Kit\TextureMgr.cpp" />
+    <ClCompile Include="Frame_Kit\Waves.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="goh.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ModelAnimation.cpp" />
+    <ClCompile Include="ModelLoader.cpp" />
+    <ClCompile Include="ModelMesh.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXTK\SimpleMath.inl" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FX\Basic.fx" />
+    <FxCompile Include="FX\BuildShadowMap.fx" />
+    <FxCompile Include="FX\DebugTexture.fx" />
+    <FxCompile Include="FX\LightHelper.fx" />
+    <FxCompile Include="FX\NormalMap.fx" />
+    <FxCompile Include="FX\Sky.fx" />
+    <FxCompile Include="FX\Ssao.fx" />
+    <FxCompile Include="FX\SsaoBlur.fx" />
+    <FxCompile Include="FX\SsaoNormalDepth.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\Microsoft.XAudio2.Redist.1.2.6\build\native\Microsoft.XAudio2.Redist.targets" Condition="Exists('..\packages\Microsoft.XAudio2.Redist.1.2.6\build\native\Microsoft.XAudio2.Redist.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.XAudio2.Redist.1.2.6\build\native\Microsoft.XAudio2.Redist.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.XAudio2.Redist.1.2.6\build\native\Microsoft.XAudio2.Redist.targets'))" />
+  </Target>
+</Project>
