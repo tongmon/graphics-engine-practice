@@ -31,3 +31,5 @@ C:\Windows\SysWOW64 여기에 붙여놓기 한다.
 물론 라이브러리는 pragama로 assimp-vc142-mtd.lib 이런 녀석을 명시적으로 참조해야 할 것이다.
 
 9. 이렇게 하고 필요한 헤더 있으면 include "assimp/어쩌구저쩌구.h" 이러면 작동 잘 될 것이다.
+
+# 해당 ModelLoader 프로젝트는 'DX11_FRAMEWORK/Assimp/lib/assimp-vc142-mtd.ilk.zip'의 압축을 풀어줘야 작동한다.
