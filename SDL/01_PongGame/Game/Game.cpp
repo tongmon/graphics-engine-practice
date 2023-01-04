@@ -87,15 +87,16 @@ void Game::ProcessInput() {
 }
 
 void Game::UpdateGame() {
-    // Wait until 16ms has elapsed since last frame
-    while (!SDL_TICKS_PASSED(SDL_GetTicks(), mTicksCount + 16))
-        ;
+    // 프레임간 적어도 16ms가 경과함을 보장하기 위한 로직
+    while (!SDL_TICKS_PASSED(SDL_GetTicks(), mTicksCount + 16)) {
+    }
 
     // Delta time is the difference in ticks from last frame
     // (converted to seconds)
     float deltaTime = (SDL_GetTicks() - mTicksCount) / 1000.0f;
 
-    // Clamp maximum delta time value
+    // 너무 큰 델타 타임을 방지하기 위해 최대 델타 타임을 0.05s로 설정
+    // 델타 타임이 너무 크면 각 객체가 순간이동하여 부자연스러워 보임
     if (deltaTime > 0.05f) {
         deltaTime = 0.05f;
     }
