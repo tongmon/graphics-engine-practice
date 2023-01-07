@@ -73,38 +73,6 @@
                 "CMAKE_CXX_FLAGS": "-O3 -Wall",
                 "CMAKE_BUILD_TYPE": "Release"
             }
-        },
-        {
-            "name": "linux-base",
-            "hidden": true,
-            "generator": "MinGW Makefiles",
-            "inherits": "base",
-            "cacheVariables": {
-                "CMAKE_C_COMPILER": "clang",
-                "CMAKE_CXX_COMPILER": "clang++",
-                "CMAKE_TOOLCHAIN_FILE": "$VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake"
-            },
-            "condition": {
-                "type": "equals",
-                "lhs": "${hostSystemName}",
-                "rhs": "Linux"
-            }
-        },
-        {
-            "name": "macos-base",
-            "hidden": true,
-            "generator": "Ninja",
-            "inherits": "base",
-            "cacheVariables": {
-                "CMAKE_C_COMPILER": "clang",
-                "CMAKE_CXX_COMPILER": "clang++",
-                "CMAKE_TOOLCHAIN_FILE": "~/vcpkg/scripts/buildsystems/vcpkg.cmake"
-            },
-            "condition": {
-                "type": "equals",
-                "lhs": "${hostSystemName}",
-                "rhs": "Darwin"
-            }
         }
     ],
     "buildPresets": [
@@ -115,41 +83,22 @@
             "configurePreset": "x64-debug"
         },
         {
-            "name": "all",
-            "displayName": "All",
-            "jobs": 12,
-            "targets": "all",
-            "configurePreset": "x64-debug"
-        },
-        {
-            "name": "audiolib",
-            "displayName": "AudioLib",
-            "jobs": 12,
-            "targets": [
-                "Graphviz",
-                "AudioLib"
-            ],
-            "configurePreset": "x64-debug"
-        },
-        {
             "name": "x64-release-default",
             "displayName": "Default",
             "jobs": 12,
             "configurePreset": "x64-release"
-        }
-    ],
-    "testPresets": [
+        },
         {
-            "name": "x64-debug-default",
+            "name": "x86-debug-default",
             "displayName": "Default",
-            "output": {
-                "outputOnFailure": true
-            },
-            "execution": {
-                "noTestsAction": "error",
-                "stopOnFailure": true
-            },
-            "configurePreset": "x64-debug"
+            "jobs": 12,
+            "configurePreset": "x86-debug"
+        },
+        {
+            "name": "x86-release-default",
+            "displayName": "Default",
+            "jobs": 12,
+            "configurePreset": "x86-release"
         }
     ]
 }
