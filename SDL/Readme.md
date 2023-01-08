@@ -19,3 +19,6 @@
 &nbsp;  
 
 5. LLVM (Clang, LLDB)  
+&nbsp;  
+
+6. Vcpkg
