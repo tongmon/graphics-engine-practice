@@ -5,7 +5,7 @@
 &nbsp;  
 
 2. Visual Studio Code  
-    ### 아래는 Visual Studio Code 플러그인 목록이다.  
+    ### 아래는 빌드를 위해 필수적인 Visual Studio Code 플러그인 목록이다.  
     * CMake by twxs
     * CMake Tools by Microsoft
     * C/C++ by Microsoft
@@ -22,3 +22,6 @@
 &nbsp;  
 
 6. Vcpkg
+&nbsp;  
+
+7. Graphviz  

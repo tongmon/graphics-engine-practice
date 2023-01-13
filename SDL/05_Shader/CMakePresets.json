@@ -38,6 +38,7 @@
             },
             "cacheVariables": {
                 "VCPKG_TARGET_TRIPLET": "x64-windows-static",
+                "CMAKE_CXX_FLAGS": "-m64",
                 "CMAKE_BUILD_TYPE": "Debug"
             }
         },
@@ -47,7 +48,7 @@
             "inherits": "x64-debug",
             "cacheVariables": {
                 "VCPKG_TARGET_TRIPLET": "x64-windows-static",
-                "CMAKE_CXX_FLAGS": "-O3 -Wall",
+                "CMAKE_CXX_FLAGS": "-O3 -Wall -m64",
                 "CMAKE_BUILD_TYPE": "Release"
             }
         },
@@ -61,6 +62,7 @@
             },
             "cacheVariables": {
                 "VCPKG_TARGET_TRIPLET": "x86-windows-static",
+                "CMAKE_CXX_FLAGS": "-m32",
                 "CMAKE_BUILD_TYPE": "Debug"
             }
         },
@@ -70,34 +72,41 @@
             "inherits": "x86-debug",
             "cacheVariables": {
                 "VCPKG_TARGET_TRIPLET": "x86-windows-static",
-                "CMAKE_CXX_FLAGS": "-O3 -Wall",
+                "CMAKE_CXX_FLAGS": "-O3 -Wall -m32",
                 "CMAKE_BUILD_TYPE": "Release"
             }
         }
     ],
     "buildPresets": [
         {
+            "name": "make-base",
+            "hidden": true,
+            "nativeToolOptions": [
+                "-j"
+            ]
+        },
+        {
             "name": "x64-debug-default",
-            "displayName": "Default",
-            "jobs": 12,
+            "displayName": "Debug Build",
+            "inherits": "make-base",
             "configurePreset": "x64-debug"
         },
         {
             "name": "x64-release-default",
-            "displayName": "Default",
-            "jobs": 12,
+            "displayName": "Release Build",
+            "inherits": "make-base",
             "configurePreset": "x64-release"
         },
         {
             "name": "x86-debug-default",
-            "displayName": "Default",
-            "jobs": 12,
+            "displayName": "Debug Build",
+            "inherits": "make-base",
             "configurePreset": "x86-debug"
         },
         {
             "name": "x86-release-default",
-            "displayName": "Default",
-            "jobs": 12,
+            "displayName": "Release Build",
+            "inherits": "msvc-base-build-settings",
             "configurePreset": "x86-release"
         }
     ]
