@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 
-set(VCPKG_TARGET_TRIPLET "x64-windows-static" CACHE STRING "")
-set(CMAKE_TOOLCHAIN_FILE C:/vcpkg/scripts/buildsystems/vcpkg.cmake)
+add_custom_target(Graphviz ALL
+    COMMAND ${CMAKE_COMMAND} "--graphviz=${CMAKE_BINARY_DIR}/Graph_Info/graph.dot" .
+    COMMAND dot -Tpng ${CMAKE_BINARY_DIR}/Graph_Info/graph.dot -o ${CMAKE_BINARY_DIR}/../Graph_${CMAKE_BUILD_TYPE}.png
+)
 
 project(OBJECT3D VERSION 1.0.0 LANGUAGES C CXX)
 
@@ -33,4 +35,14 @@ add_custom_command(TARGET ${GAME_NAME} POST_BUILD
 add_custom_command(TARGET ${GAME_NAME} POST_BUILD
     COMMAND ${CMAKE_COMMAND} 
     -E copy ${CMAKE_SOURCE_DIR}/Library/FMOD/x64/fmodstudio.dll ${CMAKE_CURRENT_BINARY_DIR}/fmodstudio.dll
+)
+
+add_custom_command(TARGET ${GAME_NAME} POST_BUILD
+    COMMAND ${CMAKE_COMMAND} 
+    -E copy_directory ${CMAKE_SOURCE_DIR}/Assets ${CMAKE_CURRENT_BINARY_DIR}/Assets
+)
+
+add_custom_command(TARGET ${GAME_NAME} POST_BUILD
+    COMMAND ${CMAKE_COMMAND} 
+    -E copy_directory ${CMAKE_SOURCE_DIR}/Shaders ${CMAKE_CURRENT_BINARY_DIR}/Shaders
 )
