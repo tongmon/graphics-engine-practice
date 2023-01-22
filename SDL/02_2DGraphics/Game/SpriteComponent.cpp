@@ -11,16 +11,20 @@
 #include "Game.h"
 
 SpriteComponent::SpriteComponent(Actor *owner, int drawOrder)
-    : Component(owner), mTexture(nullptr), mDrawOrder(drawOrder), mTexWidth(0), mTexHeight(0) {
+    : Component(owner), mTexture(nullptr), mDrawOrder(drawOrder), mTexWidth(0), mTexHeight(0)
+{
     mOwner->GetGame()->AddSprite(this);
 }
 
-SpriteComponent::~SpriteComponent() {
+SpriteComponent::~SpriteComponent()
+{
     mOwner->GetGame()->RemoveSprite(this);
 }
 
-void SpriteComponent::Draw(SDL_Renderer *renderer) {
-    if (mTexture) {
+void SpriteComponent::Draw(SDL_Renderer *renderer)
+{
+    if (mTexture)
+    {
         SDL_Rect r;
         // Scale the width/height by owner's scale
         r.w = static_cast<int>(mTexWidth * mOwner->GetScale());
@@ -40,7 +44,8 @@ void SpriteComponent::Draw(SDL_Renderer *renderer) {
     }
 }
 
-void SpriteComponent::SetTexture(SDL_Texture *texture) {
+void SpriteComponent::SetTexture(SDL_Texture *texture)
+{
     mTexture = texture;
     // Set width/height
     SDL_QueryTexture(texture, nullptr, nullptr, &mTexWidth, &mTexHeight);

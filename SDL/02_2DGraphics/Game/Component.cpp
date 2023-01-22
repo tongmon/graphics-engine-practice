@@ -10,14 +10,17 @@
 #include "Actor.h"
 
 Component::Component(Actor *owner, int updateOrder)
-    : mOwner(owner), mUpdateOrder(updateOrder) {
+    : mOwner(owner), mUpdateOrder(updateOrder)
+{
     // Add to actor's vector of components
     mOwner->AddComponent(this);
 }
 
-Component::~Component() {
+Component::~Component()
+{
     mOwner->RemoveComponent(this);
 }
 
-void Component::Update(float deltaTime) {
+void Component::Update(float deltaTime)
+{
 }

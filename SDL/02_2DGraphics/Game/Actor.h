@@ -4,9 +4,11 @@
 #include <MyMath.h>
 #include <vector>
 
-class Actor {
-  public:
-    enum State {
+class Actor
+{
+public:
+    enum State
+    {
         EActive,
         EPaused,
         EDead
@@ -39,7 +41,7 @@ class Actor {
     void AddComponent(class Component *component);
     void RemoveComponent(class Component *component);
 
-  private:
+private:
     // Actor's state
     State mState;
 

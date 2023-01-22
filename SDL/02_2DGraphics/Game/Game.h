@@ -6,8 +6,9 @@
 #include <unordered_map>
 #include <vector>
 
-class Game {
-  public:
+class Game
+{
+public:
     Game();
     bool Initialize();
     void RunLoop();
@@ -21,7 +22,7 @@ class Game {
 
     SDL_Texture *GetTexture(const std::string &fileName);
 
-  private:
+private:
     void ProcessInput();
     void UpdateGame();
     void GenerateOutput();

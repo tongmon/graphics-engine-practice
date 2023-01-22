@@ -4,8 +4,9 @@
 #include "SpriteComponent.h"
 #include <vector>
 
-class AnimSpriteComponent : public SpriteComponent {
-  public:
+class AnimSpriteComponent : public SpriteComponent
+{
+public:
     AnimSpriteComponent(class Actor *owner, int drawOrder = 100);
     // Update animation every frame (overridden from component)
     void Update(float deltaTime) override;
@@ -15,7 +16,7 @@ class AnimSpriteComponent : public SpriteComponent {
     float GetAnimFPS() const { return mAnimFPS; }
     void SetAnimFPS(float fps) { mAnimFPS = fps; }
 
-  private:
+private:
     // All textures in the animation
     std::vector<SDL_Texture *> mAnimTextures;
     // Current frame displayed

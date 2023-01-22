@@ -31,7 +31,8 @@ const Matrix4 Matrix4::Identity(m4Ident);
 
 const Quaternion Quaternion::Identity(0.0f, 0.0f, 0.0f, 1.0f);
 
-Vector2 Vector2::Transform(const Vector2 &vec, const Matrix3 &mat, float w /*= 1.0f*/) {
+Vector2 Vector2::Transform(const Vector2 &vec, const Matrix3 &mat, float w /*= 1.0f*/)
+{
     Vector2 retVal;
     retVal.x = vec.x * mat.mat[0][0] + vec.y * mat.mat[1][0] + w * mat.mat[2][0];
     retVal.y = vec.x * mat.mat[0][1] + vec.y * mat.mat[1][1] + w * mat.mat[2][1];
@@ -39,7 +40,8 @@ Vector2 Vector2::Transform(const Vector2 &vec, const Matrix3 &mat, float w /*= 1
     return retVal;
 }
 
-Vector3 Vector3::Transform(const Vector3 &vec, const Matrix4 &mat, float w /*= 1.0f*/) {
+Vector3 Vector3::Transform(const Vector3 &vec, const Matrix4 &mat, float w /*= 1.0f*/)
+{
     Vector3 retVal;
     retVal.x = vec.x * mat.mat[0][0] + vec.y * mat.mat[1][0] +
                vec.z * mat.mat[2][0] + w * mat.mat[3][0];
@@ -52,7 +54,8 @@ Vector3 Vector3::Transform(const Vector3 &vec, const Matrix4 &mat, float w /*= 1
 }
 
 // This will transform the vector and renormalize the w component
-Vector3 Vector3::TransformWithPerspDiv(const Vector3 &vec, const Matrix4 &mat, float w /*= 1.0f*/) {
+Vector3 Vector3::TransformWithPerspDiv(const Vector3 &vec, const Matrix4 &mat, float w /*= 1.0f*/)
+{
     Vector3 retVal;
     retVal.x = vec.x * mat.mat[0][0] + vec.y * mat.mat[1][0] +
                vec.z * mat.mat[2][0] + w * mat.mat[3][0];
@@ -62,7 +65,8 @@ Vector3 Vector3::TransformWithPerspDiv(const Vector3 &vec, const Matrix4 &mat, f
                vec.z * mat.mat[2][2] + w * mat.mat[3][2];
     float transformedW = vec.x * mat.mat[0][3] + vec.y * mat.mat[1][3] +
                          vec.z * mat.mat[2][3] + w * mat.mat[3][3];
-    if (!Math::NearZero(Math::Abs(transformedW))) {
+    if (!Math::NearZero(Math::Abs(transformedW)))
+    {
         transformedW = 1.0f / transformedW;
         retVal *= transformedW;
     }
@@ -70,7 +74,8 @@ Vector3 Vector3::TransformWithPerspDiv(const Vector3 &vec, const Matrix4 &mat, f
 }
 
 // Transform a Vector3 by a quaternion
-Vector3 Vector3::Transform(const Vector3 &v, const Quaternion &q) {
+Vector3 Vector3::Transform(const Vector3 &v, const Quaternion &q)
+{
     // v + 2.0*cross(q.xyz, cross(q.xyz,v) + q.w*v);
     Vector3 qv(q.x, q.y, q.z);
     Vector3 retVal = v;
@@ -78,7 +83,8 @@ Vector3 Vector3::Transform(const Vector3 &v, const Quaternion &q) {
     return retVal;
 }
 
-void Matrix4::Invert() {
+void Matrix4::Invert()
+{
     // Thanks slow math
     // This is a really janky way to unroll everything...
     float tmp[12];
@@ -177,19 +183,23 @@ void Matrix4::Invert() {
 
     // Inverse of matrix is divided by determinant
     det = 1 / det;
-    for (int j = 0; j < 16; j++) {
+    for (int j = 0; j < 16; j++)
+    {
         dst[j] *= det;
     }
 
     // Set it back
-    for (int i = 0; i < 4; i++) {
-        for (int j = 0; j < 4; j++) {
+    for (int i = 0; i < 4; i++)
+    {
+        for (int j = 0; j < 4; j++)
+        {
             mat[i][j] = dst[i * 4 + j];
         }
     }
 }
 
-Matrix4 Matrix4::CreateFromQuaternion(const class Quaternion &q) {
+Matrix4 Matrix4::CreateFromQuaternion(const class Quaternion &q)
+{
     float mat[4][4];
 
     mat[0][0] = 1.0f - 2.0f * q.y * q.y - 2.0f * q.z * q.z;

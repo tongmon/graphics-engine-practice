@@ -5,8 +5,9 @@
 #include <MyMath.h>
 #include <vector>
 
-class BGSpriteComponent : public SpriteComponent {
-  public:
+class BGSpriteComponent : public SpriteComponent
+{
+public:
     // Set draw order to default to lower (so it's in the background)
     BGSpriteComponent(class Actor *owner, int drawOrder = 10);
     // Update/draw overridden from parent
@@ -19,9 +20,10 @@ class BGSpriteComponent : public SpriteComponent {
     void SetScrollSpeed(float speed) { mScrollSpeed = speed; }
     float GetScrollSpeed() const { return mScrollSpeed; }
 
-  private:
+private:
     // Struct to encapsulate each bg image and its offset
-    struct BGTexture {
+    struct BGTexture
+    {
         SDL_Texture *mTexture;
         Vector2 mOffset;
     };

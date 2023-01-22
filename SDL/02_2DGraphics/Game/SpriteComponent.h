@@ -4,8 +4,9 @@
 #include "Component.h"
 #include "SDL2/SDL.h"
 
-class SpriteComponent : public Component {
-  public:
+class SpriteComponent : public Component
+{
+public:
     // (Lower draw order corresponds with further back)
     SpriteComponent(class Actor *owner, int drawOrder = 100);
     ~SpriteComponent();
@@ -17,7 +18,7 @@ class SpriteComponent : public Component {
     int GetTexHeight() const { return mTexHeight; }
     int GetTexWidth() const { return mTexWidth; }
 
-  protected:
+protected:
     SDL_Texture *mTexture;
     int mDrawOrder;
     int mTexWidth;
