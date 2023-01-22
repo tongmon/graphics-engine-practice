@@ -13,39 +13,39 @@ class CWrappedWnd : public GameTimer
 {
 protected:
 
-	CWrappedWnd( );
-	~CWrappedWnd( ) = default;
+	CWrappedWnd();
+	~CWrappedWnd() = default;
 
 public:
 
-	int						Loop( HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow );
+	int	Loop(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow);
 
 private:
 
-	void					registerWndClass( const CPrepareWnd& value );
-	void					createWindow( const CPrepareWnd& value );
-	void					showWindow( const CPrepareWnd& value );
-	int						MessageLoop( );
+	void registerWndClass(const CPrepareWnd& value);
+	void createWindow(const CPrepareWnd& value);
+	void showWindow(const CPrepareWnd& value);
+	int MessageLoop();
 
 protected:
-	void					CalculateFrameStats(); // 프레임 시간 계산
+	void CalculateFrameStats(); // 프레임 시간 계산
 
 public:
 
-	virtual void			ProcessingLoop( ) = 0;
+	virtual void ProcessingLoop() = 0;
 
 protected:
 
-	HWND					m_hWnd;
-	HINSTANCE				m_hInstance;
-	std::string				m_Title;
+	HWND m_hWnd;
+	HINSTANCE m_hInstance;
+	std::string m_Title;
 
 public:
 
-	void					setWndHandle( HWND hWnd );
-	HWND					getWndHandle( );
+	void setWndHandle(HWND hWnd);
+	HWND getWndHandle();
 
-	void					setInstanceHandle( HINSTANCE hInstance );
-	HINSTANCE				getInstanceHandle( );
+	void setInstanceHandle(HINSTANCE hInstance);
+	HINSTANCE getInstanceHandle();
 
 };

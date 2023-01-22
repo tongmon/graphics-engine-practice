@@ -5,22 +5,22 @@ class HelloWord : public CScene
 {
 public:
 
-	HelloWord( );
-	~HelloWord( );
+	HelloWord();
+	~HelloWord();
 
-	void					create( );
+	void create();
 
-	void					initialize( );
+	void initialize();
 
-	void					update( float dt );
-	void					render( HDC hdc, float dt );
+	void update(float dt);
+	void render(HDC hdc, float dt);
 
-	void					clear( );
+	void clear();
 
-	void					destroy( );
+	void destroy();
 
-	void					OnMouseDown(WPARAM btnState, int x, int y);
-	void					OnMouseUp(WPARAM btnState, int x, int y);
+	void OnMouseDown(WPARAM btnState, int x, int y);
+	void OnMouseUp(WPARAM btnState, int x, int y);
 
 public:
 

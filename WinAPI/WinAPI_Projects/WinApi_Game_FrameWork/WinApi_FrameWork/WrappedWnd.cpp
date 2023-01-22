@@ -1,14 +1,14 @@
 #include "WrappedWnd.h"
 #include "PrepareWnd.h"
 
-void settingWnd( CPrepareWnd& value );
-void settingGame( );
+void settingWnd(CPrepareWnd& value);
+void settingGame();
 
-CWrappedWnd::CWrappedWnd( ) : m_hWnd( nullptr ), m_hInstance( nullptr )
+CWrappedWnd::CWrappedWnd() : m_hWnd(nullptr), m_hInstance(nullptr)
 {
 }
 
-int CWrappedWnd::Loop( HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow )
+int CWrappedWnd::Loop(HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow)
 {
 	m_hInstance = hInstance;
 
@@ -17,67 +17,67 @@ int CWrappedWnd::Loop( HINSTANCE hInstance, LPSTR lpCmdLine, int nCmdShow )
 	value.hInstance = m_hInstance;
 	value.nCmdShow = nCmdShow;
 
-	settingWnd( value );
+	settingWnd(value);
 	m_Title = value.lpWindowName;
 
-	this->registerWndClass( value );
-	this->createWindow( value );
-	this->showWindow( value );
+	this->registerWndClass(value);
+	this->createWindow(value);
+	this->showWindow(value);
 
-	return this->MessageLoop( );
+	return this->MessageLoop();
 }
 
-void CWrappedWnd::registerWndClass( const CPrepareWnd& value )
+void CWrappedWnd::registerWndClass(const CPrepareWnd& value)
 {
 	WNDCLASSEX wcex = { 0, };
 
-	wcex.cbSize = sizeof ( wcex );
+	wcex.cbSize = sizeof(wcex);
 	wcex.style = value.style;
 	wcex.hInstance = value.hInstance;
 	wcex.hCursor = value.hCursor;
 	wcex.hbrBackground = value.hbrBackground;
 	wcex.lpszClassName = value.lpszClassName;
 	wcex.lpfnWndProc = value.lpfnWndProc;
-	RegisterClassEx( &wcex );
+	RegisterClassEx(&wcex);
 }
 
-void CWrappedWnd::createWindow( const CPrepareWnd& value )
+void CWrappedWnd::createWindow(const CPrepareWnd& value)
 {
-	m_hWnd = CreateWindow( 
-		value.lpszClassName, value.lpWindowName, value.dwStyle, 
+	m_hWnd = CreateWindow(
+		value.lpszClassName, value.lpWindowName, value.dwStyle,
 		value.X, value.Y, value.nWidth, value.nHeight,
-		value.hWndParent, value.hMenu, value.hInstance, value.lpParam );
+		value.hWndParent, value.hMenu, value.hInstance, value.lpParam);
 }
 
-void CWrappedWnd::showWindow( const CPrepareWnd& value )
+void CWrappedWnd::showWindow(const CPrepareWnd& value)
 {
-	ShowWindow( m_hWnd, value.nCmdShow );
-	UpdateWindow( m_hWnd );
+	ShowWindow(m_hWnd, value.nCmdShow);
+	UpdateWindow(m_hWnd);
 }
 
-int CWrappedWnd::MessageLoop( )
+int CWrappedWnd::MessageLoop()
 {
 	MSG msg;
-	memset( &msg, 0, sizeof( msg ) );
+	memset(&msg, 0, sizeof(msg));
 
-	settingGame( );
+	settingGame();
 	Reset(); // 타이머 초기화
 
-	while( msg.message != WM_QUIT )
+	while (msg.message != WM_QUIT)
 	{
-		if( PeekMessage( &msg, nullptr, 0, 0, PM_REMOVE ) )
+		if (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE))
 		{
-			TranslateMessage( &msg );
-			DispatchMessage( &msg );
+			TranslateMessage(&msg);
+			DispatchMessage(&msg);
 		}
 		else
 		{
 			Tick();
-			this->ProcessingLoop( );
+			this->ProcessingLoop();
 		}
 	}
 
-	return ( int )msg.wParam;
+	return (int)msg.wParam;
 }
 
 void CWrappedWnd::CalculateFrameStats()
@@ -107,12 +107,12 @@ void CWrappedWnd::CalculateFrameStats()
 	}
 }
 
-HWND CWrappedWnd::getWndHandle( )
+HWND CWrappedWnd::getWndHandle()
 {
 	return m_hWnd;
 }
 
-HINSTANCE CWrappedWnd::getInstanceHandle( )
+HINSTANCE CWrappedWnd::getInstanceHandle()
 {
 	return m_hInstance;
 }

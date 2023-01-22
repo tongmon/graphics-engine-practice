@@ -5,17 +5,17 @@
 
 #pragma comment(linker , "/entry:WinMainCRTStartup /subsystem:console")
 
-void settingWnd( CPrepareWnd& value )
+void settingWnd(CPrepareWnd& value)
 {
 	value.lpWindowName = "tongstar";
 }
 
 // registerScene으로 뭐... 메인화면, 게임 플레이시 화면, 스토리 텔링 화면, 로딩 화면 등을
 // 미리 세팅해놓고 getSceneManager로 현재 씬을 설정한다.
-void settingGame( )
+void settingGame()
 {
-	CGameDirector *director = CGameDirector::getGameDirector( );
+	CGameDirector* director = CGameDirector::getGameDirector();
 
-	director->getSceneManager( )->registerScene( "helloworld", new HelloWord );
-	director->getSceneManager( )->reserveChangeScene( "helloworld" );
+	director->getSceneManager()->registerScene("helloworld", new HelloWord);
+	director->getSceneManager()->reserveChangeScene("helloworld");
 }

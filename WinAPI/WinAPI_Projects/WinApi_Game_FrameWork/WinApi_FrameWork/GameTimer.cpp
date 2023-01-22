@@ -6,8 +6,8 @@
 #include "GameTimer.h"
 
 GameTimer::GameTimer()
-: mSecondsPerCount(0.0), mDeltaTime(-1.0), mBaseTime(0), mStopTime(0),
-  mPausedTime(0), mPrevTime(0), mCurrTime(0), mStopped(false)
+	: mSecondsPerCount(0.0), mDeltaTime(-1.0), mBaseTime(0), mStopTime(0),
+	mPausedTime(0), mPrevTime(0), mCurrTime(0), mStopped(false)
 {
 	__int64 countsPerSec;
 	QueryPerformanceFrequency((LARGE_INTEGER*)&countsPerSec); // 초당 진동수, CPU 클럭
@@ -27,7 +27,7 @@ float GameTimer::TotalTime()const
 	// ----*---------------*-----------------*------------*------------*------> time
 	//  mBaseTime       mStopTime        startTime     mStopTime    mCurrTime
 
-	if( mStopped )
+	if (mStopped)
 	{
 		return (float)(((mStopTime - mPausedTime) - mBaseTime) * mSecondsPerCount);
 	}
@@ -41,7 +41,7 @@ float GameTimer::TotalTime()const
 	//                     |<--paused time-->|
 	// ----*---------------*-----------------*------------*------> time
 	//  mBaseTime       mStopTime        startTime     mCurrTime
-	
+
 	else
 	{
 		return (float)(((mCurrTime - mPausedTime) - mBaseTime) * mSecondsPerCount);
@@ -61,7 +61,7 @@ void GameTimer::Reset()
 	mBaseTime = currTime; // 게임 시작 초창기 시간
 	mPrevTime = currTime; // 초기화
 	mStopTime = 0;
-	mStopped  = false;
+	mStopped = false;
 }
 
 void GameTimer::Start()
@@ -76,32 +76,32 @@ void GameTimer::Start()
 	// ----*---------------*-----------------*------------> time
 	//  mBaseTime       mStopTime        startTime     
 
-	if( mStopped )
+	if (mStopped)
 	{
 		mPausedTime += (startTime - mStopTime);	// 멈췄던 시간들이 누적된다.
 
 		mPrevTime = startTime;
 		mStopTime = 0;
-		mStopped  = false;
+		mStopped = false;
 	}
 }
 
 void GameTimer::Stop()
 {
-	if( !mStopped )
+	if (!mStopped)
 	{
 		__int64 currTime;
 		QueryPerformanceCounter((LARGE_INTEGER*)&currTime);
 
 		mStopTime = currTime;
-		mStopped  = true;
+		mStopped = true;
 	}
 }
 
 // 매 프레임마다 Run함수에서 호출
 void GameTimer::Tick()
 {
-	if( mStopped )
+	if (mStopped)
 	{
 		mDeltaTime = 0.0;
 		return;
@@ -113,7 +113,7 @@ void GameTimer::Tick()
 	mCurrTime = currTime; // 얘는 진동수이고 시간이 아니다. 따라서 시간으로 만드려면 mSecondsPerCount 얘를 곱해주어야 한다.
 
 	// 이 시간과 이전 프레임의 시간 차이를 구한다.
-	mDeltaTime = (mCurrTime - mPrevTime)*mSecondsPerCount;
+	mDeltaTime = (mCurrTime - mPrevTime) * mSecondsPerCount;
 
 	// 다음 프레임을 준비
 	mPrevTime = mCurrTime;
@@ -122,7 +122,7 @@ void GameTimer::Tick()
 	// processor goes into a power save mode or we get shuffled to another
 	// processor, then mDeltaTime can be negative.
 	// mDeltaTime이 음수가 될 수 있기에 이를 방지
-	if(mDeltaTime < 0.0)
+	if (mDeltaTime < 0.0)
 	{
 		mDeltaTime = 0.0;
 	}

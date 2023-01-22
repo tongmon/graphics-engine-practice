@@ -1,20 +1,20 @@
 #include "GameDirector.h"
 #include "SceneManager.h"
 
-CGameDirector::CGameDirector( ) : m_FixedFPS( 60 )
+CGameDirector::CGameDirector() : m_FixedFPS(60)
 {
 	m_SceneManager = new CSceneManager;
 	m_AppPaused = false;
 }
 
-CGameDirector::~CGameDirector( )
+CGameDirector::~CGameDirector()
 {
 	delete m_SceneManager;
 }
 
-LRESULT CALLBACK CGameDirector::WndProc( HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam )
+LRESULT CALLBACK CGameDirector::WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
-	switch( message )
+	switch (message)
 	{
 	case WM_LBUTTONDOWN:
 	case WM_MBUTTONDOWN:
@@ -39,38 +39,38 @@ LRESULT CALLBACK CGameDirector::WndProc( HWND hWnd, UINT message, WPARAM wParam,
 		}
 		return 0;
 	case WM_DESTROY:
-			PostQuitMessage( 0 );
-			return 0;
+		PostQuitMessage(0);
+		return 0;
 	}
 
-	return DefWindowProc( hWnd, message, wParam, lParam );
+	return DefWindowProc(hWnd, message, wParam, lParam);
 }
 
-CGameDirector* CGameDirector::getGameDirector( )
+CGameDirector* CGameDirector::getGameDirector()
 {
 	static CGameDirector dir;
 
 	return &dir;
 }
 
-void CGameDirector::update( float dt )
+void CGameDirector::update(float dt)
 {
-	m_SceneManager->update( dt );
+	m_SceneManager->update(dt);
 }
 
-void CGameDirector::render( HDC hdc, float dt )
+void CGameDirector::render(HDC hdc, float dt)
 {
 	HDC hMemDC;
 	RECT windowRect;
 	HBITMAP bitmap;
 
-	GetClientRect( this->getWndHandle( ), &windowRect );
+	GetClientRect(this->getWndHandle(), &windowRect);
 
-	hMemDC = CreateCompatibleDC( hdc );
-	bitmap = CreateCompatibleBitmap( hdc, windowRect.right, windowRect.bottom );
+	hMemDC = CreateCompatibleDC(hdc);
+	bitmap = CreateCompatibleBitmap(hdc, windowRect.right, windowRect.bottom);
 
-	SelectObject( hMemDC, bitmap );
-	FillRect( hMemDC, &windowRect, ( HBRUSH )COLOR_BACKGROUND );
+	SelectObject(hMemDC, bitmap);
+	FillRect(hMemDC, &windowRect, (HBRUSH)COLOR_BACKGROUND);
 
 	/*
 	if(mGameState == MAIN)
@@ -84,22 +84,22 @@ void CGameDirector::render( HDC hdc, float dt )
 	...
 	*/
 
-	m_SceneManager->render( hMemDC, dt );
+	m_SceneManager->render(hMemDC, dt);
 
-	BitBlt( hdc, 0, 0, windowRect.right, windowRect.bottom, hMemDC, 0, 0, SRCCOPY );
+	BitBlt(hdc, 0, 0, windowRect.right, windowRect.bottom, hMemDC, 0, 0, SRCCOPY);
 
-	DeleteObject( bitmap );
-	DeleteDC( hMemDC );
+	DeleteObject(bitmap);
+	DeleteDC(hMemDC);
 }
 
-void CGameDirector::ProcessingLoop( )
+void CGameDirector::ProcessingLoop()
 {
 	/*
 	static DWORD prevFrameTime = 0;
 	if( GetTickCount64( ) - prevFrameTime > m_FrameInterval )
-	{			
+	{
 		update( ( ( float )GetTickCount64( ) - ( float )prevFrameTime ) / 1000.f );
-			
+
 		HDC hdc = GetDC( m_hWnd );
 
 		render( hdc, ( ( float )GetTickCount64( ) - ( float )prevFrameTime ) / 1000.f );
@@ -126,7 +126,7 @@ void CGameDirector::ProcessingLoop( )
 	buf1 << " TotalTime: " << TotalTime() << "\n";
 	OutputDebugString(buf1.str().c_str());
 
-	if (!m_AppPaused) 
+	if (!m_AppPaused)
 	{
 		int Loops = 0;
 		dTime += DeltaTime();
@@ -148,7 +148,7 @@ void CGameDirector::ProcessingLoop( )
 		ReleaseDC(m_hWnd, hdc);
 	}
 	*/
-	
+
 	static float AccumlationTime = 0;
 
 	if (m_AppPaused)
@@ -159,7 +159,7 @@ void CGameDirector::ProcessingLoop( )
 	if (AccumlationTime > 1 / (float)m_FixedFPS)
 	{
 		CalculateFrameStats();
-		
+
 		update(AccumlationTime);
 
 		HDC hdc = GetDC(m_hWnd);
@@ -172,7 +172,7 @@ void CGameDirector::ProcessingLoop( )
 	}
 }
 
-CSceneManager* CGameDirector::getSceneManager( )
+CSceneManager* CGameDirector::getSceneManager()
 {
 	return m_SceneManager;
 }
