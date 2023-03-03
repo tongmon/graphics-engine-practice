@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 
+execute_process(
+  COMMAND vcpkg x-update-baseline --add-initial-baseline
+  WORKING_DIRECTORY ${CMAKE_SOURCE_DIR})
+  
 add_custom_target(Graphviz ALL
     COMMAND ${CMAKE_COMMAND} "--graphviz=${CMAKE_BINARY_DIR}/Graph_Info/graph.dot" .
     COMMAND dot -Tpng ${CMAKE_BINARY_DIR}/Graph_Info/graph.dot -o ${CMAKE_BINARY_DIR}/../Graph_${CMAKE_BUILD_TYPE}.png
@@ -30,12 +34,12 @@ target_link_libraries(${GAME_NAME} PUBLIC GameLib)
 
 add_custom_command(TARGET ${GAME_NAME} POST_BUILD
     COMMAND ${CMAKE_COMMAND} 
-    -E copy ${CMAKE_SOURCE_DIR}/Library/FMOD/x64/fmod.dll ${CMAKE_CURRENT_BINARY_DIR}/fmod.dll
+    -E copy ${CMAKE_SOURCE_DIR}/Library/FMOD/${ARCHITECTURE}/fmod.dll ${CMAKE_CURRENT_BINARY_DIR}/fmod.dll
 )
 
 add_custom_command(TARGET ${GAME_NAME} POST_BUILD
     COMMAND ${CMAKE_COMMAND} 
-    -E copy ${CMAKE_SOURCE_DIR}/Library/FMOD/x64/fmodstudio.dll ${CMAKE_CURRENT_BINARY_DIR}/fmodstudio.dll
+    -E copy ${CMAKE_SOURCE_DIR}/Library/FMOD/${ARCHITECTURE}/fmodstudio.dll ${CMAKE_CURRENT_BINARY_DIR}/fmodstudio.dll
 )
 
 add_custom_command(TARGET ${GAME_NAME} POST_BUILD

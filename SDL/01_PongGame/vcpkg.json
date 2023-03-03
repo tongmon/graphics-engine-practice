@@ -1,7 +1,12 @@
 {
-    "name": "pong-game",
-    "version": "1.0.0",
-    "dependencies": [
-        "sdl2"
-    ]
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "3d-objects",
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "name": "sdl2",
+      "version>=": "2.26.3#1"
+    }
+  ],
+  "builtin-baseline": "64fabc9401d9296273ed67cd8c39f92c113f9ea5"
 }

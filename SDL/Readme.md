@@ -9,7 +9,7 @@
     * CMake by twxs
     * CMake Tools by Microsoft
     * C/C++ by Microsoft
-    * CodeLLDB  
+    * CodeLLDB by Vadim Chugunov
 &nbsp;  
 
 3. CMake  
@@ -21,7 +21,7 @@
 5. LLVM (Clang, LLDB)  
 &nbsp;  
 
-6. Vcpkg
+6. Vcpkg  
 &nbsp;  
 
 7. Graphviz  

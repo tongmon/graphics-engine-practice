@@ -1,8 +1,16 @@
 {
-    "name": "space-game",
-    "version": "1.0.0",
-    "dependencies": [
-        "sdl2",
-        "sdl2-image"
-    ]
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "3d-objects",
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "name": "sdl2",
+      "version>=": "2.26.3#1"
+    },
+    {
+      "name": "sdl2-image",
+      "version>=": "2.6.3"
+    }
+  ],
+  "builtin-baseline": "64fabc9401d9296273ed67cd8c39f92c113f9ea5"
 }

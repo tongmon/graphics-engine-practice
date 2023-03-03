@@ -1,12 +1,28 @@
 {
-    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
-    "name": "3d-objects",
-    "version": "1.0.0",
-    "dependencies": [
-        "sdl2",
-        "sdl2-ttf",
-        "soil",
-        "glew",
-        "rapidjson"
-    ]
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "3d-objects",
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "name": "sdl2",
+      "version>=": "2.26.3#1"
+    },
+    {
+      "name": "sdl2-ttf",
+      "version>=": "2.20.2"
+    },
+    {
+      "name": "soil",
+      "version>=": "2021-04-22#2"
+    },
+    {
+      "name": "glew",
+      "version>=": "2.2.0"
+    },
+    {
+      "name": "rapidjson",
+      "version>=": "2022-06-28#3"
+    }
+  ],
+  "builtin-baseline": "64fabc9401d9296273ed67cd8c39f92c113f9ea5"
 }

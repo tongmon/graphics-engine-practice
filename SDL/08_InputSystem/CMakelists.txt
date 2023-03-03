@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 
+execute_process(
+  COMMAND vcpkg x-update-baseline --add-initial-baseline
+  WORKING_DIRECTORY ${CMAKE_SOURCE_DIR})
+  
 add_custom_target(Graphviz ALL
     COMMAND ${CMAKE_COMMAND} "--graphviz=${CMAKE_BINARY_DIR}/Graph_Info/graph.dot" .
     COMMAND dot -Tpng ${CMAKE_BINARY_DIR}/Graph_Info/graph.dot -o ${CMAKE_BINARY_DIR}/../Graph_${CMAKE_BUILD_TYPE}.png

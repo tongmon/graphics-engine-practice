@@ -39,7 +39,8 @@
             "cacheVariables": {
                 "VCPKG_TARGET_TRIPLET": "x64-windows-static",
                 "CMAKE_CXX_FLAGS": "-m64",
-                "CMAKE_BUILD_TYPE": "Debug"
+                "CMAKE_BUILD_TYPE": "Debug",
+                "ARCHITECTURE": "x64"
             }
         },
         {
@@ -63,7 +64,8 @@
             "cacheVariables": {
                 "VCPKG_TARGET_TRIPLET": "x86-windows-static",
                 "CMAKE_CXX_FLAGS": "-m32",
-                "CMAKE_BUILD_TYPE": "Debug"
+                "CMAKE_BUILD_TYPE": "Debug",
+                "ARCHITECTURE": "x86"
             }
         },
         {
@@ -106,7 +108,7 @@
         {
             "name": "x86-release-default",
             "displayName": "Release Build",
-            "inherits": "msvc-base-build-settings",
+            "inherits": "make-base",
             "configurePreset": "x86-release"
         }
     ]

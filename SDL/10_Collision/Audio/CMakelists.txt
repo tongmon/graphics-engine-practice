@@ -3,7 +3,7 @@ file(GLOB LIB_SOURCES CONFIGURE_DEPENDS ./*.cpp)
 add_library(AudioLib STATIC ${LIB_SOURCES})
 
 target_link_directories(AudioLib PUBLIC 
-    "${CMAKE_SOURCE_DIR}/Library/FMOD/x64/")
+    "${CMAKE_SOURCE_DIR}/Library/FMOD/${ARCHITECTURE}/")
 
 target_link_libraries(AudioLib PUBLIC 
     SDL2::SDL2-static
